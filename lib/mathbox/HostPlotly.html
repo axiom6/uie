@@ -1,0 +1,22 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plot 1</title>
+  <meta name="viewport" charset="utf-8">
+</head>
+<body>
+  <script>
+    var Plotly = require('plotly')('axiom6','m07r4hfhph');
+
+    var data = [{x:[0,1,2], y:[3,2,1], type: 'bar'}];
+    var graphOptions = {fileopt : "extend", filename : "nodenodenode"};
+
+    Plotly.plot(data, graphOptions, function (err, msg) {
+      console.log(msg);
+    });
+  </script>
+</body>
+</html>
+

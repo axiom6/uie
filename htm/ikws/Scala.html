@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!--title>Getting to Know Scala for Data Science</title-->
+  <title>Scala</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Scala">
+  <meta name="author" content="Tom Flaherty">
+  <link href="../../lib/bespoke/font-awesome.css" rel="stylesheet">
+  <link href="../../lib/bespoke/scala-zen.css"    rel="stylesheet">
+  <link href="../../lib/bespoke/spoke.css"        rel="stylesheet">
+</head>
+
+<body>
+
+<div data-bespoke-hash="main" class="spoke">
+
+  <article class="bespoke-parent" data-bespoke-hash="presentation">
+
+    <section data-bespoke-hash="ScalaDBTitle" class="Title">
+          <h1 style="font-size:2.5em;">Getting to Know Scala</h1>
+          <h1 style="font-size:2.5em;">for Data Science</h1>
+          <h1 style="font-size:2.0em;">Twitter: @TheTomFlaherty</h1>
+    </section>
+
+    <section data-bespoke-hash="Bio" class="Abstract bespoke-slide">
+          <h3 style="text-align:center;">Bio</h3>
+          <p>I have been a Chief Architect for 20 years, where I first become enamored by Scala in 2006.
+            I wrote a symbolic math application in Scala at Glaxo in 2008 for molecular dynamics.
+            In 2010 I formed the Front Range Polyglot Panel and participated as its Scala expert.
+            I am currently learning all I can about Spark and applying it to analyzing the flow of
+            information between enterprise architecture practices.</p>
+    </section>
+
+    <section data-bespoke-hash="ScalaDBAbstract1" class="Abstract bespoke-slide">
+          <h3>Abstract</h3>
+          <ul>
+            <li class="FontSize36px">Scala has gained a lot of traction recently,</li>
+            <li class="FontSize36px">Especially in Data Science with:
+              <ul>
+                <li>Spark</li>
+                <li>Cassandra with Spark Connector</li>
+                <li>Kafka</li>
+              </ul>
+          </ul>
+    </section>
+
+    <section data-bespoke-hash="SuccessFactor" class="Abstract bespoke-slide" >
+          <h3>Scala's success factors for Data Science</h3>
+          <ul>
+            <li>A Strong Affinity to Data</li>
+            <li>State of the art OO for class composition</li>
+            <li>Functional Programmming with Streaming</li>
+            <li>Awesome Concurrency under the Covers</li>
+            <li>High performance in the cloud wit Akka</li>
+            <li>The Spark Ecosystem</li>
+            <li>A vibrant Open Source comminity around Typesafe and Spark</li>
+          </ul>
+    </section>
+
+    <section data-bespoke-hash="About"  class="bespoke-slide">
+          <h3>About Scala</h3>
+          <ul>
+            <li>State of the Art Class Hierarchy + Functional Programming</li>
+            <li>Fully Leverages the JVM
+              <ul>
+                <li>Concurrency from Doug Lea</li>
+                <li>JIT (Just in Time) inlines functional constructs</li>
+                <li>Comparable in speed to Java &plusmn;3%</li>
+                <li>Strongly Typed</li>
+              </ul>
+            </li>
+            <li>Interoperates with Java
+              <ul>
+                <li>Can use any Java class (inherit from, etc.)</li>
+                <li>Can be called from Java</li>
+              </ul>
+            </li>
+          </ul>
+    </section>
+
+
+    <section data-bespoke-hash="Outline" class="bespoke-slide" data-center="none">
+      <h3 style="text-align:center">Outline</h3>
+      <div style="position:relative;   left:0; top:0; width:100%; height:100%; font-size:30px;">
+        <div style="position:absolute; left:0; top:0; width: 50%; height:100%; ">
+          <ul>
+            <li>Data Likes To:
+              <ul>
+                <li>Declare Itself</li>
+                <li>Assert Its Identity</li>
+                <li>Be a First Class Citizen</li>
+                <li>Remain Intact</li>
+                <li>Be Wrapped</li>
+                <li>Elevate Its Station in Life</li>
+                <li>Reveal Itself</li>
+                <li>Share Its Contents</li>
+              </ul>
+            </li>
+            <li>Data Scientists Like:
+              <ul>
+                <li>A Universal Data Representation</li>
+                <li>Location Aware Data</li>
+                <li>To Simulate Things All at Once</li>
+                <li>To Orchestrate Processing</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div style="position:absolute; left:50%; top:0; width:50%;  height:100%; ">
+          <ul>
+            <li>Spark
+              <ul>
+                <li>Architecure</li>
+                <li>DStreams</li>
+                <li>Illustrated Examples</li>
+                <li>RDD Resilient Distributed Data</li>
+                <li>RDD Location Awareness</li>
+              </ul>
+            <li>RDD Workflow
+              <ul>
+                <li>Processing Steps</li>
+                <li>Spark Configuration and Context</li>
+                <li>Load and Save Methods</li>
+                <li>Transformation Methods</li>
+                <li>Action Methods</li>
+                <li>Word Count</li>
+              </ul>
+            </li>
+            <li>References</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+<section data-bespoke-hash="AskData" class="Abstract bespoke-slide">
+  <h3 style="text-align:center;">Let's Ask Data What It Likes:</h3>
+  <table>
+    <tr><th>Data Likes To</th><th>Scala Feature</th></tr>
+    <tr><td>Declare Itself</td><td>Class and object</td></tr>
+    <tr><td>Assert its Identity</td><td>Strong Typing</td></tr>
+    <tr><td>Be a First Class Citizen</td><td>Primitives As Classes</td></tr>
+    <tr><td>Remain Intact</td><td>Immutability</td></tr>
+    <tr><td>Be Wrapped</td><td>Case Classes</td></tr>
+    <tr><td>Elevate is Station in Life</td><td>Math Expressions</td></tr>
+    <tr><td>Reveal Itself</td><td>Pattern Matching</td></tr>
+    <tr><td>Share its Contents</td><td>Pattern Transfer</td></tr>
+  </table>
+</section>
+
+<section data-bespoke-hash="ClassDeclarations" class="bespoke-slide">
+  <h3>Class and object Declarations</h3>
+<pre><code  class="scala">
+  // [T] is a parameterized type for typing the contents with a class
+  // You can parameterize a class with many types [T,U,V]
+  // You can embed parameterized types [Key,List[T]]
+
+  trait          Trait[T]{...}
+  abstract class Abs[T](       i:Int ) extends Trait[T]{...}
+  class          Concrete[T](  i:Int ) extends Abs[T]( i:Int) {...}
+  case class     Case[T](      i:Int )
+  class          Composite[T]( i:Int ) extends Abs[T]( i:Int)
+  with Trait1[T] with Trait2[T] {...}
+
+  // Singleton and Companion objects
+  object HelloWorld {
+  def main (args:Array[String]) {
+  println("Hello, world!") } }
+
+  object Add
+  {
+  def apply(   u:Exp, v:Exp ) : Add = new Add(u,v)
+  def unapply( u:Exp, v:Exp ) : Option[(Exp,Exp)] = Some(u,v)
+  }
+</code></pre>
+</section>
+
+<section data-bespoke-hash="StrongTyping" class="bespoke-slide">
+      <h3 style="margin-bottom:4px;">Assert Identity with Strong Typing</h3>
+      <h3 style="margin-bottom:4px;">Functional Methods on Seq[T] Collections</h3>
+  <pre><code  class="scala" style="width:95%;">
+    def map[U](     f:(T) => U       ) : Seq[U]  // T to U.
+    def flatMap[U]( f:(T) => Seq[U]  ) : Seq[U]  // T to  Flattened Seq[U]
+    def filter(     f:(T) => Boolean ) : Seq[T]  // Keep  Ts where f  true
+    def exists(     f:(T) => Boolean ) : Boolean // True if one T  passes
+    def forall(     f:(T) => Boolean ) : Boolean // True if all Ts passes
+    def reduce[U](  f:(T,T) => U     ) : U       // Summarize f on T pairs
+    def groupBy[K]( f:T=>Key): Map[Key,Seq[T]]   // Group Ts into  Map
+    ....                                          // ... many more methods
+    // List is subtype of Seq
+    val list = List( 1, 2, 3 )                  // Scala nnfer List[Int]
+    list.map(     (n)   => n + 2 )              // List(3, 4, 5)
+    list.flatMap( (n)   => List(n,n+1) )        // List(1,2,2,3,3,4)
+    list.filter(  (n)   => n % 2 == 1 )         // List( 1, 3 )
+    list.exists(  (n)   => n % 2 == 1 )         // true list 1, 3 are odd
+    list.forall(  (n)   => n % 2 == 1 )         // false 2 ns even
+    list.reduce(  (m,n) => m + n )              // 6
+    list.map( (n) => List(n,n+1) ) // List(List(1,2),List(2,3),List(3,4))
+  </code></pre>
+</section>
+
+<section data-bespoke-hash="ClassHierarchy" class="bespoke-slide">
+  <h3 style="margin-bottom:4px;">Data is First Class Citizen</h3>
+  <h3 style="margin-bottom:4px;">with Scala's Class Hierarchy</h3>
+<pre><code class="scala">
+  Any
+  AnyVal           // Scala's base class for Java primitives and Unit
+  Double Float Long Int Short Char Byte Boolean Unit
+  scala.Array      // compiles to Java arrays [] most of the time
+  AnyRef           // compiles to java.lang.Object
+  String         // compiles to java.lang.String
+  (all other Java Classes ...)
+  scala.ScalaObject
+  (all other Scala Classes ...)
+  scala.Seq    // base Class for all ordered collections
+  scala.List   // Immutable list for pattern matching
+  scala.Option // Yields to Some(value) or None
+  scala.Null     // Subtype of all AnyRefs. For Java best use Option
+  scala.Nothing    // is a subtype of all Any classes. A true empty value
+
+  5.toString()     // Valid because the compiler sees 5 as an object
+  //  then latter makes it a primitive in JVM bytecode
+
+</code></pre>
+</section>
+
+<section data-bespoke-hash="Immutability" class="bespoke-slide">
+  <h3>Staying Intact - Immutability Promotes:</h3>
+  <ul>
+    <li>Improves reliability by removing side effects</li>
+    <li>Concurrency, because state changes are impossible to sychonize</li>
+    <li>Immuatble Object and values can be shared everywhere</li>
+    <li>OO got it wrong with encapulation and the set method</li>
+    <li>Almost All OO values in Scala in public</li>
+    <li>Data that is owned and encapsulated slowly dies.</li>
+    <li>Shared data is living breathing data</li>
+  </ul>
+</section>
+
+<section data-bespoke-hash="CaseClassAnatomy" class="bespoke-slide">
+  <h3>Data Likes to Be Wrapped</h3>
+  <h3>The Anatomy of a Case Class</h3>
+<pre><code class="scala">
+  // Scala expands the case class Add( u:Exp, v:Exp ) to:
+  class Add( val u:Exp, val v:Exp ) // Immutable Values
+  {
+  def equals()   : Boolean = {..} // Valuess compared recursively
+  def hashCode   : Int     = {..} // hashCode from Values
+  def toString() : String  = {..} // Class and value names
+  }
+
+  // Scala creates a companion object with apply and unapply
+  object Add
+  {
+  def apply(   u:Exp, v:Exp ) : Add = new Add(u,v)
+  def unapply( u:Exp, v:Exp ) : Option[(Exp,Exp)] = Some(u,v)
+  }
+</code></pre>
+</section>
+
+<section data-bespoke-hash="AST" class="bespoke-slide">
+  <img src="../../img/scala/AST.png" alt="Abstract Syntax Tree" style="border:none;"/>
+</section>
+
+<section data-bespoke-hash="CaseClasses" class="bespoke-slide">
+  <h3 style="margin-bottom:4px;">Case Classes for Algebric Expressions</h3>
+<pre><code class="scala">
+  case class Num( n:Double )     extends Exp // wrap Double
+  case class Var( s:String )     extends Exp // wrap String
+  case class Par( u:Exp )        extends Exp // parentheses
+  case class Neg( u:Exp )        extends Exp // -u  prefix
+  case class Pow( u:Exp, v:Exp ) extends Exp //  u ~^ v infix
+  case class Mul( u:Exp, v:Exp ) extends Exp //  u  * v infix
+  case class Div( u:Exp, v:Exp ) extends Exp //  u  / v infix
+  case class Add( u:Exp, v:Exp ) extends Exp //  u  + v infix
+  case class Sub( u:Exp, v:Exp ) extends Exp //  u  – v infix
+  case class Dif( u:Exp )        extends Exp // Differentiate
+
+</code></pre>
+</section>
+
+<section data-bespoke-hash="Exp" class="bespoke-slide">
+  <h3 style="margin-bottom:4px;">Elevating Data's Station in Life</h3>
+  <h4 style="margin-bottom:4px;">Exp - Base Math Expression with Math Operators</h4>
+<pre><code class="scala">
+  sealed abstract class Exp extends with Differentiate with Calculate
+  {
+  // Wrap i:Int and d:Double to Num(d) & String to Var(s)
+  implicit def int2Exp( i:Int    ) : Exp = Num(i.toDouble)
+  implicit def dbl2Exp( d:Double ) : Exp = Num(d)
+  implicit def str2Exp( s:String ) : Exp = Var(s)
+
+  // Infix operators from high to low using Scala precedence
+  def ~^ ( v:Exp ) : Exp = Pow(this,v) // ~^ high precedence
+  def /  ( v:Exp ) : Exp = Div(this,v)
+  def *  ( v:Exp ) : Exp = Mul(this,v)
+  def -  ( v:Exp ) : Exp = Sub(this,v)
+  def +  ( v:Exp ) : Exp = Add(this,v)
+
+  // Prefix operator for negation
+  def unary_- : Exp = Neg(this)
+  }
+</code></pre>
+</section>
+
+<section data-bespoke-hash="DifExp" class="bespoke-slide">
+  <h3 style="margin-bottom:4px;">Revealing Data with Pattern Matching</h3>
+  <h4 style="margin-bottom:4px;">Nested Case Classes are the Core Language</h4>
+<pre><code class="scala">
+trait Differentiate
+{
+  this:Exp => // Ties Differentiate to Exp
+
+  def d( e:Exp ) : Exp = e match
+  {
+    case Num(n)   => Num(0)       // diff of constant zero
+    case Var(s)   => Dif(Var(s))  // x becomes dx
+    case Par(u)   => Par(d(u))
+    case Neg(u)   => Neg(d(u))
+    case Pow(u,v) => Mul(Mul(v,Pow(u,Sub(v,1))),d(u))
+    case Mul(u,v) => Mul(Add(Mul(v,d(u))),u),d(v))
+    case Div(u,v) => Div(Sub(Mul(v,d(u)),Mul(u,d(v)) ),Pow(v,2))
+    case Add(u,v) => Add(d(u),d(v))
+    case Sub(u,v) => Sub(d(u),d(v))
+    case Dif(u)   => Dif(d(u))      // 2rd dif
+  }
+}
+</code></pre>
+</section>
+
+<section data-bespoke-hash="DifDSL" class="bespoke-slide">
+      <h3>Differential Calculus with Pattern Matching</h3>
+<pre><code class="scala">
+  trait Differentiate
+  {
+  this:Exp => // Ties Differentiate to Exp
+
+  def d( e:Exp ) : Exp = e match
+  {
+  case Num(n)   => 0           // diff of constant zero
+  case Var(s)   => Dif(Var(s)) // "x" becomes dx
+  case Par(u)   => Par(d(u))
+  case Neg(u)   => -d(u)
+  case Pow(u,v) => v * u~^(v-1) * d(u)
+  case Mul(u,v) => v * d(u) + u * d(v)
+  case Div(u,v) => Par( v*d(u) - u*d(v) ) / v~^2
+  case Add(u,v) => d(u) + d(v)
+  case Sub(u,v) => d(u) - d(v)
+  case Dif(u)   => Dif(d(u))   // 2rd dif
+  }
+  }
+</code></pre>
+</section>
+
+<section data-bespoke-hash="DataScientistsLike" class="Abstract bespoke-slide">
+      <h3 style="text-align:center;">What Do Data Scientists Like?</h3>
+      <table class="FontSize28px">
+        <tr><th>Data Scientists Like</th><th>Spark Feature</th></tr>
+        <tr><td>A Universal Data Representation</td><td>RDD Resilent Distributed Data</td></tr>
+        <tr><td>Location Aware Data</td><td>Five Main RDD Properties</td></tr>
+        <tr><td>To Simulate Things All at Once</td><td>Concurrency</td></tr>
+        <tr><td>To Orchestrate Processing</td><td>Streams</td></tr>
+      </table>
+</section>
+
+<section data-bespoke-hash="SparkArch" class="bespoke-slide" style="display:table; text-align:center;">
+      <img src="../../img/spark/SparkArch.png" style="border:none;">
+  <!--div   style="position:absolute; left: 0;   top: 0;  width:960px; height:700px; color:white;">
+    <div style="position:absolute; left: 0;   top:12%; width:100%;  height:10%;    background-color:blue;  border-radius:16px; font-size:36pt;">Your Code</div>
+    <div style="position:absolute; left: 0;   top:24%; width:100%;  height:10%;    background-color:blue;  border-radius:16px; font-size:36pt;">Spark Streaming of RDDs</div>
+    <div style="position:absolute; left: 0;   top:36%; width: 30%;  height:25%;    background-color:steelblue;"><img src="../../img/logo/KafkaLogo.png" width="288" height="175"  style=" border:none;"></div>
+    <div style="position:absolute; left: 0;   top:60%; width: 30%;  height:25%;    background-color:steelblue;"></div>
+    <div style="position:absolute; left:35%;  top:36%; width: 30%;  height:25%;    background-color:goldenrod;"><img src="../../img/logo/MLlibLogo2.png" width="288" height="175"></div>
+    <div style="position:absolute; left:35%;  top:60%; width: 30%;  height:25%;    background-color:#FFFF99;"></div>
+    <div style="position:absolute; left:70%;  top:36%; width: 30%;  height:25%;    background-color:sienna;"><img src="../../img/logo/CassandraLogo2.png" width="288" height="175"></div>
+    <div style="position:absolute; left:70%;  top:60%; width: 30%;  height:25%;    background-color:#FF9999;"></div>
+    <div style="position:absolute; left:13%;  top:70%; width:  4%;  height:18%;    background-color:blue;  z-index:2; font-size:18px; line-height:20px;"><div style="margin-top:2px;">A</div><div>c</div><div>t</div><div>o</div><div>r</div></div>
+    <div style="position:absolute; left:48%;  top:70%; width:  4%;  height:18%;    background-color:blue;  z-index:2; font-size:18px; line-height:20px;"><div style="margin-top:2px;">A</div><div>c</div><div>t</div><div>o</div><div>r</div></div>
+    <div style="position:absolute; left:83%;  top:70%; width:  4%;  height:18%;    background-color:blue;  z-index:2; font-size:18px; line-height:20px;"><div style="margin-top:2px;">A</div><div>c</div><div>t</div><div>o</div><div>r</div></div>
+    <div style="position:absolute; left: 0;   top:87%; width:100%;  height:10%;    background-color:blue;  border-radius:16px;;"><img src="../../img/logo/AkkaLogo.png" height="72" style=" border:none;"></div>
+  </div-->
+</section>
+
+<section data-bespoke-hash="DStream" class="bespoke-slide">
+  <h3>The DStream Programming Model</h3>
+  <ul>
+    <li>Discretized Stream (DStream)
+      <ul>
+        <li>Represents a stream of data</li>
+        <li>Implemented as a sequence of RDDs</li>
+      </ul>
+    </li>
+    <li>DStreams can be either…
+      <ul>
+        <li>Created from streaming input sources</li>
+        <li>Created by applying transformations on existing DStreams</li>
+      </ul>
+    </li>
+  </ul>
+</section>
+
+<section data-bespoke-hash="InputDStream" class="bespoke-slide">
+  <h3>Example 1 - Initialize an Input DStream</h3>
+<pre><code class="scala">
+  val scc    = new StreamingContext( sparkContext, Seconds(1) )
+  val tweets = TwitterUtils.createStream( ssc, auth )
+  //  tweets are an Input DStream
+
+</code></pre>
+  <div style="text-align:center; width:100%;">
+    <img src="../../img/streaming/HashTag1.png" style="border:none;">
+  </div>
+</section>
+
+<section data-bespoke-hash="GetHashTags" class="bespoke-slide">
+  <h3>Example 2 - Get Hash Tags from Twitter</h3>
+<pre><code class="scala">
+  val scc      = new StreamingContext( sparkContext, Seconds(1) )
+  val tweets   = TwitterUtils.createStream( ssc, None )
+  val hashTags = tweets.flatMap( status => getTags( status )
+
+</code></pre>
+  <div style="text-align:center; width:100%;">
+    <img src="../../img/streaming/HashTag2.png">
+  </div>
+</section>
+
+<section data-bespoke-hash="Storage" class="bespoke-slide">
+  <h3>Example 3 - Push Data to External Storage</h3>
+<pre><code class="scala">
+  val scc      = new StreamingContext( sparkContext, Seconds(1) )
+  val tweets   = TwitterUtils.createStream( ssc, None )
+  val hashTags = tweets.flatMap( status => getTags( status )
+  hashTags.saveAsHadoopFiles( "hdfs://..." )
+</code></pre>
+  <div style="text-align:center; width:100%;">
+    <img src="../../img/streaming/HadoopSave.png">
+  </div>
+</section>
+
+<section data-bespoke-hash="SlidingWindow" class="bespoke-slide">
+  <h3>Example 4 - Sliding Window</h3>
+<pre><code class="scala">
+  val tweets    = TwitterUtils.createStream( ssc, None )
+  val hashTags  = tweets.flatMap( status => getTags( status )
+  val tagCounts = hasTags.window( Minutes(1), Seconds(5) ).countByValue()
+  //                         ^       ^             ^
+  // (sliding window operation) (window length) (sliding interval)
+</code></pre>
+  <div style="text-align:center; width:100%;">
+    <img src="../../img/streaming/SlidingWindow.png">
+  </div>
+</section>
+
+<section data-bespoke-hash="RDDAwareness" class="bespoke-slide">
+  <h3 style="margin-bottom:4px;">RDD Resilient Distributed Data</h3>
+  <h4 style="margin-bottom:4px;">Five main properties for RDD Location Awareness</h4>
+  <ul>
+    <li>A list of partitions</li>
+    <li>A function for computing each split</li>
+    <li>A list of dependencies on other RDDs</li>
+    <li>Optionally, a Hash Partitioner for key-value RDDs</li>
+    <li>Optionally, a list of preferred locations to compute each split</li>
+  </ul>
+</section>
+
+<section data-bespoke-hash="RDDWorkflow" class="bespoke-slide">
+  <h3>RDD Workflow</h3>
+  <img src="../../img/spark/RDDWorkflow.png" style="border:none;">
+</section>
+
+<section data-bespoke-hash="ProcessingSteps" class="bespoke-slide">
+  <h3>Processing Steps</h3>
+  <ul>
+    <li>Configure Spark</li>
+    <li>Create Spark Context</li>
+    <li>Load RDDs</li>
+    <li>Transform RDDs</li>
+    <li>Produce Results with Actions</li>
+    <li>Save RDDs and Results</li>
+  </ul>
+</section>
+
+<section data-bespoke-hash="SparkConfiguration" class="Abstract bespoke-slide">
+          <h3>Spark Configuration and Context</h3>
+<pre><code class="scala">
+  import org.apache.spark.SparkContext
+  import org.apache.spark.SparkContext._
+  object MySparkProgram {
+
+  def main( args:Array[String] ) = {
+
+  sc = new SparkContext( master:String, appName, sparkConf )
+
+  ... RDD Workflow here
+
+  }
+  }
+</code></pre>
+</section>
+
+<section data-bespoke-hash="SparkLoadSave" class="Abstract bespoke-slide">
+  <h3>Spark Context Load Save plus Cassandra</h3>
+<pre><code class="scala">
+  //  Load Methods
+  type S = String
+  def textFile(           path:S ) : RDD[St]
+  def objectFile[T](      path:S ) : RDD[T]
+  def sequenceFile[K,V](  path:S ) : RDD[(K,V)] // load Hadoop formats
+  def wholeTextFiles(     path:S ) : RDD[(S,S)] // Directory of HDFS files
+  def parallelize[T]( seq:Seq[T] ) : RDD[T]     // convert a collection
+
+  def cassandraTable[Row]( keyspace:S, table:S ) : CassandraRDD[Row]
+
+  //  Save Methods
+  def saveAsTextFile(     path:S ) Unit
+  def saveAsObjectFile    path:S ) Unit
+  def saveToCassandra( keyspace:S, table:S ) // Spark Cassandra Connector
+
+  // Load an RDD from Cassandra
+  rdd = sc.cassandraTable( keyspace, table)
+  .select("user","count","year","month")
+  .where("commits >= ? and year = ?", 1000, 2015 )
+</code></pre>
+</section>
+
+<section data-bespoke-hash="Transformation" class="Abstract bespoke-slide">
+  <h3>Transformation Methods on RDD[T]</h3>
+<pre><code class="scala">
+  def map[U](     f:(T) => U       ) : RDD[U]
+  def flatMap[U]( f:(T) => Seq[U]  ) : RDD[U]
+  def filter(     f:(T) => Boolean ) : RDD[T]
+
+  def keyBy[K](   f:(T) => K ) : RDD[(K,T)]
+  def groupBy[K]( f:(T) => K ) : RDD[(K,Seq[T])]
+  def sortBy[K](  f:(T) => K ) : RDD[T]
+
+  def distinct(                ) : RDD[T]
+  def intersection( rdd:RDD[T] ) : RDD[T]
+  def subtract(     rdd:RDD[T] ) : RDD[T]
+  def union(        rdd:RDD[T] ) : RDD[T]
+  def cartesian[U]( rdd:RDD[U] ) : RDD[(T,U)]
+  def zip[U](       rdd:RDD[U] ) : RDD[(T,U))
+
+  def sample( r:Boolean, f:Double, s:Long ): RDD[T]
+  def pipe(command: String): RDD[String]
+</code></pre>
+</section>
+
+<section data-bespoke-hash="RDDtuples" class="Abstract bespoke-slide">
+      <h3>Transforing RDD[(K,V)] Key Value Tuples </h3>
+<pre><code class="scala">
+  def groupByKey(                  ) : RDD[(K,Seq[V])]
+  def reduceByKey(    f:(V,V) => V ) : RDD[(K,V)]
+  def foldByKey(z:V)( f:(V,V) => V ) : RDD[(K,V)]
+  def aggregateByKey[U](z:U)( s:(U,V)=>U, c:(U,U)=>U)] : RDD[(K,U)]
+
+  def join[U](    rdd:RDD[(K,U)] ): RDD[(K,(V,U))]   //groupWith
+  def cogroup[U]( rdd:RDD[(K,U)] ): RDD[(K,(Seq[V],Seq[U]))]
+
+  def countApproxDistinctByKey(relativeSD: Double): RDD[(K, Long)
+  def flatMapValues[U](f: (V) => TraversableOnce[U]): RDD[(K, U)]
+
+  type Opt[X] = Option[X]
+  def fullOuterJoin[U](  rdd:RDD[(K,U)  ] : RDD[(K,(Opt[V], Opt[U]))]
+  def leftOuterJoin[U](  rdd:RDD[(K,U)] ) : RDD[(K,(V,      Opt[U]))]
+  def rightOuterJoin[U]( rdd:RDD[(K,U)] ) : RDD[(K,(Opt[V], U     ))]
+
+  def keys: RDD[K]
+  def mapValues[U](f: (V) => U ): RDD[(K,U)]
+  def sampleByKey( r:Boolean, f:Map[K,Double], s:Long ): RDD[(K,V)]
+</code></pre>
+</section>
+
+<section data-bespoke-hash="ActionMethods" class="Abstract bespoke-slide">
+          <h3>Action Methods</h3>
+<pre><code class="scala">
+  // Trigger execution of DAG.
+  def reduce(    f:(T,T) => T ) : T
+  def fold(z:T)( f:(T,T) => T ) : T
+  def min()                     : T
+  def max()                     : T
+  def first()                   : T
+
+  def count()       : Long
+  def countByKey()  : Map[K,Long]
+
+  def collect(           ) : Array[T]
+  def top(         n:Int ) : Array[T]
+  def take(        n:Int ) : Array[T]
+  def takeOrdered( n:Int ) : Array[T]
+  def takeSample( r:Boolean, n:Int, s:Long ) : Array[T]
+
+  def foreach( f:(T) => Unit ) : Unit // For side effects
+</code></pre>
+</section>
+
+<section data-bespoke-hash="WordCountHard" class="bespoke-slide">
+  <h3>Word Count - Hard to Understand</h3>
+<pre><code class="scala">
+
+  val rdd  = sc.textFile( "README.md" )
+  rdd.flatMap( (l) => l.split(" ") )
+  .map(     (w) => (w,1) )
+  .reduceByKey(  _ + _ )
+  .saveAsTextFile( "WordCount.txt" )
+
+</code></pre>
+</section>
+
+<section data-bespoke-hash="WordCountScala" class="bespoke-slide">
+  <h3>Word Count - As Illustrated by Scala</h3>
+<pre><code class="scala">
+  type S = String
+  val lines : RDD[S]       = sc.textFile( "README.md" )
+  val words : RDD[S]       = lines.flatMap(  (line)  => line.split(" ") )
+  val wc    : RDD[(S,Int)] = words.map(      (word)  => (word,1) )
+  val count : RDD[(S,Int)] = wc.reduceByKey( (c1,c2) => c1 + c2 )
+  count.saveAsTextFile( "WordCount.txt" )
+
+</code></pre>
+</section>
+
+<section data-bespoke-hash="ScalaDBReferences" class="bespoke-slide">
+  <h3>References</h3>
+  <ul style="margin-left:0.6em; font-size:26px;">
+    <li><div class="width340">The Scala Language</div><a href="http://www.scala-lang.org/">http://www.scala-lang.org/</a></li>
+    <li><div class="width340">Apache Spark</div><a href="https://spark.apache.org/">https://spark.apache.org/</a></li>
+    <li><div class="width340">Dean Wampler on Spark</div><a href="http://deanwampler.github.io/">http://deanwampler.github.io/</a></li>
+    <li><div class="width340">These slides in PDF</div><a href="https://speakerdeck.com/axiom6">https://speakerdeck.com/axiom6</a></li>
+  </ul>
+</section>
+
+<section data-bespoke-hash="End" class="bespoke-slide">
+  <h1>THE END</h1>
+</section>
+
+  </article>
+</div>
+
+<script src="../../lib/bespoke/spoke.js"></script>
+<script src="../../lib/bespoke/bespoke.js"></script>
+<script src="../../lib/bespoke/bespoke-keys.js"></script>
+<script src="../../lib/bespoke/bespoke-mouse.1.1.js"></script>
+<script src="../../lib/bespoke/bespoke-classes.js"></script>
+<script src="../../lib/bespoke/bespoke-touch.js"></script>
+<script src="../../lib/bespoke/bespoke-hash.js"></script>
+<script src="../../lib/bespoke/highlight.pack.js"></script>
+
+<script>
+  var bp   = bespoke.plugins;
+  var deck = bespoke.from('article', [bp.classes(),bp.keys(),bp.mouse(true),bp.touch(),bp.hash()] );
+  hljs.initHighlightingOnLoad();
+  Spoke.pdfCSS( '../../lib/bespoke/pdf.css' );
+  Spoke.center('section');
+</script>
+
+</body>
+</html>

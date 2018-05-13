@@ -1,0 +1,18 @@
+{
+  "jspm": {
+    "directories": {
+      "packages": "lib/jspm_packages"
+    },
+    "configFile": "lib/jspm.config1.js",
+    "dependencies": {
+      "json": "github:systemjs/plugin-json@^0.1.2",
+      "ts": "github:frankwallis/plugin-typescript@^4.0.16"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4",
+      "typescript": "npm:typescript@^1.8.10"
+    }
+  }
+}

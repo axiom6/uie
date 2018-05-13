@@ -1,0 +1,20 @@
+
+.squared-slide, .squared-scale, .squared-track, .squared-formq, .squareX-input, .squareY-input {
+  padding:0; margin:0; overflow:hidden; }
+
+.squared-slide { position:relative; left:0;  top:0;  width:200px;  height:200px;
+  /*border:1px solid #000000;*/ background:transparent;; z-index:1; }
+
+.squared-scale { position:absolute; left:0;  top:0;   width:100%; height:100%;
+  /*border:1px solid #000000;*/ background:#EEEEEE; z-index:2;  }
+ 
+.squared-track { position:absolute; left:22%; top:72%; width:6%;  height:6%;
+  /*border:1px solid #000000;*/  background:#000000; border-radius:50%; z-index:3; }
+
+.squared-formq { position:absolute; left:42%; top:38%; width:16%; height:24%; z-index:4; }
+
+.squareX-input { position:relative; left:0; top:0;  width:85%;  height:40%;
+    border:1px solid #000000; background:#CCCCCC;  font-size:70%; text-align:right; padding-right:2px;  z-index:5; }
+
+.squareY-input { position:relative; left:0; top:0; width:85%;  height:40%;
+    border:1px solid #000000; background:#CCCCCC;  font-size:70%; text-align:right; padding-right:2px;  z-index:5; }

@@ -1,0 +1,499 @@
+ name:Congo Brown, hue:356, rgb:[ 89,55,55 ], hex:593737, sat:10, lum:30 }
+ name:Dune, hue:356, rgb:[ 56,53,51 ], hex:383533, sat:10, lum:20 }
+ name:Heavy Metal, hue:356, rgb:[ 43,50,40 ], hex:2B3228, sat:10, lum:10 }
+ name:Shark, hue:356, rgb:[ 37,39,44 ], hex:25272C, sat:10, lum:0 }
+ name:Light taupe, hue:356, rgb:[ 179,139,109 ], hex:B38B6D, sat:0, lum:100 }
+ name:Contessa, hue:356, rgb:[ 198,114,107 ], hex:C6726B, sat:0, lum:90 }
+ name:Fuzzy Wuzzy Brown, hue:356, rgb:[ 196,86,85 ], hex:C45655, sat:0, lum:80 }
+ name:Brown Rust, hue:356, rgb:[ 175,89,62 ], hex:AF593E, sat:0, lum:70 }
+ name:Spicy Mix, hue:356, rgb:[ 136,83,66 ], hex:885342, sat:0, lum:60 }
+ name:Bole, hue:356, rgb:[ 121,68,59 ], hex:79443B, sat:0, lum:50 }
+ name:Kabul, hue:356, rgb:[ 94,72,62 ], hex:5E483E, sat:0, lum:40 }
+ name:Matterhorn, hue:356, rgb:[ 78,59,65 ], hex:4E3B41, sat:0, lum:30 }
+ name:Tuatara, hue:356, rgb:[ 54,53,52 ], hex:363534, sat:0, lum:20 }
+ name:Heavy Metal, hue:356, rgb:[ 43,50,40 ], hex:2B3228, sat:0, lum:10 }
+ name:Shark, hue:356, rgb:[ 37,39,44 ], hex:25272C, sat:0, lum:0 }
+ name:Red Orange, hue:357, rgb:[ 255,63,52 ], hex:FF3F34, sat:100, lum:100 }
+ name:Red, hue:357, rgb:[ 255,0,0 ], hex:FF0000, sat:100, lum:90 }
+ name:Red, hue:357, rgb:[ 255,0,0 ], hex:FF0000, sat:100, lum:80 }
+ name:Red, hue:357, rgb:[ 255,0,0 ], hex:FF0000, sat:100, lum:70 }
+ name:Rosso corsa, hue:357, rgb:[ 212,0,0 ], hex:D40000, sat:100, lum:60 }
+ name:Boston University Red, hue:357, rgb:[ 204,0,0 ], hex:CC0000, sat:100, lum:50 }
+ name:Bright Red, hue:357, rgb:[ 177,0,0 ], hex:B10000, sat:100, lum:40 }
+ name:OU Crimson Red, hue:357, rgb:[ 153,0,0 ], hex:990000, sat:100, lum:30 }
+ name:Maroon, hue:357, rgb:[ 128,0,0 ], hex:800000, sat:100, lum:20 }
+ name:Lonestar, hue:357, rgb:[ 109,1,1 ], hex:6D0101, sat:100, lum:10 }
+ name:Rosewood, hue:357, rgb:[ 101,0,11 ], hex:65000B, sat:100, lum:0 }
+ name:Red Orange, hue:357, rgb:[ 255,63,52 ], hex:FF3F34, sat:90, lum:100 }
+ name:Red (RYB), hue:357, rgb:[ 254,39,18 ], hex:FE2712, sat:90, lum:90 }
+ name:Red, hue:357, rgb:[ 255,0,0 ], hex:FF0000, sat:90, lum:80 }
+ name:KU Crimson, hue:357, rgb:[ 232,0,13 ], hex:E8000D, sat:90, lum:70 }
+ name:Rosso corsa, hue:357, rgb:[ 212,0,0 ], hex:D40000, sat:90, lum:60 }
+ name:Guardsman Red, hue:357, rgb:[ 186,1,1 ], hex:BA0101, sat:90, lum:50 }
+ name:Dark candy apple red, hue:357, rgb:[ 164,0,0 ], hex:A40000, sat:90, lum:40 }
+ name:Red Berry, hue:357, rgb:[ 142,0,0 ], hex:8E0000, sat:90, lum:30 }
+ name:Maroon, hue:357, rgb:[ 128,0,0 ], hex:800000, sat:90, lum:20 }
+ name:Lonestar, hue:357, rgb:[ 109,1,1 ], hex:6D0101, sat:90, lum:10 }
+ name:Mahogany, hue:357, rgb:[ 78,6,6 ], hex:4E0606, sat:90, lum:0 }
+ name:Portland Orange, hue:357, rgb:[ 255,90,54 ], hex:FF5A36, sat:80, lum:100 }
+ name:Red (RYB), hue:357, rgb:[ 254,39,18 ], hex:FE2712, sat:80, lum:90 }
+ name:Red, hue:357, rgb:[ 255,0,0 ], hex:FF0000, sat:80, lum:80 }
+ name:KU Crimson, hue:357, rgb:[ 232,0,13 ], hex:E8000D, sat:80, lum:70 }
+ name:Boston University Red, hue:357, rgb:[ 204,0,0 ], hex:CC0000, sat:80, lum:60 }
+ name:Guardsman Red, hue:357, rgb:[ 186,1,1 ], hex:BA0101, sat:80, lum:50 }
+ name:Dark candy apple red, hue:357, rgb:[ 164,0,0 ], hex:A40000, sat:80, lum:40 }
+ name:Dark red, hue:357, rgb:[ 139,0,0 ], hex:8B0000, sat:80, lum:30 }
+ name:Lonestar, hue:357, rgb:[ 109,1,1 ], hex:6D0101, sat:80, lum:20 }
+ name:Rosewood, hue:357, rgb:[ 101,0,11 ], hex:65000B, sat:80, lum:10 }
+ name:Mahogany, hue:357, rgb:[ 78,6,6 ], hex:4E0606, sat:80, lum:0 }
+ name:Portland Orange, hue:357, rgb:[ 255,90,54 ], hex:FF5A36, sat:70, lum:100 }
+ name:Red Orange, hue:357, rgb:[ 255,63,52 ], hex:FF3F34, sat:70, lum:90 }
+ name:Red (RYB), hue:357, rgb:[ 254,39,18 ], hex:FE2712, sat:70, lum:80 }
+ name:Lust, hue:357, rgb:[ 230,32,32 ], hex:E62020, sat:70, lum:70 }
+ name:Thunderbird, hue:357, rgb:[ 192,43,24 ], hex:C02B18, sat:70, lum:60 }
+ name:Rufous, hue:357, rgb:[ 168,28,7 ], hex:A81C07, sat:70, lum:50 }
+ name:Totem Pole, hue:357, rgb:[ 153,27,7 ], hex:991B07, sat:70, lum:40 }
+ name:Kenyan Copper, hue:357, rgb:[ 124,28,5 ], hex:7C1C05, sat:70, lum:30 }
+ name:Dark Tan, hue:357, rgb:[ 102,16,16 ], hex:661010, sat:70, lum:20 }
+ name:Heath, hue:357, rgb:[ 84,16,18 ], hex:541012, sat:70, lum:10 }
+ name:Mahogany, hue:357, rgb:[ 78,6,6 ], hex:4E0606, sat:70, lum:0 }
+ name:Tomato, hue:357, rgb:[ 255,99,71 ], hex:FF6347, sat:60, lum:100 }
+ name:Flamingo, hue:357, rgb:[ 242,85,42 ], hex:F2552A, sat:60, lum:90 }
+ name:Pomegranate, hue:357, rgb:[ 243,71,35 ], hex:F34723, sat:60, lum:80 }
+ name:Lust, hue:357, rgb:[ 230,32,32 ], hex:E62020, sat:60, lum:70 }
+ name:Thunderbird, hue:357, rgb:[ 192,43,24 ], hex:C02B18, sat:60, lum:60 }
+ name:Tabasco, hue:357, rgb:[ 160,39,18 ], hex:A02712, sat:60, lum:50 }
+ name:Old Brick, hue:357, rgb:[ 144,30,30 ], hex:901E1E, sat:60, lum:40 }
+ name:Falu Red, hue:357, rgb:[ 128,24,24 ], hex:801818, sat:60, lum:30 }
+ name:Cherrywood, hue:357, rgb:[ 101,26,20 ], hex:651A14, sat:60, lum:20 }
+ name:Heath, hue:357, rgb:[ 84,16,18 ], hex:541012, sat:60, lum:10 }
+ name:Van Cleef, hue:357, rgb:[ 73,23,12 ], hex:49170C, sat:60, lum:0 }
+ name:Burnt Sienna, hue:357, rgb:[ 233,116,81 ], hex:E97451, sat:50, lum:100 }
+ name:Carmine pink, hue:357, rgb:[ 235,76,66 ], hex:EB4C42, sat:50, lum:90 }
+ name:Cinnabar, hue:357, rgb:[ 227,66,52 ], hex:E34234, sat:50, lum:80 }
+ name:Dark pastel red, hue:357, rgb:[ 194,59,34 ], hex:C23B22, sat:50, lum:70 }
+ name:Dark pastel red, hue:357, rgb:[ 194,59,34 ], hex:C23B22, sat:50, lum:60 }
+ name:Roof Terracotta, hue:357, rgb:[ 166,47,32 ], hex:A62F20, sat:50, lum:50 }
+ name:Sienna, hue:357, rgb:[ 136,45,23 ], hex:882D17, sat:50, lum:40 }
+ name:Metallic Copper, hue:357, rgb:[ 113,41,29 ], hex:71291D, sat:50, lum:30 }
+ name:Espresso, hue:357, rgb:[ 97,39,24 ], hex:612718, sat:50, lum:20 }
+ name:Cocoa Bean, hue:357, rgb:[ 72,28,28 ], hex:481C1C, sat:50, lum:10 }
+ name:Cedar, hue:357, rgb:[ 62,28,20 ], hex:3E1C14, sat:50, lum:0 }
+ name:Terracotta, hue:357, rgb:[ 226,114,91 ], hex:E2725B, sat:40, lum:100 }
+ name:Flame Pea, hue:357, rgb:[ 218,91,56 ], hex:DA5B38, sat:40, lum:90 }
+ name:Cinnabar, hue:357, rgb:[ 227,66,52 ], hex:E34234, sat:40, lum:80 }
+ name:Dark pastel red, hue:357, rgb:[ 194,59,34 ], hex:C23B22, sat:40, lum:70 }
+ name:Medium Carmine, hue:357, rgb:[ 175,64,53 ], hex:AF4035, sat:40, lum:60 }
+ name:Prairie Sand, hue:357, rgb:[ 154,56,32 ], hex:9A3820, sat:40, lum:50 }
+ name:Red Robin, hue:357, rgb:[ 128,52,31 ], hex:80341F, sat:40, lum:40 }
+ name:Metallic Copper, hue:357, rgb:[ 113,41,29 ], hex:71291D, sat:40, lum:30 }
+ name:Caput mortuum, hue:357, rgb:[ 89,39,32 ], hex:592720, sat:40, lum:20 }
+ name:Cocoa Bean, hue:357, rgb:[ 72,28,28 ], hex:481C1C, sat:40, lum:10 }
+ name:Jon, hue:357, rgb:[ 59,31,31 ], hex:3B1F1F, sat:40, lum:0 }
+ name:Terracotta, hue:357, rgb:[ 226,114,91 ], hex:E2725B, sat:30, lum:100 }
+ name:Red Damask, hue:357, rgb:[ 218,106,65 ], hex:DA6A41, sat:30, lum:90 }
+ name:Flame Pea, hue:357, rgb:[ 218,91,56 ], hex:DA5B38, sat:30, lum:80 }
+ name:Mojo, hue:357, rgb:[ 192,71,55 ], hex:C04737, sat:30, lum:70 }
+ name:Medium Carmine, hue:357, rgb:[ 175,64,53 ], hex:AF4035, sat:30, lum:60 }
+ name:El Salva, hue:357, rgb:[ 143,62,51 ], hex:8F3E33, sat:30, lum:50 }
+ name:Red Robin, hue:357, rgb:[ 128,52,31 ], hex:80341F, sat:30, lum:40 }
+ name:Buccaneer, hue:357, rgb:[ 98,47,48 ], hex:622F30, sat:30, lum:30 }
+ name:Saddle, hue:357, rgb:[ 76,48,36 ], hex:4C3024, sat:30, lum:20 }
+ name:Treehouse, hue:357, rgb:[ 59,40,32 ], hex:3B2820, sat:30, lum:10 }
+ name:Cocoa Brown, hue:357, rgb:[ 48,31,30 ], hex:301F1E, sat:30, lum:0 }
+ name:Contessa, hue:357, rgb:[ 198,114,107 ], hex:C6726B, sat:20, lum:100 }
+ name:Chestnut Rose, hue:357, rgb:[ 205,92,92 ], hex:CD5C5C, sat:20, lum:90 }
+ name:Dark coral, hue:357, rgb:[ 205,91,69 ], hex:CD5B45, sat:20, lum:80 }
+ name:Crail, hue:357, rgb:[ 185,81,64 ], hex:B95140, sat:20, lum:70 }
+ name:Medium Carmine, hue:357, rgb:[ 175,64,53 ], hex:AF4035, sat:20, lum:60 }
+ name:Mule Fawn, hue:357, rgb:[ 140,71,47 ], hex:8C472F, sat:20, lum:50 }
+ name:Spice, hue:357, rgb:[ 106,68,46 ], hex:6A442E, sat:20, lum:40 }
+ name:Quincy, hue:357, rgb:[ 98,63,45 ], hex:623F2D, sat:20, lum:30 }
+ name:Woody Brown, hue:357, rgb:[ 72,49,49 ], hex:483131, sat:20, lum:20 }
+ name:Thunder, hue:357, rgb:[ 51,41,47 ], hex:33292F, sat:20, lum:10 }
+ name:Shark, hue:357, rgb:[ 37,39,44 ], hex:25272C, sat:20, lum:0 }
+ name:Contessa, hue:357, rgb:[ 198,114,107 ], hex:C6726B, sat:10, lum:100 }
+ name:Fuzzy Wuzzy, hue:357, rgb:[ 204,102,102 ], hex:CC6666, sat:10, lum:90 }
+ name:Dark coral, hue:357, rgb:[ 205,91,69 ], hex:CD5B45, sat:10, lum:80 }
+ name:Brown Rust, hue:357, rgb:[ 175,89,62 ], hex:AF593E, sat:10, lum:70 }
+ name:Sepia Skin, hue:357, rgb:[ 158,91,64 ], hex:9E5B40, sat:10, lum:60 }
+ name:Ironstone, hue:357, rgb:[ 134,72,60 ], hex:86483C, sat:10, lum:50 }
+ name:Spice, hue:357, rgb:[ 106,68,46 ], hex:6A442E, sat:10, lum:40 }
+ name:Congo Brown, hue:357, rgb:[ 89,55,55 ], hex:593737, sat:10, lum:30 }
+ name:Dune, hue:357, rgb:[ 56,53,51 ], hex:383533, sat:10, lum:20 }
+ name:Heavy Metal, hue:357, rgb:[ 43,50,40 ], hex:2B3228, sat:10, lum:10 }
+ name:Shark, hue:357, rgb:[ 37,39,44 ], hex:25272C, sat:10, lum:0 }
+ name:Light taupe, hue:357, rgb:[ 179,139,109 ], hex:B38B6D, sat:0, lum:100 }
+ name:Contessa, hue:357, rgb:[ 198,114,107 ], hex:C6726B, sat:0, lum:90 }
+ name:Fuzzy Wuzzy Brown, hue:357, rgb:[ 196,86,85 ], hex:C45655, sat:0, lum:80 }
+ name:Brown Rust, hue:357, rgb:[ 175,89,62 ], hex:AF593E, sat:0, lum:70 }
+ name:Spicy Mix, hue:357, rgb:[ 136,83,66 ], hex:885342, sat:0, lum:60 }
+ name:Bole, hue:357, rgb:[ 121,68,59 ], hex:79443B, sat:0, lum:50 }
+ name:Kabul, hue:357, rgb:[ 94,72,62 ], hex:5E483E, sat:0, lum:40 }
+ name:Matterhorn, hue:357, rgb:[ 78,59,65 ], hex:4E3B41, sat:0, lum:30 }
+ name:Tuatara, hue:357, rgb:[ 54,53,52 ], hex:363534, sat:0, lum:20 }
+ name:Heavy Metal, hue:357, rgb:[ 43,50,40 ], hex:2B3228, sat:0, lum:10 }
+ name:Shark, hue:357, rgb:[ 37,39,44 ], hex:25272C, sat:0, lum:0 }
+ name:Red (RYB), hue:358, rgb:[ 254,39,18 ], hex:FE2712, sat:100, lum:100 }
+ name:Red, hue:358, rgb:[ 255,0,0 ], hex:FF0000, sat:100, lum:90 }
+ name:Red, hue:358, rgb:[ 255,0,0 ], hex:FF0000, sat:100, lum:80 }
+ name:Red, hue:358, rgb:[ 255,0,0 ], hex:FF0000, sat:100, lum:70 }
+ name:Rosso corsa, hue:358, rgb:[ 212,0,0 ], hex:D40000, sat:100, lum:60 }
+ name:Boston University Red, hue:358, rgb:[ 204,0,0 ], hex:CC0000, sat:100, lum:50 }
+ name:Bright Red, hue:358, rgb:[ 177,0,0 ], hex:B10000, sat:100, lum:40 }
+ name:OU Crimson Red, hue:358, rgb:[ 153,0,0 ], hex:990000, sat:100, lum:30 }
+ name:Maroon, hue:358, rgb:[ 128,0,0 ], hex:800000, sat:100, lum:20 }
+ name:Lonestar, hue:358, rgb:[ 109,1,1 ], hex:6D0101, sat:100, lum:10 }
+ name:Rosewood, hue:358, rgb:[ 101,0,11 ], hex:65000B, sat:100, lum:0 }
+ name:Red Orange, hue:358, rgb:[ 255,63,52 ], hex:FF3F34, sat:90, lum:100 }
+ name:Red (RYB), hue:358, rgb:[ 254,39,18 ], hex:FE2712, sat:90, lum:90 }
+ name:Red, hue:358, rgb:[ 255,0,0 ], hex:FF0000, sat:90, lum:80 }
+ name:KU Crimson, hue:358, rgb:[ 232,0,13 ], hex:E8000D, sat:90, lum:70 }
+ name:Rosso corsa, hue:358, rgb:[ 212,0,0 ], hex:D40000, sat:90, lum:60 }
+ name:Guardsman Red, hue:358, rgb:[ 186,1,1 ], hex:BA0101, sat:90, lum:50 }
+ name:Dark candy apple red, hue:358, rgb:[ 164,0,0 ], hex:A40000, sat:90, lum:40 }
+ name:Red Berry, hue:358, rgb:[ 142,0,0 ], hex:8E0000, sat:90, lum:30 }
+ name:Maroon, hue:358, rgb:[ 128,0,0 ], hex:800000, sat:90, lum:20 }
+ name:Lonestar, hue:358, rgb:[ 109,1,1 ], hex:6D0101, sat:90, lum:10 }
+ name:Mahogany, hue:358, rgb:[ 78,6,6 ], hex:4E0606, sat:90, lum:0 }
+ name:Portland Orange, hue:358, rgb:[ 255,90,54 ], hex:FF5A36, sat:80, lum:100 }
+ name:Red (RYB), hue:358, rgb:[ 254,39,18 ], hex:FE2712, sat:80, lum:90 }
+ name:Red, hue:358, rgb:[ 255,0,0 ], hex:FF0000, sat:80, lum:80 }
+ name:KU Crimson, hue:358, rgb:[ 232,0,13 ], hex:E8000D, sat:80, lum:70 }
+ name:Boston University Red, hue:358, rgb:[ 204,0,0 ], hex:CC0000, sat:80, lum:60 }
+ name:Guardsman Red, hue:358, rgb:[ 186,1,1 ], hex:BA0101, sat:80, lum:50 }
+ name:Dark candy apple red, hue:358, rgb:[ 164,0,0 ], hex:A40000, sat:80, lum:40 }
+ name:Dark red, hue:358, rgb:[ 139,0,0 ], hex:8B0000, sat:80, lum:30 }
+ name:Lonestar, hue:358, rgb:[ 109,1,1 ], hex:6D0101, sat:80, lum:20 }
+ name:Rosewood, hue:358, rgb:[ 101,0,11 ], hex:65000B, sat:80, lum:10 }
+ name:Mahogany, hue:358, rgb:[ 78,6,6 ], hex:4E0606, sat:80, lum:0 }
+ name:Portland Orange, hue:358, rgb:[ 255,90,54 ], hex:FF5A36, sat:70, lum:100 }
+ name:Pomegranate, hue:358, rgb:[ 243,71,35 ], hex:F34723, sat:70, lum:90 }
+ name:Red (RYB), hue:358, rgb:[ 254,39,18 ], hex:FE2712, sat:70, lum:80 }
+ name:Lust, hue:358, rgb:[ 230,32,32 ], hex:E62020, sat:70, lum:70 }
+ name:Thunderbird, hue:358, rgb:[ 192,43,24 ], hex:C02B18, sat:70, lum:60 }
+ name:Rufous, hue:358, rgb:[ 168,28,7 ], hex:A81C07, sat:70, lum:50 }
+ name:Totem Pole, hue:358, rgb:[ 153,27,7 ], hex:991B07, sat:70, lum:40 }
+ name:Kenyan Copper, hue:358, rgb:[ 124,28,5 ], hex:7C1C05, sat:70, lum:30 }
+ name:Dark Tan, hue:358, rgb:[ 102,16,16 ], hex:661010, sat:70, lum:20 }
+ name:Heath, hue:358, rgb:[ 84,16,18 ], hex:541012, sat:70, lum:10 }
+ name:Mahogany, hue:358, rgb:[ 78,6,6 ], hex:4E0606, sat:70, lum:0 }
+ name:Tomato, hue:358, rgb:[ 255,99,71 ], hex:FF6347, sat:60, lum:100 }
+ name:Flamingo, hue:358, rgb:[ 242,85,42 ], hex:F2552A, sat:60, lum:90 }
+ name:Pomegranate, hue:358, rgb:[ 243,71,35 ], hex:F34723, sat:60, lum:80 }
+ name:Lust, hue:358, rgb:[ 230,32,32 ], hex:E62020, sat:60, lum:70 }
+ name:Thunderbird, hue:358, rgb:[ 192,43,24 ], hex:C02B18, sat:60, lum:60 }
+ name:Tabasco, hue:358, rgb:[ 160,39,18 ], hex:A02712, sat:60, lum:50 }
+ name:Old Brick, hue:358, rgb:[ 144,30,30 ], hex:901E1E, sat:60, lum:40 }
+ name:Falu Red, hue:358, rgb:[ 128,24,24 ], hex:801818, sat:60, lum:30 }
+ name:Cherrywood, hue:358, rgb:[ 101,26,20 ], hex:651A14, sat:60, lum:20 }
+ name:Heath, hue:358, rgb:[ 84,16,18 ], hex:541012, sat:60, lum:10 }
+ name:Van Cleef, hue:358, rgb:[ 73,23,12 ], hex:49170C, sat:60, lum:0 }
+ name:Burnt Sienna, hue:358, rgb:[ 233,116,81 ], hex:E97451, sat:50, lum:100 }
+ name:Carmine pink, hue:358, rgb:[ 235,76,66 ], hex:EB4C42, sat:50, lum:90 }
+ name:Pomegranate, hue:358, rgb:[ 243,71,35 ], hex:F34723, sat:50, lum:80 }
+ name:Dark pastel red, hue:358, rgb:[ 194,59,34 ], hex:C23B22, sat:50, lum:70 }
+ name:Dark pastel red, hue:358, rgb:[ 194,59,34 ], hex:C23B22, sat:50, lum:60 }
+ name:Roof Terracotta, hue:358, rgb:[ 166,47,32 ], hex:A62F20, sat:50, lum:50 }
+ name:Sienna, hue:358, rgb:[ 136,45,23 ], hex:882D17, sat:50, lum:40 }
+ name:Metallic Copper, hue:358, rgb:[ 113,41,29 ], hex:71291D, sat:50, lum:30 }
+ name:Espresso, hue:358, rgb:[ 97,39,24 ], hex:612718, sat:50, lum:20 }
+ name:Cocoa Bean, hue:358, rgb:[ 72,28,28 ], hex:481C1C, sat:50, lum:10 }
+ name:Cedar, hue:358, rgb:[ 62,28,20 ], hex:3E1C14, sat:50, lum:0 }
+ name:Terracotta, hue:358, rgb:[ 226,114,91 ], hex:E2725B, sat:40, lum:100 }
+ name:Flame Pea, hue:358, rgb:[ 218,91,56 ], hex:DA5B38, sat:40, lum:90 }
+ name:Cinnabar, hue:358, rgb:[ 227,66,52 ], hex:E34234, sat:40, lum:80 }
+ name:Dark pastel red, hue:358, rgb:[ 194,59,34 ], hex:C23B22, sat:40, lum:70 }
+ name:Medium Carmine, hue:358, rgb:[ 175,64,53 ], hex:AF4035, sat:40, lum:60 }
+ name:Prairie Sand, hue:358, rgb:[ 154,56,32 ], hex:9A3820, sat:40, lum:50 }
+ name:Red Robin, hue:358, rgb:[ 128,52,31 ], hex:80341F, sat:40, lum:40 }
+ name:Metallic Copper, hue:358, rgb:[ 113,41,29 ], hex:71291D, sat:40, lum:30 }
+ name:Caput mortuum, hue:358, rgb:[ 89,39,32 ], hex:592720, sat:40, lum:20 }
+ name:Cocoa Bean, hue:358, rgb:[ 72,28,28 ], hex:481C1C, sat:40, lum:10 }
+ name:Jon, hue:358, rgb:[ 59,31,31 ], hex:3B1F1F, sat:40, lum:0 }
+ name:Terracotta, hue:358, rgb:[ 226,114,91 ], hex:E2725B, sat:30, lum:100 }
+ name:Red Damask, hue:358, rgb:[ 218,106,65 ], hex:DA6A41, sat:30, lum:90 }
+ name:Flame Pea, hue:358, rgb:[ 218,91,56 ], hex:DA5B38, sat:30, lum:80 }
+ name:Mojo, hue:358, rgb:[ 192,71,55 ], hex:C04737, sat:30, lum:70 }
+ name:Medium Carmine, hue:358, rgb:[ 175,64,53 ], hex:AF4035, sat:30, lum:60 }
+ name:El Salva, hue:358, rgb:[ 143,62,51 ], hex:8F3E33, sat:30, lum:50 }
+ name:Red Robin, hue:358, rgb:[ 128,52,31 ], hex:80341F, sat:30, lum:40 }
+ name:Buccaneer, hue:358, rgb:[ 98,47,48 ], hex:622F30, sat:30, lum:30 }
+ name:Saddle, hue:358, rgb:[ 76,48,36 ], hex:4C3024, sat:30, lum:20 }
+ name:Treehouse, hue:358, rgb:[ 59,40,32 ], hex:3B2820, sat:30, lum:10 }
+ name:Cocoa Brown, hue:358, rgb:[ 48,31,30 ], hex:301F1E, sat:30, lum:0 }
+ name:Japonica, hue:358, rgb:[ 216,124,99 ], hex:D87C63, sat:20, lum:100 }
+ name:Chestnut Rose, hue:358, rgb:[ 205,92,92 ], hex:CD5C5C, sat:20, lum:90 }
+ name:Dark coral, hue:358, rgb:[ 205,91,69 ], hex:CD5B45, sat:20, lum:80 }
+ name:Crail, hue:358, rgb:[ 185,81,64 ], hex:B95140, sat:20, lum:70 }
+ name:Medium Carmine, hue:358, rgb:[ 175,64,53 ], hex:AF4035, sat:20, lum:60 }
+ name:Mule Fawn, hue:358, rgb:[ 140,71,47 ], hex:8C472F, sat:20, lum:50 }
+ name:Spice, hue:358, rgb:[ 106,68,46 ], hex:6A442E, sat:20, lum:40 }
+ name:Quincy, hue:358, rgb:[ 98,63,45 ], hex:623F2D, sat:20, lum:30 }
+ name:Woody Brown, hue:358, rgb:[ 72,49,49 ], hex:483131, sat:20, lum:20 }
+ name:Thunder, hue:358, rgb:[ 51,41,47 ], hex:33292F, sat:20, lum:10 }
+ name:Shark, hue:358, rgb:[ 37,39,44 ], hex:25272C, sat:20, lum:0 }
+ name:Contessa, hue:358, rgb:[ 198,114,107 ], hex:C6726B, sat:10, lum:100 }
+ name:Fuzzy Wuzzy, hue:358, rgb:[ 204,102,102 ], hex:CC6666, sat:10, lum:90 }
+ name:Dark coral, hue:358, rgb:[ 205,91,69 ], hex:CD5B45, sat:10, lum:80 }
+ name:Brown Rust, hue:358, rgb:[ 175,89,62 ], hex:AF593E, sat:10, lum:70 }
+ name:Sepia Skin, hue:358, rgb:[ 158,91,64 ], hex:9E5B40, sat:10, lum:60 }
+ name:Ironstone, hue:358, rgb:[ 134,72,60 ], hex:86483C, sat:10, lum:50 }
+ name:Spice, hue:358, rgb:[ 106,68,46 ], hex:6A442E, sat:10, lum:40 }
+ name:Congo Brown, hue:358, rgb:[ 89,55,55 ], hex:593737, sat:10, lum:30 }
+ name:Dune, hue:358, rgb:[ 56,53,51 ], hex:383533, sat:10, lum:20 }
+ name:Heavy Metal, hue:358, rgb:[ 43,50,40 ], hex:2B3228, sat:10, lum:10 }
+ name:Shark, hue:358, rgb:[ 37,39,44 ], hex:25272C, sat:10, lum:0 }
+ name:Light taupe, hue:358, rgb:[ 179,139,109 ], hex:B38B6D, sat:0, lum:100 }
+ name:Contessa, hue:358, rgb:[ 198,114,107 ], hex:C6726B, sat:0, lum:90 }
+ name:Fuzzy Wuzzy Brown, hue:358, rgb:[ 196,86,85 ], hex:C45655, sat:0, lum:80 }
+ name:Brown Rust, hue:358, rgb:[ 175,89,62 ], hex:AF593E, sat:0, lum:70 }
+ name:Spicy Mix, hue:358, rgb:[ 136,83,66 ], hex:885342, sat:0, lum:60 }
+ name:Bole, hue:358, rgb:[ 121,68,59 ], hex:79443B, sat:0, lum:50 }
+ name:Kabul, hue:358, rgb:[ 94,72,62 ], hex:5E483E, sat:0, lum:40 }
+ name:Matterhorn, hue:358, rgb:[ 78,59,65 ], hex:4E3B41, sat:0, lum:30 }
+ name:Tuatara, hue:358, rgb:[ 54,53,52 ], hex:363534, sat:0, lum:20 }
+ name:Heavy Metal, hue:358, rgb:[ 43,50,40 ], hex:2B3228, sat:0, lum:10 }
+ name:Shark, hue:358, rgb:[ 37,39,44 ], hex:25272C, sat:0, lum:0 }
+ name:Red (RYB), hue:359, rgb:[ 254,39,18 ], hex:FE2712, sat:100, lum:100 }
+ name:Red, hue:359, rgb:[ 255,0,0 ], hex:FF0000, sat:100, lum:90 }
+ name:Red, hue:359, rgb:[ 255,0,0 ], hex:FF0000, sat:100, lum:80 }
+ name:Red, hue:359, rgb:[ 255,0,0 ], hex:FF0000, sat:100, lum:70 }
+ name:Rosso corsa, hue:359, rgb:[ 212,0,0 ], hex:D40000, sat:100, lum:60 }
+ name:Boston University Red, hue:359, rgb:[ 204,0,0 ], hex:CC0000, sat:100, lum:50 }
+ name:Bright Red, hue:359, rgb:[ 177,0,0 ], hex:B10000, sat:100, lum:40 }
+ name:OU Crimson Red, hue:359, rgb:[ 153,0,0 ], hex:990000, sat:100, lum:30 }
+ name:Maroon, hue:359, rgb:[ 128,0,0 ], hex:800000, sat:100, lum:20 }
+ name:Lonestar, hue:359, rgb:[ 109,1,1 ], hex:6D0101, sat:100, lum:10 }
+ name:Rosewood, hue:359, rgb:[ 101,0,11 ], hex:65000B, sat:100, lum:0 }
+ name:Pomegranate, hue:359, rgb:[ 243,71,35 ], hex:F34723, sat:90, lum:100 }
+ name:Red (RYB), hue:359, rgb:[ 254,39,18 ], hex:FE2712, sat:90, lum:90 }
+ name:Red, hue:359, rgb:[ 255,0,0 ], hex:FF0000, sat:90, lum:80 }
+ name:KU Crimson, hue:359, rgb:[ 232,0,13 ], hex:E8000D, sat:90, lum:70 }
+ name:Rosso corsa, hue:359, rgb:[ 212,0,0 ], hex:D40000, sat:90, lum:60 }
+ name:Guardsman Red, hue:359, rgb:[ 186,1,1 ], hex:BA0101, sat:90, lum:50 }
+ name:Dark candy apple red, hue:359, rgb:[ 164,0,0 ], hex:A40000, sat:90, lum:40 }
+ name:Red Berry, hue:359, rgb:[ 142,0,0 ], hex:8E0000, sat:90, lum:30 }
+ name:Maroon, hue:359, rgb:[ 128,0,0 ], hex:800000, sat:90, lum:20 }
+ name:Lonestar, hue:359, rgb:[ 109,1,1 ], hex:6D0101, sat:90, lum:10 }
+ name:Mahogany, hue:359, rgb:[ 78,6,6 ], hex:4E0606, sat:90, lum:0 }
+ name:Portland Orange, hue:359, rgb:[ 255,90,54 ], hex:FF5A36, sat:80, lum:100 }
+ name:Red (RYB), hue:359, rgb:[ 254,39,18 ], hex:FE2712, sat:80, lum:90 }
+ name:Red, hue:359, rgb:[ 255,0,0 ], hex:FF0000, sat:80, lum:80 }
+ name:KU Crimson, hue:359, rgb:[ 232,0,13 ], hex:E8000D, sat:80, lum:70 }
+ name:Boston University Red, hue:359, rgb:[ 204,0,0 ], hex:CC0000, sat:80, lum:60 }
+ name:Guardsman Red, hue:359, rgb:[ 186,1,1 ], hex:BA0101, sat:80, lum:50 }
+ name:Dark candy apple red, hue:359, rgb:[ 164,0,0 ], hex:A40000, sat:80, lum:40 }
+ name:Dark red, hue:359, rgb:[ 139,0,0 ], hex:8B0000, sat:80, lum:30 }
+ name:Lonestar, hue:359, rgb:[ 109,1,1 ], hex:6D0101, sat:80, lum:20 }
+ name:Rosewood, hue:359, rgb:[ 101,0,11 ], hex:65000B, sat:80, lum:10 }
+ name:Mahogany, hue:359, rgb:[ 78,6,6 ], hex:4E0606, sat:80, lum:0 }
+ name:Portland Orange, hue:359, rgb:[ 255,90,54 ], hex:FF5A36, sat:70, lum:100 }
+ name:Pomegranate, hue:359, rgb:[ 243,71,35 ], hex:F34723, sat:70, lum:90 }
+ name:Red (RYB), hue:359, rgb:[ 254,39,18 ], hex:FE2712, sat:70, lum:80 }
+ name:Lust, hue:359, rgb:[ 230,32,32 ], hex:E62020, sat:70, lum:70 }
+ name:Thunderbird, hue:359, rgb:[ 192,43,24 ], hex:C02B18, sat:70, lum:60 }
+ name:Rufous, hue:359, rgb:[ 168,28,7 ], hex:A81C07, sat:70, lum:50 }
+ name:Totem Pole, hue:359, rgb:[ 153,27,7 ], hex:991B07, sat:70, lum:40 }
+ name:Kenyan Copper, hue:359, rgb:[ 124,28,5 ], hex:7C1C05, sat:70, lum:30 }
+ name:Dark Tan, hue:359, rgb:[ 102,16,16 ], hex:661010, sat:70, lum:20 }
+ name:Heath, hue:359, rgb:[ 84,16,18 ], hex:541012, sat:70, lum:10 }
+ name:Mahogany, hue:359, rgb:[ 78,6,6 ], hex:4E0606, sat:70, lum:0 }
+ name:Tomato, hue:359, rgb:[ 255,99,71 ], hex:FF6347, sat:60, lum:100 }
+ name:Pomegranate, hue:359, rgb:[ 243,71,35 ], hex:F34723, sat:60, lum:90 }
+ name:Pomegranate, hue:359, rgb:[ 243,71,35 ], hex:F34723, sat:60, lum:80 }
+ name:Lust, hue:359, rgb:[ 230,32,32 ], hex:E62020, sat:60, lum:70 }
+ name:Thunderbird, hue:359, rgb:[ 192,43,24 ], hex:C02B18, sat:60, lum:60 }
+ name:Tabasco, hue:359, rgb:[ 160,39,18 ], hex:A02712, sat:60, lum:50 }
+ name:Old Brick, hue:359, rgb:[ 144,30,30 ], hex:901E1E, sat:60, lum:40 }
+ name:Falu Red, hue:359, rgb:[ 128,24,24 ], hex:801818, sat:60, lum:30 }
+ name:Cherrywood, hue:359, rgb:[ 101,26,20 ], hex:651A14, sat:60, lum:20 }
+ name:Heath, hue:359, rgb:[ 84,16,18 ], hex:541012, sat:60, lum:10 }
+ name:Van Cleef, hue:359, rgb:[ 73,23,12 ], hex:49170C, sat:60, lum:0 }
+ name:Red Damask, hue:359, rgb:[ 218,106,65 ], hex:DA6A41, sat:50, lum:100 }
+ name:Carmine pink, hue:359, rgb:[ 235,76,66 ], hex:EB4C42, sat:50, lum:90 }
+ name:Pomegranate, hue:359, rgb:[ 243,71,35 ], hex:F34723, sat:50, lum:80 }
+ name:Dark pastel red, hue:359, rgb:[ 194,59,34 ], hex:C23B22, sat:50, lum:70 }
+ name:Dark pastel red, hue:359, rgb:[ 194,59,34 ], hex:C23B22, sat:50, lum:60 }
+ name:Roof Terracotta, hue:359, rgb:[ 166,47,32 ], hex:A62F20, sat:50, lum:50 }
+ name:Sienna, hue:359, rgb:[ 136,45,23 ], hex:882D17, sat:50, lum:40 }
+ name:Metallic Copper, hue:359, rgb:[ 113,41,29 ], hex:71291D, sat:50, lum:30 }
+ name:Espresso, hue:359, rgb:[ 97,39,24 ], hex:612718, sat:50, lum:20 }
+ name:Cocoa Bean, hue:359, rgb:[ 72,28,28 ], hex:481C1C, sat:50, lum:10 }
+ name:Cedar, hue:359, rgb:[ 62,28,20 ], hex:3E1C14, sat:50, lum:0 }
+ name:Burnt Sienna, hue:359, rgb:[ 233,116,81 ], hex:E97451, sat:40, lum:100 }
+ name:Flame Pea, hue:359, rgb:[ 218,91,56 ], hex:DA5B38, sat:40, lum:90 }
+ name:Cinnabar, hue:359, rgb:[ 227,66,52 ], hex:E34234, sat:40, lum:80 }
+ name:Dark pastel red, hue:359, rgb:[ 194,59,34 ], hex:C23B22, sat:40, lum:70 }
+ name:Medium Carmine, hue:359, rgb:[ 175,64,53 ], hex:AF4035, sat:40, lum:60 }
+ name:Prairie Sand, hue:359, rgb:[ 154,56,32 ], hex:9A3820, sat:40, lum:50 }
+ name:Red Robin, hue:359, rgb:[ 128,52,31 ], hex:80341F, sat:40, lum:40 }
+ name:Metallic Copper, hue:359, rgb:[ 113,41,29 ], hex:71291D, sat:40, lum:30 }
+ name:Caput mortuum, hue:359, rgb:[ 89,39,32 ], hex:592720, sat:40, lum:20 }
+ name:Cocoa Bean, hue:359, rgb:[ 72,28,28 ], hex:481C1C, sat:40, lum:10 }
+ name:Jon, hue:359, rgb:[ 59,31,31 ], hex:3B1F1F, sat:40, lum:0 }
+ name:Terracotta, hue:359, rgb:[ 226,114,91 ], hex:E2725B, sat:30, lum:100 }
+ name:Red Damask, hue:359, rgb:[ 218,106,65 ], hex:DA6A41, sat:30, lum:90 }
+ name:Flame Pea, hue:359, rgb:[ 218,91,56 ], hex:DA5B38, sat:30, lum:80 }
+ name:Mojo, hue:359, rgb:[ 192,71,55 ], hex:C04737, sat:30, lum:70 }
+ name:Medium Carmine, hue:359, rgb:[ 175,64,53 ], hex:AF4035, sat:30, lum:60 }
+ name:El Salva, hue:359, rgb:[ 143,62,51 ], hex:8F3E33, sat:30, lum:50 }
+ name:Red Robin, hue:359, rgb:[ 128,52,31 ], hex:80341F, sat:30, lum:40 }
+ name:Buccaneer, hue:359, rgb:[ 98,47,48 ], hex:622F30, sat:30, lum:30 }
+ name:Saddle, hue:359, rgb:[ 76,48,36 ], hex:4C3024, sat:30, lum:20 }
+ name:Treehouse, hue:359, rgb:[ 59,40,32 ], hex:3B2820, sat:30, lum:10 }
+ name:Cocoa Brown, hue:359, rgb:[ 48,31,30 ], hex:301F1E, sat:30, lum:0 }
+ name:Japonica, hue:359, rgb:[ 216,124,99 ], hex:D87C63, sat:20, lum:100 }
+ name:Dark coral, hue:359, rgb:[ 205,91,69 ], hex:CD5B45, sat:20, lum:90 }
+ name:Dark coral, hue:359, rgb:[ 205,91,69 ], hex:CD5B45, sat:20, lum:80 }
+ name:Crail, hue:359, rgb:[ 185,81,64 ], hex:B95140, sat:20, lum:70 }
+ name:Medium Carmine, hue:359, rgb:[ 175,64,53 ], hex:AF4035, sat:20, lum:60 }
+ name:Mule Fawn, hue:359, rgb:[ 140,71,47 ], hex:8C472F, sat:20, lum:50 }
+ name:Spice, hue:359, rgb:[ 106,68,46 ], hex:6A442E, sat:20, lum:40 }
+ name:Quincy, hue:359, rgb:[ 98,63,45 ], hex:623F2D, sat:20, lum:30 }
+ name:Woody Brown, hue:359, rgb:[ 72,49,49 ], hex:483131, sat:20, lum:20 }
+ name:Thunder, hue:359, rgb:[ 51,41,47 ], hex:33292F, sat:20, lum:10 }
+ name:Shark, hue:359, rgb:[ 37,39,44 ], hex:25272C, sat:20, lum:0 }
+ name:Contessa, hue:359, rgb:[ 198,114,107 ], hex:C6726B, sat:10, lum:100 }
+ name:Fuzzy Wuzzy, hue:359, rgb:[ 204,102,102 ], hex:CC6666, sat:10, lum:90 }
+ name:Dark coral, hue:359, rgb:[ 205,91,69 ], hex:CD5B45, sat:10, lum:80 }
+ name:Brown Rust, hue:359, rgb:[ 175,89,62 ], hex:AF593E, sat:10, lum:70 }
+ name:Sepia Skin, hue:359, rgb:[ 158,91,64 ], hex:9E5B40, sat:10, lum:60 }
+ name:Ironstone, hue:359, rgb:[ 134,72,60 ], hex:86483C, sat:10, lum:50 }
+ name:Spice, hue:359, rgb:[ 106,68,46 ], hex:6A442E, sat:10, lum:40 }
+ name:Congo Brown, hue:359, rgb:[ 89,55,55 ], hex:593737, sat:10, lum:30 }
+ name:Dune, hue:359, rgb:[ 56,53,51 ], hex:383533, sat:10, lum:20 }
+ name:Heavy Metal, hue:359, rgb:[ 43,50,40 ], hex:2B3228, sat:10, lum:10 }
+ name:Shark, hue:359, rgb:[ 37,39,44 ], hex:25272C, sat:10, lum:0 }
+ name:Light taupe, hue:359, rgb:[ 179,139,109 ], hex:B38B6D, sat:0, lum:100 }
+ name:Contessa, hue:359, rgb:[ 198,114,107 ], hex:C6726B, sat:0, lum:90 }
+ name:Fuzzy Wuzzy Brown, hue:359, rgb:[ 196,86,85 ], hex:C45655, sat:0, lum:80 }
+ name:Brown Rust, hue:359, rgb:[ 175,89,62 ], hex:AF593E, sat:0, lum:70 }
+ name:Spicy Mix, hue:359, rgb:[ 136,83,66 ], hex:885342, sat:0, lum:60 }
+ name:Bole, hue:359, rgb:[ 121,68,59 ], hex:79443B, sat:0, lum:50 }
+ name:Kabul, hue:359, rgb:[ 94,72,62 ], hex:5E483E, sat:0, lum:40 }
+ name:Matterhorn, hue:359, rgb:[ 78,59,65 ], hex:4E3B41, sat:0, lum:30 }
+ name:Tuatara, hue:359, rgb:[ 54,53,52 ], hex:363534, sat:0, lum:20 }
+ name:Heavy Metal, hue:359, rgb:[ 43,50,40 ], hex:2B3228, sat:0, lum:10 }
+ name:Shark, hue:359, rgb:[ 37,39,44 ], hex:25272C, sat:0, lum:0 }
+ name:Red (RYB), hue:360, rgb:[ 254,39,18 ], hex:FE2712, sat:100, lum:100 }
+ name:Red, hue:360, rgb:[ 255,0,0 ], hex:FF0000, sat:100, lum:90 }
+ name:Red, hue:360, rgb:[ 255,0,0 ], hex:FF0000, sat:100, lum:80 }
+ name:Red, hue:360, rgb:[ 255,0,0 ], hex:FF0000, sat:100, lum:70 }
+ name:Rosso corsa, hue:360, rgb:[ 212,0,0 ], hex:D40000, sat:100, lum:60 }
+ name:Boston University Red, hue:360, rgb:[ 204,0,0 ], hex:CC0000, sat:100, lum:50 }
+ name:Bright Red, hue:360, rgb:[ 177,0,0 ], hex:B10000, sat:100, lum:40 }
+ name:OU Crimson Red, hue:360, rgb:[ 153,0,0 ], hex:990000, sat:100, lum:30 }
+ name:Maroon, hue:360, rgb:[ 128,0,0 ], hex:800000, sat:100, lum:20 }
+ name:Lonestar, hue:360, rgb:[ 109,1,1 ], hex:6D0101, sat:100, lum:10 }
+ name:Rosewood, hue:360, rgb:[ 101,0,11 ], hex:65000B, sat:100, lum:0 }
+ name:Pomegranate, hue:360, rgb:[ 243,71,35 ], hex:F34723, sat:90, lum:100 }
+ name:Red (RYB), hue:360, rgb:[ 254,39,18 ], hex:FE2712, sat:90, lum:90 }
+ name:Red, hue:360, rgb:[ 255,0,0 ], hex:FF0000, sat:90, lum:80 }
+ name:KU Crimson, hue:360, rgb:[ 232,0,13 ], hex:E8000D, sat:90, lum:70 }
+ name:Rosso corsa, hue:360, rgb:[ 212,0,0 ], hex:D40000, sat:90, lum:60 }
+ name:Guardsman Red, hue:360, rgb:[ 186,1,1 ], hex:BA0101, sat:90, lum:50 }
+ name:Dark candy apple red, hue:360, rgb:[ 164,0,0 ], hex:A40000, sat:90, lum:40 }
+ name:Red Berry, hue:360, rgb:[ 142,0,0 ], hex:8E0000, sat:90, lum:30 }
+ name:Maroon, hue:360, rgb:[ 128,0,0 ], hex:800000, sat:90, lum:20 }
+ name:Lonestar, hue:360, rgb:[ 109,1,1 ], hex:6D0101, sat:90, lum:10 }
+ name:Mahogany, hue:360, rgb:[ 78,6,6 ], hex:4E0606, sat:90, lum:0 }
+ name:Flamingo, hue:360, rgb:[ 242,85,42 ], hex:F2552A, sat:80, lum:100 }
+ name:Red (RYB), hue:360, rgb:[ 254,39,18 ], hex:FE2712, sat:80, lum:90 }
+ name:Red, hue:360, rgb:[ 255,0,0 ], hex:FF0000, sat:80, lum:80 }
+ name:KU Crimson, hue:360, rgb:[ 232,0,13 ], hex:E8000D, sat:80, lum:70 }
+ name:Boston University Red, hue:360, rgb:[ 204,0,0 ], hex:CC0000, sat:80, lum:60 }
+ name:Guardsman Red, hue:360, rgb:[ 186,1,1 ], hex:BA0101, sat:80, lum:50 }
+ name:Dark candy apple red, hue:360, rgb:[ 164,0,0 ], hex:A40000, sat:80, lum:40 }
+ name:Dark red, hue:360, rgb:[ 139,0,0 ], hex:8B0000, sat:80, lum:30 }
+ name:Lonestar, hue:360, rgb:[ 109,1,1 ], hex:6D0101, sat:80, lum:20 }
+ name:Rosewood, hue:360, rgb:[ 101,0,11 ], hex:65000B, sat:80, lum:10 }
+ name:Mahogany, hue:360, rgb:[ 78,6,6 ], hex:4E0606, sat:80, lum:0 }
+ name:Portland Orange, hue:360, rgb:[ 255,90,54 ], hex:FF5A36, sat:70, lum:100 }
+ name:Pomegranate, hue:360, rgb:[ 243,71,35 ], hex:F34723, sat:70, lum:90 }
+ name:Red (RYB), hue:360, rgb:[ 254,39,18 ], hex:FE2712, sat:70, lum:80 }
+ name:Lust, hue:360, rgb:[ 230,32,32 ], hex:E62020, sat:70, lum:70 }
+ name:Thunderbird, hue:360, rgb:[ 192,43,24 ], hex:C02B18, sat:70, lum:60 }
+ name:Rufous, hue:360, rgb:[ 168,28,7 ], hex:A81C07, sat:70, lum:50 }
+ name:Totem Pole, hue:360, rgb:[ 153,27,7 ], hex:991B07, sat:70, lum:40 }
+ name:Kenyan Copper, hue:360, rgb:[ 124,28,5 ], hex:7C1C05, sat:70, lum:30 }
+ name:Dark Tan, hue:360, rgb:[ 102,16,16 ], hex:661010, sat:70, lum:20 }
+ name:Heath, hue:360, rgb:[ 84,16,18 ], hex:541012, sat:70, lum:10 }
+ name:Mahogany, hue:360, rgb:[ 78,6,6 ], hex:4E0606, sat:70, lum:0 }
+ name:Outrageous Orange, hue:360, rgb:[ 255,96,55 ], hex:FF6037, sat:60, lum:100 }
+ name:Pomegranate, hue:360, rgb:[ 243,71,35 ], hex:F34723, sat:60, lum:90 }
+ name:Red (RYB), hue:360, rgb:[ 254,39,18 ], hex:FE2712, sat:60, lum:80 }
+ name:Lust, hue:360, rgb:[ 230,32,32 ], hex:E62020, sat:60, lum:70 }
+ name:Thunderbird, hue:360, rgb:[ 192,43,24 ], hex:C02B18, sat:60, lum:60 }
+ name:Tabasco, hue:360, rgb:[ 160,39,18 ], hex:A02712, sat:60, lum:50 }
+ name:Old Brick, hue:360, rgb:[ 144,30,30 ], hex:901E1E, sat:60, lum:40 }
+ name:Falu Red, hue:360, rgb:[ 128,24,24 ], hex:801818, sat:60, lum:30 }
+ name:Cherrywood, hue:360, rgb:[ 101,26,20 ], hex:651A14, sat:60, lum:20 }
+ name:Heath, hue:360, rgb:[ 84,16,18 ], hex:541012, sat:60, lum:10 }
+ name:Van Cleef, hue:360, rgb:[ 73,23,12 ], hex:49170C, sat:60, lum:0 }
+ name:Red Damask, hue:360, rgb:[ 218,106,65 ], hex:DA6A41, sat:50, lum:100 }
+ name:Carmine pink, hue:360, rgb:[ 235,76,66 ], hex:EB4C42, sat:50, lum:90 }
+ name:Pomegranate, hue:360, rgb:[ 243,71,35 ], hex:F34723, sat:50, lum:80 }
+ name:Dark pastel red, hue:360, rgb:[ 194,59,34 ], hex:C23B22, sat:50, lum:70 }
+ name:Dark pastel red, hue:360, rgb:[ 194,59,34 ], hex:C23B22, sat:50, lum:60 }
+ name:Roof Terracotta, hue:360, rgb:[ 166,47,32 ], hex:A62F20, sat:50, lum:50 }
+ name:Sienna, hue:360, rgb:[ 136,45,23 ], hex:882D17, sat:50, lum:40 }
+ name:Metallic Copper, hue:360, rgb:[ 113,41,29 ], hex:71291D, sat:50, lum:30 }
+ name:Espresso, hue:360, rgb:[ 97,39,24 ], hex:612718, sat:50, lum:20 }
+ name:Cocoa Bean, hue:360, rgb:[ 72,28,28 ], hex:481C1C, sat:50, lum:10 }
+ name:Cedar, hue:360, rgb:[ 62,28,20 ], hex:3E1C14, sat:50, lum:0 }
+ name:Burnt Sienna, hue:360, rgb:[ 233,116,81 ], hex:E97451, sat:40, lum:100 }
+ name:Flame Pea, hue:360, rgb:[ 218,91,56 ], hex:DA5B38, sat:40, lum:90 }
+ name:Cinnabar, hue:360, rgb:[ 227,66,52 ], hex:E34234, sat:40, lum:80 }
+ name:Dark pastel red, hue:360, rgb:[ 194,59,34 ], hex:C23B22, sat:40, lum:70 }
+ name:Medium Carmine, hue:360, rgb:[ 175,64,53 ], hex:AF4035, sat:40, lum:60 }
+ name:Prairie Sand, hue:360, rgb:[ 154,56,32 ], hex:9A3820, sat:40, lum:50 }
+ name:Burnt Umber, hue:360, rgb:[ 138,51,36 ], hex:8A3324, sat:40, lum:40 }
+ name:Metallic Copper, hue:360, rgb:[ 113,41,29 ], hex:71291D, sat:40, lum:30 }
+ name:Caput mortuum, hue:360, rgb:[ 89,39,32 ], hex:592720, sat:40, lum:20 }
+ name:Cocoa Bean, hue:360, rgb:[ 72,28,28 ], hex:481C1C, sat:40, lum:10 }
+ name:Jon, hue:360, rgb:[ 59,31,31 ], hex:3B1F1F, sat:40, lum:0 }
+ name:Terracotta, hue:360, rgb:[ 226,114,91 ], hex:E2725B, sat:30, lum:100 }
+ name:Red Damask, hue:360, rgb:[ 218,106,65 ], hex:DA6A41, sat:30, lum:90 }
+ name:Flame Pea, hue:360, rgb:[ 218,91,56 ], hex:DA5B38, sat:30, lum:80 }
+ name:Mojo, hue:360, rgb:[ 192,71,55 ], hex:C04737, sat:30, lum:70 }
+ name:Medium Carmine, hue:360, rgb:[ 175,64,53 ], hex:AF4035, sat:30, lum:60 }
+ name:El Salva, hue:360, rgb:[ 143,62,51 ], hex:8F3E33, sat:30, lum:50 }
+ name:Nutmeg, hue:360, rgb:[ 129,66,44 ], hex:81422C, sat:30, lum:40 }
+ name:Buccaneer, hue:360, rgb:[ 98,47,48 ], hex:622F30, sat:30, lum:30 }
+ name:Saddle, hue:360, rgb:[ 76,48,36 ], hex:4C3024, sat:30, lum:20 }
+ name:Treehouse, hue:360, rgb:[ 59,40,32 ], hex:3B2820, sat:30, lum:10 }
+ name:Cocoa Brown, hue:360, rgb:[ 48,31,30 ], hex:301F1E, sat:30, lum:0 }
+ name:Japonica, hue:360, rgb:[ 216,124,99 ], hex:D87C63, sat:20, lum:100 }
+ name:Dark coral, hue:360, rgb:[ 205,91,69 ], hex:CD5B45, sat:20, lum:90 }
+ name:Flame Pea, hue:360, rgb:[ 218,91,56 ], hex:DA5B38, sat:20, lum:80 }
+ name:Crail, hue:360, rgb:[ 185,81,64 ], hex:B95140, sat:20, lum:70 }
+ name:Medium Carmine, hue:360, rgb:[ 175,64,53 ], hex:AF4035, sat:20, lum:60 }
+ name:Mule Fawn, hue:360, rgb:[ 140,71,47 ], hex:8C472F, sat:20, lum:50 }
+ name:Nutmeg, hue:360, rgb:[ 129,66,44 ], hex:81422C, sat:20, lum:40 }
+ name:Quincy, hue:360, rgb:[ 98,63,45 ], hex:623F2D, sat:20, lum:30 }
+ name:Woody Brown, hue:360, rgb:[ 72,49,49 ], hex:483131, sat:20, lum:20 }
+ name:Thunder, hue:360, rgb:[ 51,41,47 ], hex:33292F, sat:20, lum:10 }
+ name:Shark, hue:360, rgb:[ 37,39,44 ], hex:25272C, sat:20, lum:0 }
+ name:Contessa, hue:360, rgb:[ 198,114,107 ], hex:C6726B, sat:10, lum:100 }
+ name:Chestnut Rose, hue:360, rgb:[ 205,92,92 ], hex:CD5C5C, sat:10, lum:90 }
+ name:Dark coral, hue:360, rgb:[ 205,91,69 ], hex:CD5B45, sat:10, lum:80 }
+ name:Brown Rust, hue:360, rgb:[ 175,89,62 ], hex:AF593E, sat:10, lum:70 }
+ name:Sepia Skin, hue:360, rgb:[ 158,91,64 ], hex:9E5B40, sat:10, lum:60 }
+ name:Ironstone, hue:360, rgb:[ 134,72,60 ], hex:86483C, sat:10, lum:50 }
+ name:Spice, hue:360, rgb:[ 106,68,46 ], hex:6A442E, sat:10, lum:40 }
+ name:Congo Brown, hue:360, rgb:[ 89,55,55 ], hex:593737, sat:10, lum:30 }
+ name:Dune, hue:360, rgb:[ 56,53,51 ], hex:383533, sat:10, lum:20 }
+ name:Heavy Metal, hue:360, rgb:[ 43,50,40 ], hex:2B3228, sat:10, lum:10 }
+ name:Shark, hue:360, rgb:[ 37,39,44 ], hex:25272C, sat:10, lum:0 }
+ name:Light taupe, hue:360, rgb:[ 179,139,109 ], hex:B38B6D, sat:0, lum:100 }
+ name:Contessa, hue:360, rgb:[ 198,114,107 ], hex:C6726B, sat:0, lum:90 }
+ name:Dark coral, hue:360, rgb:[ 205,91,69 ], hex:CD5B45, sat:0, lum:80 }
+ name:Brown Rust, hue:360, rgb:[ 175,89,62 ], hex:AF593E, sat:0, lum:70 }
+ name:Spicy Mix, hue:360, rgb:[ 136,83,66 ], hex:885342, sat:0, lum:60 }
+ name:Bole, hue:360, rgb:[ 121,68,59 ], hex:79443B, sat:0, lum:50 }
+ name:Kabul, hue:360, rgb:[ 94,72,62 ], hex:5E483E, sat:0, lum:40 }
+ name:Matterhorn, hue:360, rgb:[ 78,59,65 ], hex:4E3B41, sat:0, lum:30 }
+ name:Tuatara, hue:360, rgb:[ 54,53,52 ], hex:363534, sat:0, lum:20 }
+ name:Heavy Metal, hue:360, rgb:[ 43,50,40 ], hex:2B3228, sat:0, lum:10 }
+ name:Shark, hue:360, rgb:[ 37,39,44 ], hex:25272C, sat:0, lum:0 }

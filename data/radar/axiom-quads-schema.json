@@ -1,0 +1,7 @@
+{
+  "name":   { "t":"s",   "c":"1", "d":"Single   Name",   "e":"DDD", "k":"t"         },
+  "name2s": { "t":"A",   "c":"2", "d":"Semantic Pair",   "e":"[a,b]"                },
+  "color":  { "t":"R",   "c":"1", "d":"Wedge Color",     "e":"rgba(250,180,167,.5)" },
+  "beg":    { "t":"Deg", "c":"1", "d":"Wedge beg angle", "e": 60                    },
+  "end":    { "t":"Deg", "c":"1", "d":"Wedge end angle", "e":120                    }
+}

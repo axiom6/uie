@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Quan</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Information">
+  <meta name="author" content="Tom Flaherty">
+  <link href="../../lib/bespoke/font-awesome.css" rel="stylesheet">
+  <link href="../../lib/bespoke/spoke.css"        rel="stylesheet">
+</head>
+
+<body>
+<div data-bespoke-hash="main" class="spoke">
+
+  <article class="bespoke-parent" data-bespoke-hash="presentation">
+
+    <section data-bespoke-hash="Architecture"  class="bespoke-slide" style="display:table; text-align:center;">
+      <h1 style="font-size:1.5em;">The Quan Application<a href="http://twitter.com/TheTomFlaherty">@TheTomFlaherty</a></h1>
+      <img src="../../doc/quan/diag/Arch.svg" class="rx-img" style="display:table-cell; vertical-align:middle;">
+    </section>
+
+    <section data-bespoke-hash="Stream" class="bespoke-slide">
+      <div   class="rx-div-relative">
+        <div class="rx-div-practice"><h2>Stream</h2>
+          <p>The Reactive Messaging Pipeline</p>
+        </div>
+        <!--img class="rx-img-practice" src="../../img/ikw/data/Acquire.png"-->
+        <ul  class="rx-ul-studies">
+          <li><span class="width150">RxJS   </span>Asynchronous event-based collections.</li>
+          <li><span class="width150">JMP</span>Jupyter Messaging Protocol</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section data-bespoke-hash="Composer" class="bespoke-slide">
+      <div   class="rx-div-relative">
+        <div class="rx-div-practice"><h2>Composer</h2>
+          <p>Composing a Data Science Scenario</p>
+        </div>
+        <!--img class="rx-img-practice" src="../../img/ikw/data/Distill.png"-->
+        <ul  class="rx-ul-studies" style="top:50%;">
+          <li><span class="width200">Electron</span></li>
+          <li><span class="width200">UI      </span></li>
+          <li><span class="width200">Jupyter </span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section data-bespoke-hash="Transform" class="bespoke-slide">
+      <div   class="rx-div-relative">
+        <div class="rx-div-practice"><h2>Transform</h2>
+          <p style="font-size:28px;">Transformation Pipeline</p>
+          <p></p>
+        </div>
+        <!--img class="rx-img-practice" src="../../img/ikw/data/Model.png"-->
+        <ul  class="rx-ul-studies">
+          <li><span class="width200">Skale</span></li>
+          <li><span class="width200">Spark</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section data-bespoke-hash="Store" class="bespoke-slide">
+      <div   class="rx-div-relative">
+        <div class="rx-div-practice" style="width:50%;"><h2>Store</h2>
+          <p>Persitent Storage</p>
+        </div>
+        <!--img class="rx-img-practice"  style="left:50%; width:50%;" src="../../img/ikw/data/Conduct.png"-->
+        <ul  class="rx-ul-studies" style="top:50%;">
+          <li><span class="width200">Pivot</span>Pivot table</li>
+          <li><span class="width200">Table</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section data-bespoke-hash="Visual" class="bespoke-slide">
+      <div   class="rx-div-relative">
+        <div class="rx-div-practice" style="width:75%;"><h2>Visual</h2>
+          <p>Visual</p>
+        </div>
+        <!--img class="rx-img-practice" src="../../img/ikw/data/Spark.png"-->
+        <ul  class="rx-ul-studies" style="top:55%;">
+          <li><span class="width150">Plotly </span></li>
+          <li><span class="width150">D3     </span></li>
+          <li><span class="width150">MathBox</span></li>
+        </ul>
+      </div>
+    </section>
+
+  </article>
+</div>
+
+<script src="../../lib/bespoke/Spoke.js"></script>
+<script src="../../lib/bespoke/bespoke.js"></script>
+<script src="../../lib/bespoke/bespoke-keys.js"></script>
+<script src="../../lib/bespoke/bespoke-mouse.1.1.js"></script>
+<script src="../../lib/bespoke/bespoke-classes.js"></script>
+<script src="../../lib/bespoke/bespoke-touch.js"></script>
+<script src="../../lib/bespoke/bespoke-hash.js"></script>
+
+<script>
+  var bp   = bespoke.plugins;
+  var deck = bespoke.from('article', [bp.classes(),bp.keys(),bp.mouse(true),bp.touch(),bp.hash()] );
+</script>
+
+</body>
+</html>

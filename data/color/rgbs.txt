@@ -1,0 +1,499 @@
+name:Sunglow, rgb1:[ 255,206,56 ], rgb2:[ 255,204,51 ], hex:FFCC33 }
+ name:Bright Sun, rgb1:[ 255,206,61 ], rgb2:[ 254,211,60 ], hex:FED33C } 
+ name:Bright Sun, rgb1:[ 255,206,66 ], rgb2:[ 254,211,60 ], hex:FED33C } 
+ name:Bright Sun, rgb1:[ 255,206,71 ], rgb2:[ 254,211,60 ], hex:FED33C } 
+ name:Golden Tainoi, rgb1:[ 255,206,76 ], rgb2:[ 255,204,92 ], hex:FFCC5C } 
+ name:Golden Tainoi, rgb1:[ 255,206,81 ], rgb2:[ 255,204,92 ], hex:FFCC5C } 
+ name:Golden Tainoi, rgb1:[ 255,206,86 ], rgb2:[ 255,204,92 ], hex:FFCC5C } 
+ name:Golden Tainoi, rgb1:[ 255,206,91 ], rgb2:[ 255,204,92 ], hex:FFCC5C } 
+ name:Golden Tainoi, rgb1:[ 255,206,96 ], rgb2:[ 255,204,92 ], hex:FFCC5C } 
+ name:Goldenrod, rgb1:[ 255,206,101 ], rgb2:[ 252,214,103 ], hex:FCD667 } 
+ name:Goldenrod, rgb1:[ 255,206,106 ], rgb2:[ 252,214,103 ], hex:FCD667 } 
+ name:Goldenrod, rgb1:[ 255,206,111 ], rgb2:[ 252,214,103 ], hex:FCD667 } 
+ name:Topaz, rgb1:[ 255,206,116 ], rgb2:[ 255,200,124 ], hex:FFC87C } 
+ name:Topaz, rgb1:[ 255,206,121 ], rgb2:[ 255,200,124 ], hex:FFC87C } 
+ name:Topaz, rgb1:[ 255,206,126 ], rgb2:[ 255,200,124 ], hex:FFC87C } 
+ name:Chardonnay, rgb1:[ 255,206,131 ], rgb2:[ 255,205,140 ], hex:FFCD8C } 
+ name:Chardonnay, rgb1:[ 255,206,136 ], rgb2:[ 255,205,140 ], hex:FFCD8C } 
+ name:Chardonnay, rgb1:[ 255,206,141 ], rgb2:[ 255,205,140 ], hex:FFCD8C } 
+ name:Chardonnay, rgb1:[ 255,206,146 ], rgb2:[ 255,205,140 ], hex:FFCD8C } 
+ name:Peach Orange, rgb1:[ 255,206,151 ], rgb2:[ 255,204,153 ], hex:FFCC99 } 
+ name:Peach Orange, rgb1:[ 255,206,156 ], rgb2:[ 255,204,153 ], hex:FFCC99 } 
+ name:Flesh, rgb1:[ 255,206,161 ], rgb2:[ 255,203,164 ], hex:FFCBA4 } 
+ name:Flesh, rgb1:[ 255,206,166 ], rgb2:[ 255,203,164 ], hex:FFCBA4 } 
+ name:Apricot Peach, rgb1:[ 255,206,171 ], rgb2:[ 251,206,177 ], hex:FBCEB1 } 
+ name:Apricot Peach, rgb1:[ 255,206,176 ], rgb2:[ 251,206,177 ], hex:FBCEB1 } 
+ name:Romantic, rgb1:[ 255,206,181 ], rgb2:[ 255,210,183 ], hex:FFD2B7 } 
+ name:Romantic, rgb1:[ 255,206,186 ], rgb2:[ 255,210,183 ], hex:FFD2B7 } 
+ name:Romantic, rgb1:[ 255,206,191 ], rgb2:[ 255,210,183 ], hex:FFD2B7 } 
+ name:Your Pink, rgb1:[ 255,206,196 ], rgb2:[ 255,195,192 ], hex:FFC3C0 } 
+ name:Bubble gum, rgb1:[ 255,206,201 ], rgb2:[ 255,193,204 ], hex:FFC1CC } 
+ name:Bubble gum, rgb1:[ 255,206,206 ], rgb2:[ 255,193,204 ], hex:FFC1CC } 
+ name:Pastel Pink, rgb1:[ 255,206,211 ], rgb2:[ 255,209,220 ], hex:FFD1DC } 
+ name:Pastel Pink, rgb1:[ 255,206,216 ], rgb2:[ 255,209,220 ], hex:FFD1DC } 
+ name:Pastel Pink, rgb1:[ 255,206,221 ], rgb2:[ 255,209,220 ], hex:FFD1DC } 
+ name:Classic Rose, rgb1:[ 255,206,226 ], rgb2:[ 251,204,231 ], hex:FBCCE7 } 
+ name:Classic Rose, rgb1:[ 255,206,231 ], rgb2:[ 251,204,231 ], hex:FBCCE7 } 
+ name:Classic Rose, rgb1:[ 255,206,236 ], rgb2:[ 251,204,231 ], hex:FBCCE7 } 
+ name:Classic Rose, rgb1:[ 255,206,241 ], rgb2:[ 251,204,231 ], hex:FBCCE7 } 
+ name:Pink Lace, rgb1:[ 255,206,246 ], rgb2:[ 255,221,244 ], hex:FFDDF4 } 
+ name:Pink Lace, rgb1:[ 255,206,251 ], rgb2:[ 255,221,244 ], hex:FFDDF4 } 
+ name:Yellow (NCS), rgb1:[ 255,211,1 ], rgb2:[ 255,211,0 ], hex:FFD300 } 
+ name:Yellow (NCS), rgb1:[ 255,211,6 ], rgb2:[ 255,211,0 ], hex:FFD300 } 
+ name:Yellow (NCS), rgb1:[ 255,211,11 ], rgb2:[ 255,211,0 ], hex:FFD300 } 
+ name:Candlelight, rgb1:[ 255,211,16 ], rgb2:[ 252,217,23 ], hex:FCD917 } 
+ name:Candlelight, rgb1:[ 255,211,21 ], rgb2:[ 252,217,23 ], hex:FCD917 } 
+ name:Candlelight, rgb1:[ 255,211,26 ], rgb2:[ 252,217,23 ], hex:FCD917 } 
+ name:Candlelight, rgb1:[ 255,211,31 ], rgb2:[ 252,217,23 ], hex:FCD917 } 
+ name:Ripe Lemon, rgb1:[ 255,211,36 ], rgb2:[ 244,216,28 ], hex:F4D81C } 
+ name:Sunglow, rgb1:[ 255,211,41 ], rgb2:[ 255,204,51 ], hex:FFCC33 } 
+ name:Sunglow, rgb1:[ 255,211,46 ], rgb2:[ 255,204,51 ], hex:FFCC33 } 
+ name:Sunglow, rgb1:[ 255,211,51 ], rgb2:[ 255,204,51 ], hex:FFCC33 } 
+ name:Bright Sun, rgb1:[ 255,211,56 ], rgb2:[ 254,211,60 ], hex:FED33C } 
+ name:Bright Sun, rgb1:[ 255,211,61 ], rgb2:[ 254,211,60 ], hex:FED33C } 
+ name:Bright Sun, rgb1:[ 255,211,66 ], rgb2:[ 254,211,60 ], hex:FED33C } 
+ name:Bright Sun, rgb1:[ 255,211,71 ], rgb2:[ 254,211,60 ], hex:FED33C } 
+ name:Mustard, rgb1:[ 255,211,76 ], rgb2:[ 255,219,88 ], hex:FFDB58 } 
+ name:Mustard, rgb1:[ 255,211,81 ], rgb2:[ 255,219,88 ], hex:FFDB58 } 
+ name:Mustard, rgb1:[ 255,211,86 ], rgb2:[ 255,219,88 ], hex:FFDB58 } 
+ name:Dandelion, rgb1:[ 255,211,91 ], rgb2:[ 254,216,93 ], hex:FED85D } 
+ name:Dandelion, rgb1:[ 255,211,96 ], rgb2:[ 254,216,93 ], hex:FED85D } 
+ name:Goldenrod, rgb1:[ 255,211,101 ], rgb2:[ 252,214,103 ], hex:FCD667 } 
+ name:Goldenrod, rgb1:[ 255,211,106 ], rgb2:[ 252,214,103 ], hex:FCD667 } 
+ name:Goldenrod, rgb1:[ 255,211,111 ], rgb2:[ 252,214,103 ], hex:FCD667 } 
+ name:Topaz, rgb1:[ 255,211,116 ], rgb2:[ 255,200,124 ], hex:FFC87C } 
+ name:Topaz, rgb1:[ 255,211,121 ], rgb2:[ 255,200,124 ], hex:FFC87C } 
+ name:Topaz, rgb1:[ 255,211,126 ], rgb2:[ 255,200,124 ], hex:FFC87C } 
+ name:Grandis, rgb1:[ 255,211,131 ], rgb2:[ 255,211,140 ], hex:FFD38C } 
+ name:Grandis, rgb1:[ 255,211,136 ], rgb2:[ 255,211,140 ], hex:FFD38C } 
+ name:Grandis, rgb1:[ 255,211,141 ], rgb2:[ 255,211,140 ], hex:FFD38C } 
+ name:Grandis, rgb1:[ 255,211,146 ], rgb2:[ 255,211,140 ], hex:FFD38C } 
+ name:Peach Orange, rgb1:[ 255,211,151 ], rgb2:[ 255,204,153 ], hex:FFCC99 } 
+ name:Peach Orange, rgb1:[ 255,211,156 ], rgb2:[ 255,204,153 ], hex:FFCC99 } 
+ name:Corvette, rgb1:[ 255,211,161 ], rgb2:[ 250,211,162 ], hex:FAD3A2 } 
+ name:Champagne, rgb1:[ 255,211,166 ], rgb2:[ 250,214,165 ], hex:FAD6A5 } 
+ name:Light Apricot, rgb1:[ 255,211,171 ], rgb2:[ 253,213,177 ], hex:FDD5B1 } 
+ name:Light Apricot, rgb1:[ 255,211,176 ], rgb2:[ 253,213,177 ], hex:FDD5B1 } 
+ name:Romantic, rgb1:[ 255,211,181 ], rgb2:[ 255,210,183 ], hex:FFD2B7 } 
+ name:Romantic, rgb1:[ 255,211,186 ], rgb2:[ 255,210,183 ], hex:FFD2B7 } 
+ name:Romantic, rgb1:[ 255,211,191 ], rgb2:[ 255,210,183 ], hex:FFD2B7 } 
+ name:Romantic, rgb1:[ 255,211,196 ], rgb2:[ 255,210,183 ], hex:FFD2B7 } 
+ name:Tuft Bush, rgb1:[ 255,211,201 ], rgb2:[ 255,221,205 ], hex:FFDDCD } 
+ name:Tuft Bush, rgb1:[ 255,211,206 ], rgb2:[ 255,221,205 ], hex:FFDDCD } 
+ name:Cosmos, rgb1:[ 255,211,211 ], rgb2:[ 255,216,217 ], hex:FFD8D9 } 
+ name:Pastel Pink, rgb1:[ 255,211,216 ], rgb2:[ 255,209,220 ], hex:FFD1DC } 
+ name:Pastel Pink, rgb1:[ 255,211,221 ], rgb2:[ 255,209,220 ], hex:FFD1DC } 
+ name:Pig Pink, rgb1:[ 255,211,226 ], rgb2:[ 253,215,228 ], hex:FDD7E4 } 
+ name:Pig Pink, rgb1:[ 255,211,231 ], rgb2:[ 253,215,228 ], hex:FDD7E4 } 
+ name:Pig Pink, rgb1:[ 255,211,236 ], rgb2:[ 253,215,228 ], hex:FDD7E4 } 
+ name:Pink Lace, rgb1:[ 255,211,241 ], rgb2:[ 255,221,244 ], hex:FFDDF4 } 
+ name:Pink Lace, rgb1:[ 255,211,246 ], rgb2:[ 255,221,244 ], hex:FFDDF4 } 
+ name:Pink Lace, rgb1:[ 255,211,251 ], rgb2:[ 255,221,244 ], hex:FFDDF4 } 
+ name:School bus Yellow, rgb1:[ 255,216,1 ], rgb2:[ 255,216,0 ], hex:FFD800 } 
+ name:School bus Yellow, rgb1:[ 255,216,6 ], rgb2:[ 255,216,0 ], hex:FFD800 } 
+ name:School bus Yellow, rgb1:[ 255,216,11 ], rgb2:[ 255,216,0 ], hex:FFD800 } 
+ name:Candlelight, rgb1:[ 255,216,16 ], rgb2:[ 252,217,23 ], hex:FCD917 } 
+ name:Candlelight, rgb1:[ 255,216,21 ], rgb2:[ 252,217,23 ], hex:FCD917 } 
+ name:Candlelight, rgb1:[ 255,216,26 ], rgb2:[ 252,217,23 ], hex:FCD917 } 
+ name:Candlelight, rgb1:[ 255,216,31 ], rgb2:[ 252,217,23 ], hex:FCD917 } 
+ name:Candlelight, rgb1:[ 255,216,36 ], rgb2:[ 252,217,23 ], hex:FCD917 } 
+ name:Banana yellow, rgb1:[ 255,216,41 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,216,46 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,216,51 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Bright Sun, rgb1:[ 255,216,56 ], rgb2:[ 254,211,60 ], hex:FED33C } 
+ name:Bright Sun, rgb1:[ 255,216,61 ], rgb2:[ 254,211,60 ], hex:FED33C } 
+ name:Bright Sun, rgb1:[ 255,216,66 ], rgb2:[ 254,211,60 ], hex:FED33C } 
+ name:Bright Sun, rgb1:[ 255,216,71 ], rgb2:[ 254,211,60 ], hex:FED33C } 
+ name:Mustard, rgb1:[ 255,216,76 ], rgb2:[ 255,219,88 ], hex:FFDB58 } 
+ name:Mustard, rgb1:[ 255,216,81 ], rgb2:[ 255,219,88 ], hex:FFDB58 } 
+ name:Mustard, rgb1:[ 255,216,86 ], rgb2:[ 255,219,88 ], hex:FFDB58 } 
+ name:Dandelion, rgb1:[ 255,216,91 ], rgb2:[ 254,216,93 ], hex:FED85D } 
+ name:Dandelion, rgb1:[ 255,216,96 ], rgb2:[ 254,216,93 ], hex:FED85D } 
+ name:Goldenrod, rgb1:[ 255,216,101 ], rgb2:[ 252,214,103 ], hex:FCD667 } 
+ name:Goldenrod, rgb1:[ 255,216,106 ], rgb2:[ 252,214,103 ], hex:FCD667 } 
+ name:Goldenrod, rgb1:[ 255,216,111 ], rgb2:[ 252,214,103 ], hex:FCD667 } 
+ name:Goldenrod, rgb1:[ 255,216,116 ], rgb2:[ 252,214,103 ], hex:FCD667 } 
+ name:Jasmine, rgb1:[ 255,216,121 ], rgb2:[ 248,222,126 ], hex:F8DE7E } 
+ name:Jasmine, rgb1:[ 255,216,126 ], rgb2:[ 248,222,126 ], hex:F8DE7E } 
+ name:Grandis, rgb1:[ 255,216,131 ], rgb2:[ 255,211,140 ], hex:FFD38C } 
+ name:Salomie, rgb1:[ 255,216,136 ], rgb2:[ 254,219,141 ], hex:FEDB8D } 
+ name:Salomie, rgb1:[ 255,216,141 ], rgb2:[ 254,219,141 ], hex:FEDB8D } 
+ name:Salomie, rgb1:[ 255,216,146 ], rgb2:[ 254,219,141 ], hex:FEDB8D } 
+ name:Cherokee, rgb1:[ 255,216,151 ], rgb2:[ 252,218,152 ], hex:FCDA98 } 
+ name:Cherokee, rgb1:[ 255,216,156 ], rgb2:[ 252,218,152 ], hex:FCDA98 } 
+ name:Champagne, rgb1:[ 255,216,161 ], rgb2:[ 250,214,165 ], hex:FAD6A5 } 
+ name:Champagne, rgb1:[ 255,216,166 ], rgb2:[ 250,214,165 ], hex:FAD6A5 } 
+ name:Navajo White, rgb1:[ 255,216,171 ], rgb2:[ 255,222,173 ], hex:FFDEAD } 
+ name:Light Apricot, rgb1:[ 255,216,176 ], rgb2:[ 253,213,177 ], hex:FDD5B1 } 
+ name:Peach puff, rgb1:[ 255,216,181 ], rgb2:[ 255,218,185 ], hex:FFDAB9 } 
+ name:Peach puff, rgb1:[ 255,216,186 ], rgb2:[ 255,218,185 ], hex:FFDAB9 } 
+ name:Peach puff, rgb1:[ 255,216,191 ], rgb2:[ 255,218,185 ], hex:FFDAB9 } 
+ name:Negroni, rgb1:[ 255,216,196 ], rgb2:[ 255,226,197 ], hex:FFE2C5 } 
+ name:Tuft Bush, rgb1:[ 255,216,201 ], rgb2:[ 255,221,205 ], hex:FFDDCD } 
+ name:Tuft Bush, rgb1:[ 255,216,206 ], rgb2:[ 255,221,205 ], hex:FFDDCD } 
+ name:Peach Schnapps, rgb1:[ 255,216,211 ], rgb2:[ 255,220,214 ], hex:FFDCD6 } 
+ name:Cosmos, rgb1:[ 255,216,216 ], rgb2:[ 255,216,217 ], hex:FFD8D9 } 
+ name:Cosmos, rgb1:[ 255,216,221 ], rgb2:[ 255,216,217 ], hex:FFD8D9 } 
+ name:Pig Pink, rgb1:[ 255,216,226 ], rgb2:[ 253,215,228 ], hex:FDD7E4 } 
+ name:Pig Pink, rgb1:[ 255,216,231 ], rgb2:[ 253,215,228 ], hex:FDD7E4 } 
+ name:Cherub, rgb1:[ 255,216,236 ], rgb2:[ 248,217,233 ], hex:F8D9E9 } 
+ name:Pink Lace, rgb1:[ 255,216,241 ], rgb2:[ 255,221,244 ], hex:FFDDF4 } 
+ name:Pink Lace, rgb1:[ 255,216,246 ], rgb2:[ 255,221,244 ], hex:FFDDF4 } 
+ name:Pink Lace, rgb1:[ 255,216,251 ], rgb2:[ 255,221,244 ], hex:FFDDF4 } 
+ name:Golden yellow, rgb1:[ 255,221,1 ], rgb2:[ 255,223,0 ], hex:FFDF00 } 
+ name:Golden yellow, rgb1:[ 255,221,6 ], rgb2:[ 255,223,0 ], hex:FFDF00 } 
+ name:Golden yellow, rgb1:[ 255,221,11 ], rgb2:[ 255,223,0 ], hex:FFDF00 } 
+ name:Candlelight, rgb1:[ 255,221,16 ], rgb2:[ 252,217,23 ], hex:FCD917 } 
+ name:Candlelight, rgb1:[ 255,221,21 ], rgb2:[ 252,217,23 ], hex:FCD917 } 
+ name:Candlelight, rgb1:[ 255,221,26 ], rgb2:[ 252,217,23 ], hex:FCD917 } 
+ name:Candlelight, rgb1:[ 255,221,31 ], rgb2:[ 252,217,23 ], hex:FCD917 } 
+ name:Candlelight, rgb1:[ 255,221,36 ], rgb2:[ 252,217,23 ], hex:FCD917 } 
+ name:Banana yellow, rgb1:[ 255,221,41 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,221,46 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,221,51 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,221,56 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,221,61 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Bright Sun, rgb1:[ 255,221,66 ], rgb2:[ 254,211,60 ], hex:FED33C } 
+ name:Bright Sun, rgb1:[ 255,221,71 ], rgb2:[ 254,211,60 ], hex:FED33C } 
+ name:Mustard, rgb1:[ 255,221,76 ], rgb2:[ 255,219,88 ], hex:FFDB58 } 
+ name:Mustard, rgb1:[ 255,221,81 ], rgb2:[ 255,219,88 ], hex:FFDB58 } 
+ name:Mustard, rgb1:[ 255,221,86 ], rgb2:[ 255,219,88 ], hex:FFDB58 } 
+ name:Mustard, rgb1:[ 255,221,91 ], rgb2:[ 255,219,88 ], hex:FFDB58 } 
+ name:Dandelion, rgb1:[ 255,221,96 ], rgb2:[ 254,216,93 ], hex:FED85D } 
+ name:Goldenrod, rgb1:[ 255,221,101 ], rgb2:[ 252,214,103 ], hex:FCD667 } 
+ name:Goldenrod, rgb1:[ 255,221,106 ], rgb2:[ 252,214,103 ], hex:FCD667 } 
+ name:Kournikova, rgb1:[ 255,221,111 ], rgb2:[ 255,231,114 ], hex:FFE772 } 
+ name:Kournikova, rgb1:[ 255,221,116 ], rgb2:[ 255,231,114 ], hex:FFE772 } 
+ name:Jasmine, rgb1:[ 255,221,121 ], rgb2:[ 248,222,126 ], hex:F8DE7E } 
+ name:Jasmine, rgb1:[ 255,221,126 ], rgb2:[ 248,222,126 ], hex:F8DE7E } 
+ name:Jasmine, rgb1:[ 255,221,131 ], rgb2:[ 248,222,126 ], hex:F8DE7E } 
+ name:Salomie, rgb1:[ 255,221,136 ], rgb2:[ 254,219,141 ], hex:FEDB8D } 
+ name:Salomie, rgb1:[ 255,221,141 ], rgb2:[ 254,219,141 ], hex:FEDB8D } 
+ name:Salomie, rgb1:[ 255,221,146 ], rgb2:[ 254,219,141 ], hex:FEDB8D } 
+ name:Cherokee, rgb1:[ 255,221,151 ], rgb2:[ 252,218,152 ], hex:FCDA98 } 
+ name:Cherokee, rgb1:[ 255,221,156 ], rgb2:[ 252,218,152 ], hex:FCDA98 } 
+ name:Cream Brulee, rgb1:[ 255,221,161 ], rgb2:[ 255,229,160 ], hex:FFE5A0 } 
+ name:Navajo White, rgb1:[ 255,221,166 ], rgb2:[ 255,222,173 ], hex:FFDEAD } 
+ name:Navajo White, rgb1:[ 255,221,171 ], rgb2:[ 255,222,173 ], hex:FFDEAD } 
+ name:Caramel, rgb1:[ 255,221,176 ], rgb2:[ 255,221,175 ], hex:FFDDAF } 
+ name:Frangipani, rgb1:[ 255,221,181 ], rgb2:[ 255,222,179 ], hex:FFDEB3 } 
+ name:Peach puff, rgb1:[ 255,221,186 ], rgb2:[ 255,218,185 ], hex:FFDAB9 } 
+ name:Peach puff, rgb1:[ 255,221,191 ], rgb2:[ 255,218,185 ], hex:FFDAB9 } 
+ name:Negroni, rgb1:[ 255,221,196 ], rgb2:[ 255,226,197 ], hex:FFE2C5 } 
+ name:Tuft Bush, rgb1:[ 255,221,201 ], rgb2:[ 255,221,205 ], hex:FFDDCD } 
+ name:Tuft Bush, rgb1:[ 255,221,206 ], rgb2:[ 255,221,205 ], hex:FFDDCD } 
+ name:Peach Schnapps, rgb1:[ 255,221,211 ], rgb2:[ 255,220,214 ], hex:FFDCD6 } 
+ name:Peach Schnapps, rgb1:[ 255,221,216 ], rgb2:[ 255,220,214 ], hex:FFDCD6 } 
+ name:Pippin, rgb1:[ 255,221,221 ], rgb2:[ 255,225,223 ], hex:FFE1DF } 
+ name:Piggy pink, rgb1:[ 255,221,226 ], rgb2:[ 253,221,230 ], hex:FDDDE6 } 
+ name:Piggy pink, rgb1:[ 255,221,231 ], rgb2:[ 253,221,230 ], hex:FDDDE6 } 
+ name:Piggy pink, rgb1:[ 255,221,236 ], rgb2:[ 253,221,230 ], hex:FDDDE6 } 
+ name:Pink Lace, rgb1:[ 255,221,241 ], rgb2:[ 255,221,244 ], hex:FFDDF4 } 
+ name:Pink Lace, rgb1:[ 255,221,246 ], rgb2:[ 255,221,244 ], hex:FFDDF4 } 
+ name:Pink Lace, rgb1:[ 255,221,251 ], rgb2:[ 255,221,244 ], hex:FFDDF4 } 
+ name:Golden yellow, rgb1:[ 255,226,1 ], rgb2:[ 255,223,0 ], hex:FFDF00 } 
+ name:Golden yellow, rgb1:[ 255,226,6 ], rgb2:[ 255,223,0 ], hex:FFDF00 } 
+ name:Lemon, rgb1:[ 255,226,11 ], rgb2:[ 253,233,16 ], hex:FDE910 } 
+ name:Lemon, rgb1:[ 255,226,16 ], rgb2:[ 253,233,16 ], hex:FDE910 } 
+ name:Lemon, rgb1:[ 255,226,21 ], rgb2:[ 253,233,16 ], hex:FDE910 } 
+ name:Candlelight, rgb1:[ 255,226,26 ], rgb2:[ 252,217,23 ], hex:FCD917 } 
+ name:Candlelight, rgb1:[ 255,226,31 ], rgb2:[ 252,217,23 ], hex:FCD917 } 
+ name:Candlelight, rgb1:[ 255,226,36 ], rgb2:[ 252,217,23 ], hex:FCD917 } 
+ name:Banana yellow, rgb1:[ 255,226,41 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,226,46 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,226,51 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,226,56 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,226,61 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,226,66 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Gorse, rgb1:[ 255,226,71 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Mustard, rgb1:[ 255,226,76 ], rgb2:[ 255,219,88 ], hex:FFDB58 } 
+ name:Mustard, rgb1:[ 255,226,81 ], rgb2:[ 255,219,88 ], hex:FFDB58 } 
+ name:Mustard, rgb1:[ 255,226,86 ], rgb2:[ 255,219,88 ], hex:FFDB58 } 
+ name:Mustard, rgb1:[ 255,226,91 ], rgb2:[ 255,219,88 ], hex:FFDB58 } 
+ name:Portica, rgb1:[ 255,226,96 ], rgb2:[ 249,230,99 ], hex:F9E663 } 
+ name:Portica, rgb1:[ 255,226,101 ], rgb2:[ 249,230,99 ], hex:F9E663 } 
+ name:Festival, rgb1:[ 255,226,106 ], rgb2:[ 251,233,108 ], hex:FBE96C } 
+ name:Kournikova, rgb1:[ 255,226,111 ], rgb2:[ 255,231,114 ], hex:FFE772 } 
+ name:Kournikova, rgb1:[ 255,226,116 ], rgb2:[ 255,231,114 ], hex:FFE772 } 
+ name:Kournikova, rgb1:[ 255,226,121 ], rgb2:[ 255,231,114 ], hex:FFE772 } 
+ name:Jasmine, rgb1:[ 255,226,126 ], rgb2:[ 248,222,126 ], hex:F8DE7E } 
+ name:Jasmine, rgb1:[ 255,226,131 ], rgb2:[ 248,222,126 ], hex:F8DE7E } 
+ name:Salomie, rgb1:[ 255,226,136 ], rgb2:[ 254,219,141 ], hex:FEDB8D } 
+ name:Salomie, rgb1:[ 255,226,141 ], rgb2:[ 254,219,141 ], hex:FEDB8D } 
+ name:Golden Glow, rgb1:[ 255,226,146 ], rgb2:[ 253,226,149 ], hex:FDE295 } 
+ name:Golden Glow, rgb1:[ 255,226,151 ], rgb2:[ 253,226,149 ], hex:FDE295 } 
+ name:Cream Brulee, rgb1:[ 255,226,156 ], rgb2:[ 255,229,160 ], hex:FFE5A0 } 
+ name:Cream Brulee, rgb1:[ 255,226,161 ], rgb2:[ 255,229,160 ], hex:FFE5A0 } 
+ name:Cream Brulee, rgb1:[ 255,226,166 ], rgb2:[ 255,229,160 ], hex:FFE5A0 } 
+ name:Cape Honey, rgb1:[ 255,226,171 ], rgb2:[ 254,229,172 ], hex:FEE5AC } 
+ name:Navajo White, rgb1:[ 255,226,176 ], rgb2:[ 255,222,173 ], hex:FFDEAD } 
+ name:Peach, rgb1:[ 255,226,181 ], rgb2:[ 255,229,180 ], hex:FFE5B4 } 
+ name:Dairy Cream, rgb1:[ 255,226,186 ], rgb2:[ 249,228,188 ], hex:F9E4BC } 
+ name:Bisque, rgb1:[ 255,226,191 ], rgb2:[ 255,228,196 ], hex:FFE4C4 } 
+ name:Negroni, rgb1:[ 255,226,196 ], rgb2:[ 255,226,197 ], hex:FFE2C5 } 
+ name:Negroni, rgb1:[ 255,226,201 ], rgb2:[ 255,226,197 ], hex:FFE2C5 } 
+ name:Tuft Bush, rgb1:[ 255,226,206 ], rgb2:[ 255,221,205 ], hex:FFDDCD } 
+ name:Watusi, rgb1:[ 255,226,211 ], rgb2:[ 255,221,207 ], hex:FFDDCF } 
+ name:Cinderella, rgb1:[ 255,226,216 ], rgb2:[ 253,225,220 ], hex:FDE1DC } 
+ name:Pippin, rgb1:[ 255,226,221 ], rgb2:[ 255,225,223 ], hex:FFE1DF } 
+ name:Misty rose, rgb1:[ 255,226,226 ], rgb2:[ 255,228,225 ], hex:FFE4E1 } 
+ name:Piggy pink, rgb1:[ 255,226,231 ], rgb2:[ 253,221,230 ], hex:FDDDE6 } 
+ name:Pale Rose, rgb1:[ 255,226,236 ], rgb2:[ 255,225,242 ], hex:FFE1F2 } 
+ name:Pale Rose, rgb1:[ 255,226,241 ], rgb2:[ 255,225,242 ], hex:FFE1F2 } 
+ name:Pale Rose, rgb1:[ 255,226,246 ], rgb2:[ 255,225,242 ], hex:FFE1F2 } 
+ name:Pink Lace, rgb1:[ 255,226,251 ], rgb2:[ 255,221,244 ], hex:FFDDF4 } 
+ name:Turbo, rgb1:[ 255,231,1 ], rgb2:[ 250,230,0 ], hex:FAE600 } 
+ name:Turbo, rgb1:[ 255,231,6 ], rgb2:[ 250,230,0 ], hex:FAE600 } 
+ name:Lemon, rgb1:[ 255,231,11 ], rgb2:[ 253,233,16 ], hex:FDE910 } 
+ name:Lemon, rgb1:[ 255,231,16 ], rgb2:[ 253,233,16 ], hex:FDE910 } 
+ name:Broom, rgb1:[ 255,231,21 ], rgb2:[ 255,236,19 ], hex:FFEC13 } 
+ name:Broom, rgb1:[ 255,231,26 ], rgb2:[ 255,236,19 ], hex:FFEC13 } 
+ name:Broom, rgb1:[ 255,231,31 ], rgb2:[ 255,236,19 ], hex:FFEC13 } 
+ name:Broom, rgb1:[ 255,231,36 ], rgb2:[ 255,236,19 ], hex:FFEC13 } 
+ name:Banana yellow, rgb1:[ 255,231,41 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,231,46 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,231,51 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,231,56 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,231,61 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,231,66 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Gorse, rgb1:[ 255,231,71 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Gorse, rgb1:[ 255,231,76 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Gorse, rgb1:[ 255,231,81 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Candy Corn, rgb1:[ 255,231,86 ], rgb2:[ 251,236,93 ], hex:FBEC5D } 
+ name:Candy Corn, rgb1:[ 255,231,91 ], rgb2:[ 251,236,93 ], hex:FBEC5D } 
+ name:Portica, rgb1:[ 255,231,96 ], rgb2:[ 249,230,99 ], hex:F9E663 } 
+ name:Portica, rgb1:[ 255,231,101 ], rgb2:[ 249,230,99 ], hex:F9E663 } 
+ name:Festival, rgb1:[ 255,231,106 ], rgb2:[ 251,233,108 ], hex:FBE96C } 
+ name:Kournikova, rgb1:[ 255,231,111 ], rgb2:[ 255,231,114 ], hex:FFE772 } 
+ name:Kournikova, rgb1:[ 255,231,116 ], rgb2:[ 255,231,114 ], hex:FFE772 } 
+ name:Kournikova, rgb1:[ 255,231,121 ], rgb2:[ 255,231,114 ], hex:FFE772 } 
+ name:Jasmine, rgb1:[ 255,231,126 ], rgb2:[ 248,222,126 ], hex:F8DE7E } 
+ name:Sweet Corn, rgb1:[ 255,231,131 ], rgb2:[ 251,234,140 ], hex:FBEA8C } 
+ name:Sweet Corn, rgb1:[ 255,231,136 ], rgb2:[ 251,234,140 ], hex:FBEA8C } 
+ name:Sweet Corn, rgb1:[ 255,231,141 ], rgb2:[ 251,234,140 ], hex:FBEA8C } 
+ name:Golden Glow, rgb1:[ 255,231,146 ], rgb2:[ 253,226,149 ], hex:FDE295 } 
+ name:Golden Glow, rgb1:[ 255,231,151 ], rgb2:[ 253,226,149 ], hex:FDE295 } 
+ name:Cream Brulee, rgb1:[ 255,231,156 ], rgb2:[ 255,229,160 ], hex:FFE5A0 } 
+ name:Cream Brulee, rgb1:[ 255,231,161 ], rgb2:[ 255,229,160 ], hex:FFE5A0 } 
+ name:Cream Brulee, rgb1:[ 255,231,166 ], rgb2:[ 255,229,160 ], hex:FFE5A0 } 
+ name:Cape Honey, rgb1:[ 255,231,171 ], rgb2:[ 254,229,172 ], hex:FEE5AC } 
+ name:Banana Mania, rgb1:[ 255,231,176 ], rgb2:[ 251,231,178 ], hex:FBE7B2 } 
+ name:Peach, rgb1:[ 255,231,181 ], rgb2:[ 255,229,180 ], hex:FFE5B4 } 
+ name:Astra, rgb1:[ 255,231,186 ], rgb2:[ 250,234,185 ], hex:FAEAB9 } 
+ name:Bisque, rgb1:[ 255,231,191 ], rgb2:[ 255,228,196 ], hex:FFE4C4 } 
+ name:Bisque, rgb1:[ 255,231,196 ], rgb2:[ 255,228,196 ], hex:FFE4C4 } 
+ name:Tequila, rgb1:[ 255,231,201 ], rgb2:[ 255,230,199 ], hex:FFE6C7 } 
+ name:Blanched Almond, rgb1:[ 255,231,206 ], rgb2:[ 255,235,205 ], hex:FFEBCD } 
+ name:Karry, rgb1:[ 255,231,211 ], rgb2:[ 255,234,212 ], hex:FFEAD4 } 
+ name:Karry, rgb1:[ 255,231,216 ], rgb2:[ 255,234,212 ], hex:FFEAD4 } 
+ name:Misty rose, rgb1:[ 255,231,221 ], rgb2:[ 255,228,225 ], hex:FFE4E1 } 
+ name:Misty rose, rgb1:[ 255,231,226 ], rgb2:[ 255,228,225 ], hex:FFE4E1 } 
+ name:Misty rose, rgb1:[ 255,231,231 ], rgb2:[ 255,228,225 ], hex:FFE4E1 } 
+ name:Fair Pink, rgb1:[ 255,231,236 ], rgb2:[ 255,239,236 ], hex:FFEFEC } 
+ name:Remy, rgb1:[ 255,231,241 ], rgb2:[ 254,235,243 ], hex:FEEBF3 } 
+ name:Remy, rgb1:[ 255,231,246 ], rgb2:[ 254,235,243 ], hex:FEEBF3 } 
+ name:Remy, rgb1:[ 255,231,251 ], rgb2:[ 254,235,243 ], hex:FEEBF3 } 
+ name:Aureolin, rgb1:[ 255,236,1 ], rgb2:[ 253,238,0 ], hex:FDEE00 } 
+ name:Aureolin, rgb1:[ 255,236,6 ], rgb2:[ 253,238,0 ], hex:FDEE00 } 
+ name:Lemon, rgb1:[ 255,236,11 ], rgb2:[ 253,233,16 ], hex:FDE910 } 
+ name:Broom, rgb1:[ 255,236,16 ], rgb2:[ 255,236,19 ], hex:FFEC13 } 
+ name:Broom, rgb1:[ 255,236,21 ], rgb2:[ 255,236,19 ], hex:FFEC13 } 
+ name:Broom, rgb1:[ 255,236,26 ], rgb2:[ 255,236,19 ], hex:FFEC13 } 
+ name:Broom, rgb1:[ 255,236,31 ], rgb2:[ 255,236,19 ], hex:FFEC13 } 
+ name:Broom, rgb1:[ 255,236,36 ], rgb2:[ 255,236,19 ], hex:FFEC13 } 
+ name:Banana yellow, rgb1:[ 255,236,41 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,236,46 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,236,51 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,236,56 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Banana yellow, rgb1:[ 255,236,61 ], rgb2:[ 255,225,53 ], hex:FFE135 } 
+ name:Gorse, rgb1:[ 255,236,66 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Gorse, rgb1:[ 255,236,71 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Gorse, rgb1:[ 255,236,76 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Gorse, rgb1:[ 255,236,81 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Candy Corn, rgb1:[ 255,236,86 ], rgb2:[ 251,236,93 ], hex:FBEC5D } 
+ name:Candy Corn, rgb1:[ 255,236,91 ], rgb2:[ 251,236,93 ], hex:FBEC5D } 
+ name:Candy Corn, rgb1:[ 255,236,96 ], rgb2:[ 251,236,93 ], hex:FBEC5D } 
+ name:Festival, rgb1:[ 255,236,101 ], rgb2:[ 251,233,108 ], hex:FBE96C } 
+ name:Festival, rgb1:[ 255,236,106 ], rgb2:[ 251,233,108 ], hex:FBE96C } 
+ name:Marigold Yellow, rgb1:[ 255,236,111 ], rgb2:[ 251,232,112 ], hex:FBE870 } 
+ name:Kournikova, rgb1:[ 255,236,116 ], rgb2:[ 255,231,114 ], hex:FFE772 } 
+ name:Kournikova, rgb1:[ 255,236,121 ], rgb2:[ 255,231,114 ], hex:FFE772 } 
+ name:Kournikova, rgb1:[ 255,236,126 ], rgb2:[ 255,231,114 ], hex:FFE772 } 
+ name:Sweet Corn, rgb1:[ 255,236,131 ], rgb2:[ 251,234,140 ], hex:FBEA8C } 
+ name:Sweet Corn, rgb1:[ 255,236,136 ], rgb2:[ 251,234,140 ], hex:FBEA8C } 
+ name:Sweet Corn, rgb1:[ 255,236,141 ], rgb2:[ 251,234,140 ], hex:FBEA8C } 
+ name:Sweet Corn, rgb1:[ 255,236,146 ], rgb2:[ 251,234,140 ], hex:FBEA8C } 
+ name:Picasso, rgb1:[ 255,236,151 ], rgb2:[ 255,243,157 ], hex:FFF39D } 
+ name:Vis Vis, rgb1:[ 255,236,156 ], rgb2:[ 255,239,161 ], hex:FFEFA1 } 
+ name:Vis Vis, rgb1:[ 255,236,161 ], rgb2:[ 255,239,161 ], hex:FFEFA1 } 
+ name:Vis Vis, rgb1:[ 255,236,166 ], rgb2:[ 255,239,161 ], hex:FFEFA1 } 
+ name:Cape Honey, rgb1:[ 255,236,171 ], rgb2:[ 254,229,172 ], hex:FEE5AC } 
+ name:Banana Mania, rgb1:[ 255,236,176 ], rgb2:[ 251,231,178 ], hex:FBE7B2 } 
+ name:Buttermilk, rgb1:[ 255,236,181 ], rgb2:[ 255,241,181 ], hex:FFF1B5 } 
+ name:Colonial White, rgb1:[ 255,236,186 ], rgb2:[ 255,237,188 ], hex:FFEDBC } 
+ name:Colonial White, rgb1:[ 255,236,191 ], rgb2:[ 255,237,188 ], hex:FFEDBC } 
+ name:Egg White, rgb1:[ 255,236,196 ], rgb2:[ 255,239,193 ], hex:FFEFC1 } 
+ name:Sandy Beach, rgb1:[ 255,236,201 ], rgb2:[ 255,234,200 ], hex:FFEAC8 } 
+ name:Blanched Almond, rgb1:[ 255,236,206 ], rgb2:[ 255,235,205 ], hex:FFEBCD } 
+ name:Karry, rgb1:[ 255,236,211 ], rgb2:[ 255,234,212 ], hex:FFEAD4 } 
+ name:Derby, rgb1:[ 255,236,216 ], rgb2:[ 255,238,216 ], hex:FFEED8 } 
+ name:Peach Cream, rgb1:[ 255,236,221 ], rgb2:[ 255,240,219 ], hex:FFF0DB } 
+ name:Linen, rgb1:[ 255,236,226 ], rgb2:[ 250,240,230 ], hex:FAF0E6 } 
+ name:Fair Pink, rgb1:[ 255,236,231 ], rgb2:[ 255,239,236 ], hex:FFEFEC } 
+ name:Fair Pink, rgb1:[ 255,236,236 ], rgb2:[ 255,239,236 ], hex:FFEFEC } 
+ name:Remy, rgb1:[ 255,236,241 ], rgb2:[ 254,235,243 ], hex:FEEBF3 } 
+ name:Remy, rgb1:[ 255,236,246 ], rgb2:[ 254,235,243 ], hex:FEEBF3 } 
+ name:Tutu, rgb1:[ 255,236,251 ], rgb2:[ 255,241,249 ], hex:FFF1F9 } 
+ name:Canary yellow, rgb1:[ 255,241,1 ], rgb2:[ 255,239,0 ], hex:FFEF00 } 
+ name:Canary yellow, rgb1:[ 255,241,6 ], rgb2:[ 255,239,0 ], hex:FFEF00 } 
+ name:Broom, rgb1:[ 255,241,11 ], rgb2:[ 255,236,19 ], hex:FFEC13 } 
+ name:Broom, rgb1:[ 255,241,16 ], rgb2:[ 255,236,19 ], hex:FFEC13 } 
+ name:Broom, rgb1:[ 255,241,21 ], rgb2:[ 255,236,19 ], hex:FFEC13 } 
+ name:Broom, rgb1:[ 255,241,26 ], rgb2:[ 255,236,19 ], hex:FFEC13 } 
+ name:Broom, rgb1:[ 255,241,31 ], rgb2:[ 255,236,19 ], hex:FFEC13 } 
+ name:Laser Lemon, rgb1:[ 255,241,36 ], rgb2:[ 254,254,34 ], hex:FEFE22 } 
+ name:Laser Lemon, rgb1:[ 255,241,41 ], rgb2:[ 254,254,34 ], hex:FEFE22 } 
+ name:Yellow (RYB), rgb1:[ 255,241,46 ], rgb2:[ 254,254,51 ], hex:FEFE33 } 
+ name:Yellow (RYB), rgb1:[ 255,241,51 ], rgb2:[ 254,254,51 ], hex:FEFE33 } 
+ name:Yellow (RYB), rgb1:[ 255,241,56 ], rgb2:[ 254,254,51 ], hex:FEFE33 } 
+ name:Golden Fizz, rgb1:[ 255,241,61 ], rgb2:[ 245,251,61 ], hex:F5FB3D } 
+ name:Gorse, rgb1:[ 255,241,66 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Gorse, rgb1:[ 255,241,71 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Gorse, rgb1:[ 255,241,76 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Gorse, rgb1:[ 255,241,81 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Gorse, rgb1:[ 255,241,86 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Candy Corn, rgb1:[ 255,241,91 ], rgb2:[ 251,236,93 ], hex:FBEC5D } 
+ name:Icterine, rgb1:[ 255,241,96 ], rgb2:[ 252,247,94 ], hex:FCF75E } 
+ name:Paris Daisy, rgb1:[ 255,241,101 ], rgb2:[ 255,244,110 ], hex:FFF46E } 
+ name:Paris Daisy, rgb1:[ 255,241,106 ], rgb2:[ 255,244,110 ], hex:FFF46E } 
+ name:Paris Daisy, rgb1:[ 255,241,111 ], rgb2:[ 255,244,110 ], hex:FFF46E } 
+ name:Paris Daisy, rgb1:[ 255,241,116 ], rgb2:[ 255,244,110 ], hex:FFF46E } 
+ name:Paris Daisy, rgb1:[ 255,241,121 ], rgb2:[ 255,244,110 ], hex:FFF46E } 
+ name:Kournikova, rgb1:[ 255,241,126 ], rgb2:[ 255,231,114 ], hex:FFE772 } 
+ name:Sweet Corn, rgb1:[ 255,241,131 ], rgb2:[ 251,234,140 ], hex:FBEA8C } 
+ name:Sweet Corn, rgb1:[ 255,241,136 ], rgb2:[ 251,234,140 ], hex:FBEA8C } 
+ name:Sweet Corn, rgb1:[ 255,241,141 ], rgb2:[ 251,234,140 ], hex:FBEA8C } 
+ name:Sweet Corn, rgb1:[ 255,241,146 ], rgb2:[ 251,234,140 ], hex:FBEA8C } 
+ name:Picasso, rgb1:[ 255,241,151 ], rgb2:[ 255,243,157 ], hex:FFF39D } 
+ name:Picasso, rgb1:[ 255,241,156 ], rgb2:[ 255,243,157 ], hex:FFF39D } 
+ name:Vis Vis, rgb1:[ 255,241,161 ], rgb2:[ 255,239,161 ], hex:FFEFA1 } 
+ name:Vis Vis, rgb1:[ 255,241,166 ], rgb2:[ 255,239,161 ], hex:FFEFA1 } 
+ name:Drover, rgb1:[ 255,241,171 ], rgb2:[ 253,247,173 ], hex:FDF7AD } 
+ name:Buttermilk, rgb1:[ 255,241,176 ], rgb2:[ 255,241,181 ], hex:FFF1B5 } 
+ name:Buttermilk, rgb1:[ 255,241,181 ], rgb2:[ 255,241,181 ], hex:FFF1B5 } 
+ name:Colonial White, rgb1:[ 255,241,186 ], rgb2:[ 255,237,188 ], hex:FFEDBC } 
+ name:Egg White, rgb1:[ 255,241,191 ], rgb2:[ 255,239,193 ], hex:FFEFC1 } 
+ name:Beeswax, rgb1:[ 255,241,196 ], rgb2:[ 254,242,199 ], hex:FEF2C7 } 
+ name:Beeswax, rgb1:[ 255,241,201 ], rgb2:[ 254,242,199 ], hex:FEF2C7 } 
+ name:Oasis, rgb1:[ 255,241,206 ], rgb2:[ 254,239,206 ], hex:FEEFCE } 
+ name:Papaya Whip, rgb1:[ 255,241,211 ], rgb2:[ 255,239,213 ], hex:FFEFD5 } 
+ name:Pink Lady, rgb1:[ 255,241,216 ], rgb2:[ 255,241,216 ], hex:FFF1D8 } 
+ name:Peach Cream, rgb1:[ 255,241,221 ], rgb2:[ 255,240,219 ], hex:FFF0DB } 
+ name:Sazerac, rgb1:[ 255,241,226 ], rgb2:[ 255,244,224 ], hex:FFF4E0 } 
+ name:Serenade, rgb1:[ 255,241,231 ], rgb2:[ 255,244,232 ], hex:FFF4E8 } 
+ name:Bridesmaid, rgb1:[ 255,241,236 ], rgb2:[ 254,240,236 ], hex:FEF0EC } 
+ name:Chardon, rgb1:[ 255,241,241 ], rgb2:[ 255,243,241 ], hex:FFF3F1 } 
+ name:Lavender blush, rgb1:[ 255,241,246 ], rgb2:[ 255,240,245 ], hex:FFF0F5 } 
+ name:Tutu, rgb1:[ 255,241,251 ], rgb2:[ 255,241,249 ], hex:FFF1F9 } 
+ name:Cadmium yellow, rgb1:[ 255,246,1 ], rgb2:[ 255,246,0 ], hex:FFF600 } 
+ name:Cadmium yellow, rgb1:[ 255,246,6 ], rgb2:[ 255,246,0 ], hex:FFF600 } 
+ name:Cadmium yellow, rgb1:[ 255,246,11 ], rgb2:[ 255,246,0 ], hex:FFF600 } 
+ name:Broom, rgb1:[ 255,246,16 ], rgb2:[ 255,236,19 ], hex:FFEC13 } 
+ name:Broom, rgb1:[ 255,246,21 ], rgb2:[ 255,236,19 ], hex:FFEC13 } 
+ name:Laser Lemon, rgb1:[ 255,246,26 ], rgb2:[ 254,254,34 ], hex:FEFE22 } 
+ name:Laser Lemon, rgb1:[ 255,246,31 ], rgb2:[ 254,254,34 ], hex:FEFE22 } 
+ name:Laser Lemon, rgb1:[ 255,246,36 ], rgb2:[ 254,254,34 ], hex:FEFE22 } 
+ name:Laser Lemon, rgb1:[ 255,246,41 ], rgb2:[ 254,254,34 ], hex:FEFE22 } 
+ name:Daffodil, rgb1:[ 255,246,46 ], rgb2:[ 255,255,49 ], hex:FFFF31 } 
+ name:Yellow (RYB), rgb1:[ 255,246,51 ], rgb2:[ 254,254,51 ], hex:FEFE33 } 
+ name:Yellow (RYB), rgb1:[ 255,246,56 ], rgb2:[ 254,254,51 ], hex:FEFE33 } 
+ name:Golden Fizz, rgb1:[ 255,246,61 ], rgb2:[ 245,251,61 ], hex:F5FB3D } 
+ name:Golden Fizz, rgb1:[ 255,246,66 ], rgb2:[ 245,251,61 ], hex:F5FB3D } 
+ name:Gorse, rgb1:[ 255,246,71 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Gorse, rgb1:[ 255,246,76 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Gorse, rgb1:[ 255,246,81 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Gorse, rgb1:[ 255,246,86 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Icterine, rgb1:[ 255,246,91 ], rgb2:[ 252,247,94 ], hex:FCF75E } 
+ name:Icterine, rgb1:[ 255,246,96 ], rgb2:[ 252,247,94 ], hex:FCF75E } 
+ name:Icterine, rgb1:[ 255,246,101 ], rgb2:[ 252,247,94 ], hex:FCF75E } 
+ name:Paris Daisy, rgb1:[ 255,246,106 ], rgb2:[ 255,244,110 ], hex:FFF46E } 
+ name:Paris Daisy, rgb1:[ 255,246,111 ], rgb2:[ 255,244,110 ], hex:FFF46E } 
+ name:Paris Daisy, rgb1:[ 255,246,116 ], rgb2:[ 255,244,110 ], hex:FFF46E } 
+ name:Paris Daisy, rgb1:[ 255,246,121 ], rgb2:[ 255,244,110 ], hex:FFF46E } 
+ name:Paris Daisy, rgb1:[ 255,246,126 ], rgb2:[ 255,244,110 ], hex:FFF46E } 
+ name:Dolly, rgb1:[ 255,246,131 ], rgb2:[ 249,255,139 ], hex:F9FF8B } 
+ name:Dolly, rgb1:[ 255,246,136 ], rgb2:[ 249,255,139 ], hex:F9FF8B } 
+ name:Dolly, rgb1:[ 255,246,141 ], rgb2:[ 249,255,139 ], hex:F9FF8B } 
+ name:Pastel yellow, rgb1:[ 255,246,146 ], rgb2:[ 253,253,150 ], hex:FDFD96 } 
+ name:Witch Haze, rgb1:[ 255,246,151 ], rgb2:[ 255,252,153 ], hex:FFFC99 } 
+ name:Picasso, rgb1:[ 255,246,156 ], rgb2:[ 255,243,157 ], hex:FFF39D } 
+ name:Picasso, rgb1:[ 255,246,161 ], rgb2:[ 255,243,157 ], hex:FFF39D } 
+ name:Drover, rgb1:[ 255,246,166 ], rgb2:[ 253,247,173 ], hex:FDF7AD } 
+ name:Drover, rgb1:[ 255,246,171 ], rgb2:[ 253,247,173 ], hex:FDF7AD } 
+ name:Drover, rgb1:[ 255,246,176 ], rgb2:[ 253,247,173 ], hex:FDF7AD } 
+ name:Buttermilk, rgb1:[ 255,246,181 ], rgb2:[ 255,241,181 ], hex:FFF1B5 } 
+ name:Buttermilk, rgb1:[ 255,246,186 ], rgb2:[ 255,241,181 ], hex:FFF1B5 } 
+ name:Egg White, rgb1:[ 255,246,191 ], rgb2:[ 255,239,193 ], hex:FFEFC1 } 
+ name:Beeswax, rgb1:[ 255,246,196 ], rgb2:[ 254,242,199 ], hex:FEF2C7 } 
+ name:Pipi, rgb1:[ 255,246,201 ], rgb2:[ 254,244,204 ], hex:FEF4CC } 
+ name:Barley White, rgb1:[ 255,246,206 ], rgb2:[ 255,244,206 ], hex:FFF4CE } 
+ name:Milk Punch, rgb1:[ 255,246,211 ], rgb2:[ 255,246,212 ], hex:FFF6D4 } 
+ name:Bleach White, rgb1:[ 255,246,216 ], rgb2:[ 254,243,216 ], hex:FEF3D8 } 
+ name:Half Dutch White, rgb1:[ 255,246,221 ], rgb2:[ 254,247,222 ], hex:FEF7DE } 
+ name:Solitaire, rgb1:[ 255,246,226 ], rgb2:[ 254,248,226 ], hex:FEF8E2 } 
+ name:Cosmic latte, rgb1:[ 255,246,231 ], rgb2:[ 255,248,231 ], hex:FFF8E7 } 
+ name:Seashell Peach, rgb1:[ 255,246,236 ], rgb2:[ 255,245,238 ], hex:FFF5EE } 
+ name:Provincial Pink, rgb1:[ 255,246,241 ], rgb2:[ 254,245,241 ], hex:FEF5F1 } 
+ name:Rose White, rgb1:[ 255,246,246 ], rgb2:[ 255,246,245 ], hex:FFF6F5 } 
+ name:Wisp Pink, rgb1:[ 255,246,251 ], rgb2:[ 254,244,248 ], hex:FEF4F8 } 
+ name:Yellow, rgb1:[ 255,251,1 ], rgb2:[ 255,255,0 ], hex:FFFF00 } 
+ name:Yellow, rgb1:[ 255,251,6 ], rgb2:[ 255,255,0 ], hex:FFFF00 } 
+ name:Yellow, rgb1:[ 255,251,11 ], rgb2:[ 255,255,0 ], hex:FFFF00 } 
+ name:Broom, rgb1:[ 255,251,16 ], rgb2:[ 255,236,19 ], hex:FFEC13 } 
+ name:Laser Lemon, rgb1:[ 255,251,21 ], rgb2:[ 254,254,34 ], hex:FEFE22 } 
+ name:Laser Lemon, rgb1:[ 255,251,26 ], rgb2:[ 254,254,34 ], hex:FEFE22 } 
+ name:Laser Lemon, rgb1:[ 255,251,31 ], rgb2:[ 254,254,34 ], hex:FEFE22 } 
+ name:Laser Lemon, rgb1:[ 255,251,36 ], rgb2:[ 254,254,34 ], hex:FEFE22 } 
+ name:Laser Lemon, rgb1:[ 255,251,41 ], rgb2:[ 254,254,34 ], hex:FEFE22 } 
+ name:Daffodil, rgb1:[ 255,251,46 ], rgb2:[ 255,255,49 ], hex:FFFF31 } 
+ name:Yellow (RYB), rgb1:[ 255,251,51 ], rgb2:[ 254,254,51 ], hex:FEFE33 } 
+ name:Yellow (RYB), rgb1:[ 255,251,56 ], rgb2:[ 254,254,51 ], hex:FEFE33 } 
+ name:Golden Fizz, rgb1:[ 255,251,61 ], rgb2:[ 245,251,61 ], hex:F5FB3D } 
+ name:Golden Fizz, rgb1:[ 255,251,66 ], rgb2:[ 245,251,61 ], hex:F5FB3D } 
+ name:Gorse, rgb1:[ 255,251,71 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Gorse, rgb1:[ 255,251,76 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Gorse, rgb1:[ 255,251,81 ], rgb2:[ 255,241,79 ], hex:FFF14F } 
+ name:Icterine, rgb1:[ 255,251,86 ], rgb2:[ 252,247,94 ], hex:FCF75E } 
+ name:Icterine, rgb1:[ 255,251,91 ], rgb2:[ 252,247,94 ], hex:FCF75E } 
+ name:Icterine, rgb1:[ 255,251,96 ], rgb2:[ 252,247,94 ], hex:FCF75E } 
+ name:Laser Lemon, rgb1:[ 255,251,101 ], rgb2:[ 255,255,102 ], hex:FFFF66 } 
+ name:Laser Lemon, rgb1:[ 255,251,106 ], rgb2:[ 255,255,102 ], hex:FFFF66 } 
+ name:Paris Daisy, rgb1:[ 255,251,111 ], rgb2:[ 255,244,110 ], hex:FFF46E } 
+ name:Paris Daisy, rgb1:[ 255,251,116 ], rgb2:[ 255,244,110 ], hex:FFF46E } 
+ name:Paris Daisy, rgb1:[ 255,251,121 ], rgb2:[ 255,244,110 ], hex:FFF46E } 
+ name:Dolly, rgb1:[ 255,251,126 ], rgb2:[ 249,255,139 ], hex:F9FF8B } 
+ name:Dolly, rgb1:[ 255,251,131 ], rgb2:[ 249,255,139 ], hex:F9FF8B } 
+ name:Dolly, rgb1:[ 255,251,136 ], rgb2:[ 249,255,139 ], hex:F9FF8B } 
+ name:Dolly, rgb1:[ 255,251,141 ], rgb2:[ 249,255,139 ], hex:F9FF8B } 
+ name:Pastel yellow, rgb1:[ 255,251,146 ], rgb2:[ 253,253,150 ], hex:FDFD96 } 
+ name:Witch Haze, rgb1:[ 255,251,151 ], rgb2:[ 255,252,153 ], hex:FFFC99 } 
+ name:Witch Haze, rgb1:[ 255,251,156 ], rgb2:[ 255,252,153 ], hex:FFFC99 } 
+ name:Milan, rgb1:[ 255,251,161 ], rgb2:[ 250,255,164 ], hex:FAFFA4 } 
+ name:Milan, rgb1:[ 255,251,166 ], rgb2:[ 250,255,164 ], hex:FAFFA4 } 
+ name:Drover, rgb1:[ 255,251,171 ], rgb2:[ 253,247,173 ], hex:FDF7AD } 
+ name:Drover, rgb1:[ 255,251,176 ], rgb2:[ 253,247,173 ], hex:FDF7AD } 
+ name:Portafino, rgb1:[ 255,251,181 ], rgb2:[ 255,255,180 ], hex:FFFFB4 } 
+ name:Pale Prim, rgb1:[ 255,251,186 ], rgb2:[ 253,254,184 ], hex:FDFEB8 } 
+ name:Shalimar, rgb1:[ 255,251,191 ], rgb2:[ 251,255,186 ], hex:FBFFBA } 
+ name:Lemon Chiffon, rgb1:[ 255,251,196 ], rgb2:[ 255,250,205 ], hex:FFFACD } 
+ name:Lemon Chiffon, rgb1:[ 255,251,201 ], rgb2:[ 255,250,205 ], hex:FFFACD } 
+ name:Lemon Chiffon, rgb1:[ 255,251,206 ], rgb2:[ 255,250,205 ], hex:FFFACD } 
+ name:Baja White, rgb1:[ 255,251,211 ], rgb2:[ 255,248,209 ], hex:FFF8D1 } 
+ name:Scotch Mist, rgb1:[ 255,251,216 ], rgb2:[ 255,251,220 ], hex:FFFBDC } 
+ name:Scotch Mist, rgb1:[ 255,251,221 ], rgb2:[ 255,251,220 ], hex:FFFBDC } 
+ name:Gin Fizz, rgb1:[ 255,251,226 ], rgb2:[ 255,249,226 ], hex:FFF9E2 } 
+ name:Early Dawn, rgb1:[ 255,251,231 ], rgb2:[ 255,249,230 ], hex:FFF9E6 } 
+ name:Orange White, rgb1:[ 255,251,236 ], rgb2:[ 254,252,237 ], hex:FEFCED } 
+ name:Floral white, rgb1:[ 255,251,241 ], rgb2:[ 255,250,240 ], hex:FFFAF0 } 
+ name:Bridal Heath, rgb1:[ 255,251,246 ], rgb2:[ 255,250,244 ], hex:FFFAF4 } 
+ name:Snow, rgb1:[ 255,251,251 ], rgb2:[ 255,250,250 ], hex:FFFAFA } 

@@ -1,0 +1,19 @@
+
+body { margin:0; padding:0; }
+
+.slider-slide, .slider-scale, .slider-track, .slider-formq, .slider-input {
+  padding:0; margin:0; overflow:hidden; }
+
+.slider-slide { position:relative; left:0;   top:0;  width:100%;  height:20px;
+  border:1px inset #000; background:#FFFFFF; z-index:1; border-radius:5px;display:inline-block; }
+
+.slider-scale { position:absolute; left:5%;  top:25%; width:75%;  height:10px;
+  border:1px inset #999; overflow:visible; background:#DDDDDD; z-index:2; } /* border-radius:4px; */
+ 
+.slider-track { position:relative; left:-8px;  top:-3px; width:16px; height:16px;
+  background:#AAAAAA;  z-index:3; border-radius:50%; }
+
+.slider-formq { position:absolute; right:3%; top:12%; width:8%;  height:80%;  z-index:2 }
+
+.slider-input { position:relative; left:0; top:0; width:85%;  height:100%;
+   background:#CCCCCC; z-index:3; font-size:70%; text-align:right; padding-right:2%; }

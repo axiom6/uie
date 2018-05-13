@@ -1,0 +1,15 @@
+{
+  "Feature":{},
+  "Status":{
+    "id": {
+      "member":"",
+      "Date":"yyyymmdd",
+      "Accomplishments":{},
+      "Concerns":{},
+      "Plans":{},
+      "Issues":{}
+    }
+  },
+  "Component":{},
+  "Acceptance":{}
+}

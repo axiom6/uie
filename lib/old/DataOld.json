@@ -1,0 +1,368 @@
+{
+  "Practices":{
+    "Acquire":  {"hsv":[195,90,70],"column":"Embrace",  "row":"Learn","plane":"DataScience","icon":"fa-cloud-download","css":"ikw-pane","cells":[ 1,12, 1,12],"svg":"","Crisp" :"Data_Understanding","Crisp_":"Data_Preparation"},
+    "Model":    {"hsv":[ 45,90,90],"column":"Innovate", "row":"Learn","plane":"DataScience","icon":"fa-modx",          "css":"ikw-pane","cells":[13,12, 1,12],"svg":"","Crisp":"Business_Understanding"},
+    "Distill":  {"hsv":[  0,20,90],"column":"Encourage","row":"Learn","plane":"DataScience","icon":"fa-filter",        "css":"ikw-pane","cells":[25,12, 1,12],"svg":"","Crisp":"Evaluation"},
+    "Conduct":  {"hsv":[195,90,70],"column":"Embrace",  "row":"Do",   "plane":"DataScience","icon":"fa-gamepad",       "css":"ikw-pane","cells":[ 1,12,13,12],"svg":""},
+    "Spark":    {"hsv":[ 45,90,90],"column":"Innovate", "row":"Do",   "plane":"DataScience","icon":"fa-star-o",        "css":"ikw-pane","cells":[13,12,13,12],"svg":"","Crisp":"Deployment"},
+    "Interpret":{"hsv":[  0,20,90],"column":"Encourage","row":"Do",   "plane":"DataScience","icon":"fa-bar-chart-o",   "css":"ikw-pane","cells":[25,12,13,12],"svg":""},
+    "Prove":    {"hsv":[195,90,70],"column":"Embrace",  "row":"Share","plane":"DataScience","icon":"fa-thumbs-up",     "css":"ikw-pane","cells":[ 1,12,25,12],"svg":""},
+    "Explain":  {"hsv":[ 45,90,90],"column":"Innovate", "row":"Share","plane":"DataScience","icon":"fa-slideshare",    "css":"ikw-pane","cells":[13,12,25,12],"svg":""},
+    "Decision": {"hsv":[  0,20,90],"column":"Encourage","row":"Share","plane":"DataScience","icon":"fa-code-fork",     "css":"ikw-pane","cells":[25,12,25,12],"svg":""}
+  },
+  "Studies":{
+    "Collect":     {"practice":"Acquire",  "dir":"west", "css":"ikw-pane","quels":[ 1, 4, 5, 9],"hsv":[ 93,57,80],"icon":"fa-arrow-circle-right"},
+    "Refine":      {"practice":"Acquire",  "dir":"north","css":"ikw-pane","quels":[ 1, 4, 5, 9],"hsv":[ 90,90,90],"icon":"fa-retweet"},
+    "Schema":      {"practice":"Acquire",  "dir":"east", "css":"ikw-pane","quels":[ 1, 4, 5, 9],"hsv":[ 30,90,90],"icon":"fa-sitemap"},
+    "Prepare":     {"practice":"Acquire",  "dir":"south","css":"ikw-pane","quels":[ 1, 4, 5, 9],"hsv":[ 60,90,90],"icon":"fa-check-square"},
+
+    "Learning":    {"study":"Machine",    "dir":"west", "css":"ikw-pane","quels":[ 1, 4, 5, 9],"hsv":[195,90,90],"icon":"fa-question-circle"},
+    "Business":    {"study":"Machine",    "dir":"north","css":"ikw-pane","quels":[ 1, 4, 5, 9],"hsv":[ 90,90,90],"icon":"fa-building-o"},
+    "Machine":     {"study":"Machine",    "dir":"south","css":"ikw-pane","quels":[ 1, 4, 5, 9],"hsv":[ 60,90,90],"icon":"fa-object-group"},
+    "Results":     {"study":"Machine",    "dir":"east", "css":"ikw-pane","quels":[29,32, 9,12],"hsv":[ 30,90,90],"icon":"fa-table"},
+
+    "Determine":   {"practice":"Distill",  "dir":"west", "css":"ikw-pane","quels":[ 1, 4, 5, 9],"hsv":[ 93,57,80],"icon":"fa-ioxhost"},
+    "Math":        {"practice":"Distill",  "dir":"north","css":"ikw-pane","quels":[ 1, 4, 5, 9],"hsv":[ 90,90,90],"icon":"fa-calculator"},
+    "Metadata":    {"practice":"Distill",  "dir":"east", "css":"ikw-pane","quels":[ 1, 4, 5, 9],"hsv":[ 30,90,90],"icon":"fa-wordpress"},
+    "Statistics":  {"practice":"Distill",  "dir":"south","css":"ikw-pane","quels":[29,32, 9,12],"hsv":[ 60,90,90],"icon":"fa-bell"},
+
+    "Visual":      {"practice":"Conduct",  "dir":"west", "css":"ikw-pane","quels":[ 1, 4,17,20],"hsv":[195,90,90],"icon":"fa-html5"},
+    "Explore":     {"practice":"Conduct",  "dir":"north","css":"ikw-pane","quels":[ 5, 8,13,16],"hsv":[ 90,90,90],"icon":"fa-search"},
+    "Languages":   {"practice":"Conduct",  "dir":"south","css":"ikw-pane","quels":[ 5, 8,21,24],"hsv":[ 60,90,90],"icon":"fa-codepen"},
+    "Notebook":    {"practice":"Conduct",  "dir":"east", "css":"ikw-pane","quels":[ 9,12,17,20],"hsv":[ 30,90,90],"icon":"fa-leanpub"},
+
+    "Kafka":       {"practice":"Spark",    "dir":"west", "css":"ikw-pane","quels":[13,16,17,20],"hsv":[ 93,57,80],"icon":"fa-circle"},
+    "Streams":     {"practice":"Spark",    "dir":"north","css":"ikw-pane","quels":[17,20,13,16],"hsv":[ 90,90,90],"icon":"fa-sliders"},
+    "Store":       {"practice":"Spark",    "dir":"east", "css":"ikw-pane","quels":[21,24,17,20],"hsv":[ 30,90,90],"icon":"fa-database"},
+    "Akka":        {"practice":"Spark",    "dir":"south","css":"ikw-pane","quels":[17,20,21,24],"hsv":[ 60,90,90],"icon":"fa-area-chart"},
+
+    "Pattern":     {"practice":"Interpret","dir":"west", "css":"ikw-pane","quels":[25,28,17,20],"hsv":[ 93,57,80],"icon":"fa-signal"},
+    "Describe":    {"practice":"Interpret","dir":"north","css":"ikw-pane","quels":[29,32,13,16],"hsv":[ 90,90,90],"icon":"fa-table"},
+    "Diagnose":    {"practice":"Interpret","dir":"south","css":"ikw-pane","quels":[33,36,17,20],"hsv":[ 90,90,90],"icon":"fa-user-md"},
+    "Predict":     {"practice":"Interpret","dir":"east", "css":"ikw-pane","quels":[29,32,21,24],"hsv":[ 30,90,90],"icon":"fa-line-chart"},
+
+    "Validate":    {"practice":"Prove",    "dir":"west", "css":"ikw-pane","quels":[ 1, 4,29,32],"hsv":[ 93,57,80],"icon":"fa-certificate"},
+    "Trial":       {"practice":"Prove",    "dir":"north","css":"ikw-pane","quels":[ 5, 8,25,28],"hsv":[ 90,90,90],"icon":"fa-stethoscope"},
+    "Reproduce":   {"practice":"Prove",    "dir":"east", "css":"ikw-pane","quels":[ 9,12,29,32],"hsv":[ 30,90,90],"icon":"fa-clone"},
+    "Pitfalls":    {"practice":"Prove",    "dir":"south","css":"ikw-pane","quels":[ 5, 8,33,36],"hsv":[ 60,90,90],"icon":"fa-thumbs-down"},
+
+    "Teach_":      {"practice":"Explain",  "dir":"west", "css":"ikw-pane","quels":[13,16,29,32],"hsv":[195,90,90],"icon":"fa-university"},
+    "Enable":      {"practice":"Explain",  "dir":"north","css":"ikw-pane","quels":[17,20,25,28],"hsv":[ 90,90,90],"icon":"fa-hand-peace-o"},
+    "Warehouse1":  {"practice":"Explain",  "dir":"east", "css":"ikw-pane","quels":[21,24,29,32],"hsv":[ 30,90,90],"icon":"fa-cubes","name":"Warehouse" },
+    "Protect":     {"practice":"Explain",  "dir":"south","css":"ikw-pane","quels":[17,20,33,36],"hsv":[  0,90,90],"icon":"fa-lock"},
+
+    "Query":       {"practice":"Decision", "dir":"west", "css":"ikw-pane","quels":[25,28,29,32],"hsv":[ 93,57,80],"icon":"fa-question-circle"},
+    "Prescriptive":{"practice":"Decision", "dir":"north","css":"ikw-pane","quels":[29,32,25,28],"hsv":[ 90,90,90],"icon":"fa-thumbs-up"},
+    "Legal":       {"practice":"Decision", "dir":"south","css":"ikw-pane","quels":[33,36,29,32],"hsv":[ 60,90,90],"icon":"fa-balance-scale"},
+    "Publish":     {"practice":"Decision", "dir":"east", "css":"ikw-pane","quels":[29,32,33,36],"hsv":[ 30,90,90],"icon":"fa-newspaper-o"}
+  },
+  "Topics":{
+    "PlanAcquire":  {"study":"Collect","icon":"fa-circle","css":"ikw-topic","fill":"PWY"},
+    "OriginalData": {"study":"Collect","icon":"fa-circle","css":"ikw-topic","fill":"PWY"},
+    "GeneratedData":{"study":"Collect","icon":"fa-circle","css":"ikw-topic","fill":"PWY"},
+    "TransformData":{"study":"Collect","icon":"fa-circle","css":"ikw-topic","fill":"PWY"},
+    "UseTheData":   {"study":"Collect","icon":"fa-circle","css":"ikw-topic","fill":"PWY"},
+
+    "Improve":        {"study":"Refine","icon":"fa-retweet","css":"ikw-topic","fill":"PWY"},
+    "Quality":        {"study":"Refine","icon":"fa-retweet","css":"ikw-topic","fill":"PWY"},
+    "Track":          {"study":"Refine","icon":"fa-retweet","css":"ikw-topic","fill":"PWY"},
+
+    "Dictionary":    {"study":"Schema","icon":"fa-list","css":"ikw-topic","fill":"PWY"},
+    "Catalog":       {"study":"Schema","icon":"fa-book","css":"ikw-topic","fill":"PWY"},
+    "EntityRelation":{"study":"Schema","icon":"fa-sitemap","css":"ikw-topic","fill":"LDT"},
+    "Experiment":    {"study":"Schema","icon":"fa-circle","css":"ikw-topic","fill":"LDT"},
+    "SourceMeta":    {"study":"Schema","icon":"fa-circle","css":"ikw-topic","fill":"LDT"},
+    "DescribeData":  {"study":"Schema","icon":"fa-circle","css":"ikw-topic","fill":"LDT","ref":"Crisp"},
+
+    "DataSet":         {"study":"Prepare","icon":"fa-circle","css":"ikw-topic","fill":"PWY","ref":"Crisp"},
+    "SelectData":      {"study":"Prepare","icon":"fa-circle","css":"ikw-topic","fill":"PWY","ref":"Crisp"},
+    "FormatData":      {"study":"Prepare","icon":"fa-circle","css":"ikw-topic","fill":"PWY","ref":"Crisp"},
+    "IntegrateData":   {"study":"Prepare","icon":"fa-circle","css":"ikw-topic","fill":"PWY","ref":"RDA"  },
+    "RegionInterest":  {"study":"Prepare","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+
+    "Modeling":        {"study":"Learning","icon":"fa-circle","css":"ikw-topic","fill":"PWY"},
+    "Unsupervised":    {"study":"Learning","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+    "Supervised":      {"study":"Learning","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+
+    "Objective": {"study":"Business","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+    "Assessment":{"study":"Business","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+    "Goals":     {"study":"Business","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+
+    "Regress":     {"study":"Machine","icon":"fa-line-chart", "css":"ikw-topic","hsv":[ 90,90,90]},
+    "Classify":    {"study":"Machine","icon":"fa-sitemap",    "css":"ikw-topic","hsv":[ 30,90,90]},
+    "Cluster":     {"study":"Machine","icon":"fa-object-group","css":"ikw-topic","hsv":[ 60,90,90]},
+    "Dimension":   {"study":"Machine","icon":"fa-cube",        "css":"ikw-topic","hsv":[ 15,90,90]},
+
+    "Pivot":       {"study":"Results","icon":"fa-cubes","css":"ikw-topic","hsv":[ 15,90,90]},
+    "OLAP":        {"study":"Results","icon":"fa-cubes","css":"ikw-topic","hsv":[ 15,90,90]},
+
+    "Dependency":    {"study":"Determine","icon":"fa-line-chart",  "css":"ikw-topic","fill":"PWY"},
+    "Correlation":   {"study":"Determine","icon":"fa-line-chart",  "css":"ikw-topic","fill":"PWY"},
+    "Causality":     {"study":"Determine","icon":"fa-hand-o-right","css":"ikw-topic","fill":"PWY"},
+    "Constraint":    {"study":"Determine","icon":"fa-square-o",    "css":"ikw-topic","fill":"PWY"},
+    "AssessResults": {"study":"Determine","icon":"fa-square-o",    "css":"ikw-topic","fill":"PWY"},
+    "ApproveModels": {"study":"Determine","icon":"fa-square-o",    "css":"ikw-topic","fill":"PWY"},
+    "NextSteps":     {"study":"Determine","icon":"fa-square-o",    "css":"ikw-topic","fill":"PWY"},
+
+    "Sampling":      {"study":"Metadata",  "icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+    "Feature":       {"study":"Metadata",  "icon":"fa-th",    "css":"ikw-topic","fill":"PWY"},
+    "Ontology":      {"study":"Metadata",  "icon":"fa-th",    "css":"ikw-topic","fill":"PWY"},
+    "Markov":        {"study":"Metadata",  "icon":"fa-circle","css":"ikw-topic","fill":"PWY"},
+    "Gradient":      {"study":"Math","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+    "LimitedMemory": {"study":"Math","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+    "Kernel":        {"study":"Math","icon":"fa-circle","css":"ikw-topic","fill":"PWY"},
+    "CollabFilter":  {"study":"Math","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+
+    "Histogram":   {"study":"Statistics","icon":"fa-bar-chart-o","css":"ikw-topic","fill":"PWY"},
+    "Normal":      {"study":"Statistics","icon":"fa-bell",       "css":"ikw-topic","fill":"PWY"},
+    "ANOVA":       {"study":"Statistics","icon":"fa-star-o",     "css":"ikw-topic","fill":"PWY"},
+    "Probability": {"study":"Statistics","icon":"fa-bar-chart-o","css":"ikw-topic","fill":"PWY"},
+
+    "D3":{"study":"Visual","icon":"fa-euro","css":"ikw-topic","fill":"PWY"},
+    "C3":{"study":"Visual","icon":"fa-line-chart","css":"ikw-topic","fill":"PWY"},
+    "MathBox":{"study":"Visual","icon":"fa-heartbeat","css":"ikw-topic","fill":"PWY"},
+    "PivotTable":{"study":"Visual","icon":"fa-th","css":"ikw-topic","fill":"PWY"},
+
+    "Scala":{"study":"Languages","icon":"fa-database","css":"ikw-topic","fill":"LDT"},
+    "Python":{"study":"Languages","icon":"fa-gg-circle","css":"ikw-topic","fill":"LDT"},
+    "R":{"study":"Languages","icon":"fa-ruble","css":"ikw-topic","fill":"LDT"},
+    "Javascript":{"study":"Languages","icon":"fa-html5","css":"ikw-topic","fill":"PWY"},
+
+    "Zeppelin":{"study":"Notebook","icon":"fa-circle","css":"ikw-topic","fill":"MWM"},
+    "SparkR":{"study":"Notebook","icon":"R","css":"ikw-topic","fill":"MWM"},
+    "IPython":{"study":"Notebook","icon":"IP[y]","css":"ikw-topic","fill":"MWM"},
+
+    "LocateData": {"study":"Explore","icon":"fa-bars","css":"ikw-topic","fill":"LDT"},
+    "PresentData":{"study":"Explore","icon":"fa-bars","css":"ikw-topic","fill":"LDT"},
+
+    "Topics":{"study":"Kafka","icon":"fa-list","css":"ikw-topic","fill":"LDT"},
+    "Producers":{"study":"Kafka","icon":"fa-upload","css":"ikw-topic","fill":"LDT"},
+    "Brokers":{"study":"Kafka","icon":"fa-bars","css":"ikw-topic","fill":"LDT"},
+    "Consumers":{"study":"Kafka","icon":"fa-download","css":"ikw-topic","fill":"LDT"},
+
+    "DataFrames":{"study":"Streams","icon":"fa-th","css":"ikw-topic","fill":"MWM"},
+    "Context":{"study":"Streams","icon":"fa-map","css":"ikw-topic","fill":"MWM"},
+    "Transforms":{"study":"Streams","icon":"fa-bars","css":"ikw-topic","fill":"MWM"},
+    "Actions":{"study":"Streams","icon":"fa-list","css":"ikw-topic","fill":"MWM"},
+
+    "RDD":{"study":"Store","icon":"fa-database","css":"ikw-topic","fill":"MWM"},
+    "GraphX":{"study":"Store","icon":"fa-joomla","css":"ikw-topic","fill":"MWM"},
+    "Cassandra":{"study":"Store","icon":"fa-eye","css":"ikw-topic","fill":"MWM"},
+    "Slick":{"study":"Store","icon":"fa-bars","css":"ikw-topic","fill":"MWM"},
+
+    "Rest":{"study":"Akka","icon":"fa-circle","css":"ikw-topic","fill":"MWM"},
+    "Clusters":{"study":"Akka","icon":"fa-server","css":"ikw-topic","fill":"MWM"},
+    "Actors":{"study":"Akka","icon":"fa-users","css":"ikw-topic","fill":"MWM"},
+    "Play":{"study":"Akka","icon":"fa-chevron-right","css":"ikw-topic","fill":"LDT"},
+
+    "Distributions":{"study":"Pattern","icon":"fa-bell","css":"ikw-topic","fill":"PWY"},
+    "Equations":{"study":"Pattern","icon":"fa-circle","css":"ikw-topic","fill":"PWY"},
+    "CurveFit":{"study":"Pattern","icon":"fa-signal","css":"ikw-topic","fill":"PWY"},
+
+    "Report":{"study":"Describe","icon":"fa-table","css":"ikw-topic","fill":"PWY"},
+    "Querying":{"study":"Describe","icon":"fa-table","css":"ikw-topic","fill":"PWY"},
+    "DrillDown":{"study":"Describe","icon":"fa-table","css":"ikw-topic","fill":"PWY"},
+    "BusinessAlign":{"study":"Describe","icon":"fa-table","css":"ikw-topic","fill":"PWY"},
+
+    "Baseline":{"study":"Diagnose","icon":"fa-user-md","css":"ikw-topic","fill":"PWY"},
+    "AnomalyDetect":{"study":"Diagnose","icon":"fa-user-md","css":"ikw-topic","fill":"PWY"},
+    "Escalation":{"study":"Diagnose","icon":"fa-circle","css":"ikw-topic","fill":"PWY"},
+
+    "Interpolation":{"study":"Predict","icon":"fa-line-chart","css":"ikw-topic","fill":"PWY"},
+    "Extrapolation":{"study":"Predict","icon":"fa-line-chart","css":"ikw-topic","fill":"PWY"},
+    "Verify":{"study":"Predict","icon":"fa-thumbs-up","css":"ikw-topic","fill":"PWY"},
+    "FurtherSteps":{"study":"Predict","icon":"fa-thumbs-up","css":"ikw-topic","fill":"PWY"},
+
+    "TestDesign":{"study":"Trial","icon":"fa-stethoscope","css":"ikw-topic","fill":"PWY"},
+    "AccessModels":{"study":"Trial","icon":"fa-stethoscope","css":"ikw-topic","fill":"PWY"},
+    "VerifyModels":{"study":"Trial","icon":"fa-stethoscope","css":"ikw-topic","fill":"PWY"},
+
+    "Cross":{"study":"Validate","icon":"fa-soundcloud","css":"ikw-topic","fill":"PWY"},
+    "Precision":{"study":"Validate","icon":"fa-stethoscope","css":"ikw-topic","fill":"PWY"},
+    "Recall":{"study":"Validate","icon":"fa-random","css":"ikw-topic","fill":"PWY"},
+    "Prior":{"study":"Validate","icon":"fa-cogs","css":"ikw-topic","fill":"PWY"},
+    "RootMean":{"study":"Validate","icon":"fa-cogs","css":"ikw-topic","fill":"PWY"},
+
+    "Overfitting":{"study":"Pitfalls","icon":"fa-cogs","css":"ikw-topic","fill":"PWY"},
+    "Underfitting":{"study":"Pitfalls","icon":"fa-cogs","css":"ikw-topic","fill":"PWY"},
+    "Dimensionallity":{"study":"Pitfalls","icon":"fa-cogs","css":"ikw-topic","fill":"PWY"},
+
+    "Notes":{"study":"Reproduce","icon":"fa-stethoscope","css":"ikw-topic","fill":"PWY"},
+    "Steps":{"study":"Reproduce","icon":"fa-stethoscope","css":"ikw-topic","fill":"PWY"},
+    "Params":{"study":"Reproduce","icon":"fa-stethoscope","css":"ikw-topic","fill":"PWY"},
+    "DataSets":{"study":"Reproduce","icon":"fa-stethoscope","css":"ikw-topic","fill":"PWY"},
+
+    "Write":{"study":"Teach_","icon":"fa-newspaper-o","css":"ikw-topic","fill":"LDT"},
+    "Present":{"study":"Teach_","icon":"fa-user-plus","css":"ikw-topic","fill":"LDT"},
+
+    "Examples":{"study":"Enable","icon":"fa-user-times","css":"ikw-topic","fill":"MWM"},
+    "Scenarios":{"study":"Enable","icon":"fa-refresh","css":"ikw-topic","fill":"MWM"},
+    "Workshops":{"study":"Enable","icon":"fa-leanpub","css":"ikw-topic","fill":"MWM"},
+
+    "Cassandra1":{"study":"Warehouse1","icon":"fa-cubes","css":"ikw-topic","fill":"LDT"},
+    "Archival":{"study":"Warehouse1","icon":"fa-cubes","css":"ikw-topic","fill":"LDT"},
+    "Comparison":{"study":"Warehouse1","icon":"fa-cubes","css":"ikw-topic","fill":"LDT"},
+
+    "Secure1":{"study":"Protect","icon":"fa-lock","css":"ikw-topic","fill":"LDT"},
+
+    "Query1":{"study":"Query","icon":"fa-question-circle","css":"ikw-topic","fill":"MWM"},
+
+    "Prescriptive1":{"study":"Prescriptive","icon":"fa-thumbs-up","css":"ikw-topic","fill":"PWY"},
+
+    "Legal1":{"study":"Legal","icon":"fa-balance-scale","css":"ikw-topic","fill":"MWM"},
+
+    "Publish1":{"study":"Publish","icon":"fa-newspaper-o","css":"ikw-topic","fill":"PWY"},
+
+    "ReviewData":{"study":"Publish","icon":"fa-newspaper-o","css":"ikw-topic","fill":"PWY"}
+  },
+
+  "Items":{
+
+    "CleanSource": {"topic":"Improve","icon":"fa-retweet","css":"ikw-item","fill":"PWY"},
+    "Indicator":   {"topic":"Improve","icon":"fa-circle", "css":"ikw-item","fill":"PWY"},
+    "CrowdSource": {"topic":"Improve","icon":"fa-circle", "css":"ikw-item","fill":"PWY"},
+    "Automate":    {"topic":"Improve","icon":"fa-circle", "css":"ikw-item","fill":"PWY"},
+
+    "Assurance":   {"topic":"Quality","icon":"fa-circle",      "css":"ikw-item","fill":"LDT"},
+    "Control":     {"topic":"Quality","icon":"fa-plus-circle", "css":"ikw-item","fill":"LDT"},
+    "Profile":     {"topic":"Quality","icon":"fa-list-alt",    "css":"ikw-item","fill":"LDT"},
+
+    "Defect":      {"topic":"Track",  "icon":"fa-circle",      "css":"ikw-item","fill":"PWY"},
+    "Usage":       {"topic":"Track",  "icon":"fa-refresh",     "css":"ikw-item","fill":"LDT"},
+    "Audit":       {"topic":"Track",  "icon":"fa-check-square","css":"ikw-item","fill":"LDT"},
+
+    "PlanModels":      {"topic":"Modeling","icon":"fa-circle","css":"ikw-item","fill":"PWY"},
+    "SelectModels":    {"topic":"Modeling","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "ModelParameters": {"topic":"Modeling","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "TestModels":      {"topic":"Modeling","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "AssessModels":    {"topic":"Modeling","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+
+    "KMeans":         {"topic":"Cluster","icon":"fa-star-o","css":"ikw-topic","fill":"PWY","measure":"Centroid"},
+    "Gaussian":       {"topic":"Cluster","icon":"fa-star-o","css":"ikw-topic","fill":"PWY","measure":"Distribution"},
+    "PowerIteration": {"topic":"Cluster","icon":"fa-star-o","css":"ikw-topic","fill":"PWY","measure":"Spectral"},
+    "LatentDirichlet":{"topic":"Cluster","icon":"fa-star-o","css":"ikw-topic","fill":"PWY","measure":"Connectivity"},
+    "Density":        {"topic":"Cluster","icon":"fa-circle","css":"ikw-topic","fill":"PWY","measure":"Density"},
+
+    "Linear":       {"topic":"Regress","icon":"fa-star-o","css":"ikw-topic","fill":"PWY","name":"LinearLeastSquare"},
+    "Logistic":     {"topic":"Regress","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+    "NonLinear":    {"topic":"Regress","icon":"fa-circle","css":"ikw-topic","fill":"PWY"},
+    "MiscRegresss": {"topic":"Regress","icon":"fa-circle","css":"ikw-topic","fill":"PWY"},
+
+    "SupportVector":{"topic":"Classify","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+    "DecisionTree": {"topic":"Classify","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+    "RandomForests":{"topic":"Classify","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+    "NaiveBayes":   {"topic":"Classify","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+    "BoostedTrees": {"topic":"Classify","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+
+    "PrincipleComp":{"topic":"Dimension","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+    "SingleValue":  {"topic":"Dimension","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+    "Eigen":        {"topic":"Dimension","icon":"fa-circle","css":"ikw-topic","fill":"PWY"},
+    "Multivariate": {"topic":"Dimension","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+
+    "Transformer":{"topic":"DataFrames","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "Estimator":{"topic":"DataFrames","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "Pipeline":{"topic":"DataFrames","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "Parameter":{"topic":"DataFrames","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+
+    "ThresholdTuning":{"topic":"ClassifyEvaluation","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "LabelBasedMetrics":{"topic":"ClassifyEvaluation","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "MultiLabel":{"topic":"ClassifyEvaluation","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "RankingSystem":{"topic":"ClassifyEvaluation","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+
+    "RegressMetrics":{"topic":"RegressEvaluation","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+
+    "FPMining":{"topic":"FrequentPattern","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "FPGrowth":{"topic":"FrequentPattern","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "AssociationRule":{"topic":"FrequentPattern","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "PrefixSpan":{"topic":"FrequentPattern","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+
+    "TermFrequency":{"topic":"Feature","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "Word2Vec":{"topic":"Feature","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "StandardScalar":{"topic":"Feature","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "Normalizer":{"topic":"Feature","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "ChiSquareSelector":{"topic":"Feature","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "ElementWise":{"topic":"Feature","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+
+    "ExpectationMax":{"topic":"GaussianMixture","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "MeanShift":{"topic":"KMeans","icon":"fa-circle","css":"ikw-item","fill":"PWY"},
+    "Spectral":{"topic":"PowerIteration","icon":"fa-circle","css":"ikw-item","fill":"PWY"},
+    "Hierarchical":{"topic":"LatentDisichlet","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+
+    "Pearson":{"topic":"Correlation","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "Spearman":{"topic":"Correlation","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+
+    "KeyExact":{"topic":"Sampling","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+
+    "ChiSquared":{"topic":"Hypothesis","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "KolmogorovSmirnov":{"topic":"Hypothesis","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+
+    "KernelDensity":{"topic":"Kernel","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "NearestNeighbor":{"topic":"Kernel","icon":"fa-circle","css":"ikw-item","fill":"PWY"},
+
+    "MultiNormal":{"topic":"NaiveBayes","icon":"fa-circle","css":"ikw-item","fill":"PWY"},
+    "Bernoulli":{"topic":"NaiveBayes","icon":"fa-circle","css":"ikw-item","fill":"PWY"},
+
+    "Ridge":{"topic":"Linear","icon":"fa-circle","css":"ikw-item","fill":"PWY"},
+    "Lasso":{"topic":"Linear","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "Isotonic":{"topic":"Linear","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+
+    "Stepwise":{"topic":"MiscRegresss","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+    "Local":{"topic":"MiscRegresss","icon":"fa-circle","css":"ikw-topic","fill":"PWY"},
+    "FrequentPattern":{"topic":"MiscRegresss","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+
+    "Kriging":{"topic":"Miscellaneous","icon":"fa-circle","css":"ikw-item","fill":"PWY"},
+    "Boosting":{"topic":"Miscellaneous","icon":"fa-circle","css":"ikw-item","fill":"PWY"},
+    "Constraint":{"topic":"Miscellaneous","icon":"fa-circle","css":"ikw-item","fill":"PWY"},
+    "SimulatedAnealing":{"topic":"Miscellaneous","icon":"fa-circle","css":"ikw-item","fill":"PWY"},
+
+    "LevenbergMarquardt":{"topic":"NonLinear","icon":"fa-circle","css":"ikw-item","fill":"PWY"},
+
+    "AlternatingLeastSquares":{"topic":"CollaborativeFiltering","icon":"fa-star-o","css":"ikw-item","fill":"PWY"},
+    "ExplicitImplicitFeedback":{"topic":"CollaborativeFiltering","icon":"fa-star-o","css":"ikw-item","fill":"PWY"}
+  },
+  "Chapters":{
+    "TeamSport":            {"ch": 4,"study":"Collect","icon":"fa-circle","css":"ikw-topic","fill":"PWY"},
+    "TeamBuild":            {"ch": 5,"study":"east","icon":"fa-retweet","css":"ikw-topic","fill":"PWY"},
+    "DataBug":              {"ch": 1,"study":"Schema","icon":"fa-list","css":"ikw-topic","fill":"PWY"},
+    "DataMining":           {"ch": 1,"study":"Refine","icon":"fa-circle","css":"ikw-topic","fill":"LDT"},
+    "Techniques":           {"ch": 9,"study":"Learning","icon":"fa-circle","css":"ikw-topic","fill":"PWY"},
+    "Experiments":          {"ch":10,"study":"Cluster","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+    "BadDataScience":       {"ch":11,"study":"Regress","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+    "MachineLearning":      {"ch":12,"study":"Classify","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+    "Neuralsouths":         {"ch":13,"study":"Classify","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+    "ProbabilisticThinking":{"ch":16,"study":"Determine","icon":"fa-line-chart","css":"ikw-topic","fill":"PWY"},
+    "Experiments2":         {"ch":15,"study":"Dimensional","icon":"fa-star-o","css":"ikw-topic","fill":"PWY"},
+    "Ecosystems":           {"ch":17,"study":"Kafka","icon":"fa-list","css":"ikw-topic","fill":"LDT"},
+    "BatchRealTime":        {"ch":18,"study":"Streams","icon":"fa-th","css":"ikw-topic","fill":"MWM"},
+    "Technology":           {"ch":19,"practice":"Spark","icon":"fa-eye","css":"ikw-topic","fill":"MWM"},
+    "DataStack":            {"ch":20,"study":"Store","icon":"fa-circle","css":"ikw-topic","fill":"MWM"},
+    "Lambda":               {"ch":22,"study":"Akka","icon":"fa-circle","css":"ikw-topic","fill":"MWM"},
+    "OpenSource":           {"ch":23,"study":"Akka","icon":"fa-circle","css":"ikw-topic","fill":"MWM"},
+    "InMemory":             {"ch":24,"study":"Akka","icon":"fa-circle","css":"ikw-topic","fill":"MWM"},
+    "Cloud":                {"ch":25,"study":"Akka","icon":"fa-circle","css":"ikw-topic","fill":"MWM"},
+    "SupplyChain":          {"ch":26,"study":"Akka","icon":"fa-circle","css":"ikw-topic","fill":"MWM"},
+    "Advanced":             {"ch":40,"study":"Akka","icon":"fa-circle","css":"ikw-topic","fill":"MWM"},
+    "Predict_":          {"ch": 3,"study":"Predict","icon":"fa-line-chart","css":"ikw-topic","fill":"PWY"},
+    "Professional":         {"ch":43,"study":"Trial","icon":"fa-stethoscope","css":"ikw-topic","fill":"PWY"},
+    "WalkerLaws":           {"ch":44,"study":"Validate","icon":"fa-soundcloud","css":"ikw-topic","fill":"PWY"},
+    "Conduct":              {"ch":45,"study":"Pitfalls","icon":"fa-cogs","css":"ikw-topic","fill":"PWY"},
+    "WhatIs":               {"ch": 1,"study":"Teach_","icon":"fa-newspaper-o","css":"ikw-topic","fill":"LDT"},
+    "IoT":                  {"ch":31,"study":"Enable","icon":"fa-user-times","css":"ikw-topic","fill":"MWM"},
+    "FutureDataTypes":      {"ch":41,"study":"Enable","icon":"fa-user-times","css":"ikw-topic","fill":"MWM"},
+    "FutureLanguage":       {"ch":42,"study":"Enable","icon":"fa-user-times","css":"ikw-topic","fill":"MWM"},
+    "HealthCare":           {"ch":32,"study":"Warehouse1","icon":"fa-cubes","css":"ikw-topic","fill":"LDT"},
+    "Government":           {"ch":33,"study":"Protect","icon":"fa-lock","css":"ikw-topic","fill":"LDT"},
+    "Legal":                {"ch":33,"study":"Legal","icon":"fa-lock","css":"ikw-topic","fill":"LDT"},
+    "HumanCapital":         {"ch":33,"study":"Protect","icon":"fa-lock","css":"ikw-topic","fill":"LDT"},
+    "Sports":               {"ch":34,"study":"Protect","icon":"fa-lock","css":"ikw-topic","fill":"LDT"},
+    "Vendors":              {"ch":35,"study":"Protect","icon":"fa-lock","css":"ikw-topic","fill":"LDT"},
+    "Ubiquitous":           {"ch":35,"study":"Protect","icon":"fa-lock","css":"ikw-topic","fill":"LDT"},
+    "Privacy":              {"ch":35,"study":"Protect","icon":"fa-lock","css":"ikw-topic","fill":"LDT"},
+    "CompetitiveAdvantage": {"ch": 6,"study":"Query","icon":"fa-question-circle","css":"ikw-topic","fill":"MWM"},
+    "DecisionTrees":        {"ch":14,"study":"Prescriptive","icon":"fa-thumbs-up","css":"ikw-topic","fill":"PWY"},
+    "Prescriptive_":        {"ch":30,"study":"Prescriptive","icon":"fa-thumbs-up","css":"ikw-topic","fill":"PWY"},
+    "Forecasting":          {"ch":29,"study":"Prescriptive","icon":"fa-thumbs-up","css":"ikw-topic","fill":"PWY"},
+    "Cognitive":            {"ch":27,"study":"Legal","icon":"fa-balance-scale","css":"ikw-topic","fill":"MWM"},
+    "DecisionSupport":      {"ch":28,"study":"Publish","icon":"fa-newspaper-o","css":"ikw-topic","fill":"PWY"}
+  }
+}

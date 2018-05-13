@@ -1,0 +1,166 @@
+subroutine ncs_to_rgb ( c1, c2, n, c, s, r, g, b )
+
+!*****************************************************************************80
+!
+!! NCS_TO_RGB converts NCS to RGB color coordinates.
+!
+!  Discussion:
+!
+!    It has been difficult to find two descriptions of NCS that agree.
+!    It has been impossible to find a description of the mathematical
+!    details of NCS.
+!    On top of that, I seem to have mixed up a few things, including
+!    the ordering of the colors.  For now, I will be content that
+!    this routine embodies the "flavor" of NCS, and does a reasonable
+!    job of inverting RGB_TO_NCS, modulo the loss of information
+!    because of real to integer percentage truncation.
+!    I'll come back and fix this one day.
+!
+!
+!    The NCS or "natural color system" describes a color based on:
+!    * C1 and C2, two elementary colors from the sequence RYGB or
+!      C2 = blank for a pure elementary color, or
+!      C1 = N, C2 = blank for a neutral color);
+!    * N, the percentage of C2;
+!    * C, the colorfulness or strength, as a percentage;
+!    * S, the blackness as a percentage.
+!
+!    The scant documentation I have seen claims that the percentages are
+!    always less than 100.  I don't see why, and for now I'll let them
+!    lie between 0 and 100.  The NCS designation for a color has the form
+!    "CCSS C1NC2".
+!
+!    The RGB color system describes a color based on the amounts of the
+!    base colors red, green, and blue.  Thus, a particular color
+!    has three coordinates, (R,G,B).  Each coordinate must be between
+!    0 and 1.
+!
+!  Licensing:
+!
+!    This code is distributed under the GNU LGPL license.
+!
+!  Modified:
+!
+!    20 February 2003
+!
+!  Author:
+!
+!    John Burkardt
+!
+!  Reference:
+!
+!    Olof Kylander and Karin Kylander,
+!    GIMP: The Official Manual,
+!    Coriolis Open Press, 1999.
+!
+!  Parameters:
+!
+!    Input, character C1, C2, integer N, C, S, the NCS color coordinates.
+!
+!    Output, real ( kind = 8 ) R, G, B, the corresponding RGB color coordinates.
+!
+  implicit none
+
+  real ( kind = 8 ) b
+  integer ( kind = 4 ) c
+  character c1
+  character c2
+  real ( kind = 8 ) color(3)
+  real ( kind = 8 ) color1(3)
+  real ( kind = 8 ) color2(3)
+  real ( kind = 8 ) color3(3)
+  real ( kind = 8 ) g
+  integer ( kind = 4 ) n
+  real ( kind = 8 ) r
+  integer ( kind = 4 ) s
+  integer ( kind = 4 ) w
+!
+!  Determine the colors that bracket the given color.
+!
+       if ( c1 == 'R' ) then
+    color1(1:3) = (/ 1.0D+00, 0.0D+00, 0.0D+00 /)
+    color2(1:3) = (/ 1.0D+00, 1.0D+00, 0.0D+00 /)
+  else if ( c1 == 'Y' ) then
+    color1(1:3) = (/ 1.0D+00, 1.0D+00, 0.0D+00 /)
+    color2(1:3) = (/ 0.0D+00, 1.0D+00, 0.0D+00 /)
+  else if ( c1 == 'G' ) then
+    color1(1:3) = (/ 0.0D+00, 1.0D+00, 0.0D+00 /)
+    color2(1:3) = (/ 0.0D+00, 0.0D+00, 1.0D+00 /)
+  else if ( c1 == 'B' ) then
+    color1(1:3) = (/ 0.0D+00, 0.0D+00, 1.0D+00 /)
+    color2(1:3) = (/ 1.0D+00, 0.0D+00, 0.0D+00 /)
+  end if
+!
+!  Apply the value of N.
+!  This is trickier than it looks!
+!
+       if ( c1 == 'R' ) then
+
+    if ( n < 50 ) then
+
+      color3(1:3) = ( real ( 100 - n, kind = 8 ) * color1(1:3)   &
+                    + real (       n, kind = 8 ) * color2(1:3) ) &
+                    / real ( 100 - n, kind = 8 )
+    else
+      color3(1:3) = ( real ( 100 - n, kind = 8 ) * color1(1:3)   &
+                    + real (       n, kind = 8 ) * color2(1:3) ) &
+                    / real (       n, kind = 8 )
+    end if
+
+  else if ( c1 == 'Y' ) then
+
+    if ( n < 50 ) then
+
+      color3(1:3) = ( real ( 100 - n, kind = 8 ) * color1(1:3)   &
+                    + real (       n, kind = 8 ) * color2(1:3) ) &
+                    / real ( 100 - n, kind = 8 )
+    else
+      color3(1:3) = ( real ( 100 - n, kind = 8 ) * color1(1:3)   &
+                    + real (       n, kind = 8 ) * color2(1:3) ) &
+                    / real (       n, kind = 8 )
+    end if
+
+  else if ( c1 == 'G' ) then
+
+    if ( n < 50 ) then
+
+      color3(1:3) = ( real ( 100 - n, kind = 8 ) * color1(1:3)   &
+                    + real (       n, kind = 8 ) * color2(1:3) ) &
+                    / real ( 100 - n, kind = 8 )
+    else
+      color3(1:3) = ( real ( 100 - n, kind = 8 ) * color1(1:3)   &
+                    + real (       n, kind = 8 ) * color2(1:3) ) &
+                    / real (       n, kind = 8 )
+    end if
+
+  else if ( c1 == 'B' ) then
+
+    if ( n < 50 ) then
+
+      color3(1:3) = ( real ( 100 - n, kind = 8 ) * color1(1:3)   &
+                    + real (       n, kind = 8 ) * color2(1:3) ) &
+                    / real ( 100 - n, kind = 8 )
+    else
+      color3(1:3) = ( real ( 100 - n, kind = 8 ) * color1(1:3)   &
+                    + real (       n, kind = 8 ) * color2(1:3) ) &
+                    / real (       n, kind = 8 )
+    end if
+
+  end if
+!
+!  The color can now be computed as the triangular sum of white,
+!  black, and the color from the color circle.
+!
+  w = 100 - c - s
+
+  color(1:3) = ( &
+      real ( c, kind = 8 ) * color3(1:3) &
+    + real ( s, kind = 8 ) * (/ 0.0D+00, 0.0D+00, 0.0D+00 /) &
+    + real ( w, kind = 8 ) * (/ 1.0D+00, 1.0D+00, 1.0D+00 /) ) / 100.0D+00
+
+  r = color(1)
+  g = color(2)
+  b = color(3)
+
+  return
+endr

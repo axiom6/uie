@@ -1,0 +1,15 @@
+{
+  "Entititlement" : {
+      "en1": { "party":{}, "role":{}, "service":{} },
+      "Partys": {
+        "id": { "party1":{}, "role1":{}, "relationship":{}, "role2":{}, "party2":{} } },
+      "Roles":  {
+        "ChiefArchitect": { "practices":["Collaborate"], "studies": ["UI","Service","Data","Cloud"] },
+        "UIArchitect":    { "practices":["Collaborate"], "studies": ["UI","Service","Data","Cloud"] },
+        "ChiefEngineer":  { "practices":["Collaborate"], "studies": ["UI","Service","Data","Cloud"] },
+        "ReactiveServer": { "practices":["Collaborate"], "studies": ["UI","Service","Data","Cloud"] } }
+  },
+  "Proposition"   : { "prop1": { "value":"" } },
+  "Intelligence"  : { "doc1":{} },
+  "Portfolio"     : { "product1":{ "service":{} } }
+}

@@ -1,0 +1,14 @@
+{
+  "layout": {
+    "autosize": false,
+    "height": 500,
+    "margin": {
+      "r": 50,
+      "t": 90,
+      "b": 65,
+      "l": 65
+    },
+    "title": "4th Rank Tensor - General",
+    "width": 500
+  }
+}

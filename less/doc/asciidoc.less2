@@ -1,0 +1,39 @@
+@import 'syntax-variables';
+
+@syntax-text-color-unobtrusive: fadeout(@syntax-text-color, 50%);
+
+.editor {
+  .asciidoc {
+
+    .markup.bold {
+      font-weight: bold;
+    }
+
+    .markup.italic {
+      font-style: italic;
+    }
+
+    .markup.heading {
+      font-weight: bold;
+
+      // Lighten headers for dark themes.
+      & when (lightness(@syntax-background-color) < 50%){
+        color: lighten(@syntax-text-color, 20%);
+      }
+
+      // Darken headers for light themes.
+      & when (lightness(@syntax-background-color) > 50%){
+        color: darken(@syntax-text-color, 20%);
+      }
+    }
+
+    .markup.list.bullet,
+    .markup.substitution {
+      color: @syntax-text-color-unobtrusive;
+    }
+
+    .table.spec {
+      color: @syntax-text-color-unobtrusive;
+    }
+  }
+}

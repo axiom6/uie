@@ -1,0 +1,15 @@
+{
+  "Request": {},
+  "Charter": {},
+  "Team":{
+    "Expert":{
+      "Tom":{ "role":"ChiefArchitect", "first":"", "middle":"", "last":"" } },
+    "Project":{
+      "Tom":{ "role":"ChiefArchitect", "first":"", "middle":"", "last":"" } },
+    "Partner":{
+      "Akka": { "role":"ReactiveServer", "first":"", "middle":"", "last":"" } }
+  },
+  "Kanban": {
+    "task1": { "ToDo":{}, "InProgress":{}, "Completed":{} }
+  }
+}
